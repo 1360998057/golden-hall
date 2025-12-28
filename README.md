@@ -1,39 +1,104 @@
-# 金堂
+# Solid - Free Next.js Web Template and Starter Kit for SaaS
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+Solid is a free Next.js template specifically crafted for startups, SaaS, and software websites. It provides an extensive array of necessary sections, elements, and pages required to build a fully-equipped website for any SaaS, software, or startup site. Comes with all cutting edge React and Next.js features - **Built with Next.js 16, React 19 and TypeScript.**
 
-#### 软件架构
-软件架构说明
+This Next.js template's homepage comes with an awesome hero area, logos of associated brands, a features section, an about section, another features section with tabs, counters, and star ratings, integration options, clear call-to-actions, an FAQ section with accordions, a testimonials section, pricing tables, a contact page, a blog, and a distinctive footer.
 
+**Solid Next.js template packed with all necessary external pages** - such as login, registration, blog grids, and single blog pages, among others. This broad collection of pages provides all the necessary tools to create a feature-packed, comprehensive, and visually appealing website or landing page for software, a web application, or SaaS.
 
-#### 安装教程
+### [🔥 Get Solid Pro - Next.js SaaS Boilerplate and Starter Kit](https://nextjstemplates.com/templates/solid)
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### [🚀 Solid PRO Live Demo](https://solid.nextjstemplates.com/)
 
-#### 使用说明
+### [🚀 Solid FREE Live Demo](https://solid-free.nextjstemplates.com/)
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### Solid PRO vs Solid FREE Comparison 📊
 
-#### 参与贡献
+#### [Solid PRO](https://solid.nextjstemplates.com/)
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+- SaaS Boilerplate + Starter Kit with Essential Integrations and Functionalities
+- Essential Integrations: Auth, DB, Stripe, MDX and More ...
+- Fully Functional, Ready to Use Sanity Blog Support
+- Premium Email Support
+- Functional External Pages
+- Free Lifetime Future Updates
 
+___
 
-#### 特技
+#### [Solid FREE](https://solid-free.nextjstemplates.com/)
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+- Only UI - Coded for Next.js
+- No Integrations
+- No Functional Blogging System
+- External Pages without Functions/Integrations
+- Community Support
+- Free Lifetime Future Updates
+
+___
+
+### [📦 Download](https://nextjstemplates.com/templates/solid)
+
+### [🔥 Get Pro](https://nextjstemplates.com/templates/solid)
+
+### [🔌 Documentation](https://nextjstemplates.com/docs)
+
+### ⚡ Deploy Now
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FNextJSTemplates%2Fsolid-nextjs)
+
+[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/NextJSTemplates/solid-nextjs)
+
+## Installation
+
+Here are the steps you need to follow to install the dependencies.
+
+1.Download and extract the template from **Next.js Templates.**
+
+2.**cd** into the template directory then run this command to install all the dependencies
+
+```bash
+    npm install --legacy-peer-deps
+```
+
+**Note:** As of right now React 19 causes peer dependencies issues with some packages, so the `legacy-peer-deps` flag is required.
+
+You can start the project on the local server
+
+```bash
+    npm run dev
+ ```
+
+It’ll start the template on [localhost:3000](http://localhost:3000).
+
+The documentation includes all the guides you need for the integrations.
+
+### Deploying on PaaS
+
+If you are using a GitHub repo then you can go with free-of-cost and easy-to-use options like [Vercel](https://vercel.com/), or [Netlify](https://netlify.com/) they offer decent-free tiers for Next.js hosting.
+
+### 📄 License
+
+Solid Free is 100% free and open-source, feel free to use with your personal and commercial projects.
+
+### 💜 Support
+
+If you like the template, please star this repository to inspire the team to create more stuff like this and reach more users like you!
+
+### ✨ Browse and Download - Best Free [Next.js Templates](https://nextjstemplates.com/templates)
+
+### Update Log
+
+**04 December 2025**
+
+- Upgraded to Next.js 16
+- Update swiper to v12
+
+**10 April 2025**
+
+- Update eslint to v9.24.0 to resolve peer deps warning during installation.
+- Migrate to tailwind v4
+
+**29 Jan 2025**
+
+- Upgraded to Next.js 15
+- Update framer-motion to v12.0.6 for React 19 support.
