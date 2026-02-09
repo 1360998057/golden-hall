@@ -3,77 +3,31 @@ import { Menu } from "@/types/menu";
 const menuData: Menu[] = [
   {
     id: 1,
-    title: "Home",
+    title: "首页",
+    titleEn: "Home",
     newTab: false,
     path: "/",
   },
   {
     id: 2,
-    title: "Features",
+    title: "关于我们",
+    titleEn: "About",
     newTab: false,
-    path: "/#features",
-  },
-  {
-    id: 2.1,
-    title: "Blog",
-    newTab: false,
-    path: "/blog",
-  },
-  {
-    id: 2.3,
-    title: "Docs",
-    newTab: false,
-    path: "/docs",
+    path: "/about",
   },
   {
     id: 3,
-    title: "Pages",
+    title: "产品中心",
+    titleEn: "Products",
     newTab: false,
-    submenu: [
-      {
-        id: 31,
-        title: "Blog Grid",
-        newTab: false,
-        path: "/blog",
-      },
-      {
-        id: 34,
-        title: "Sign In",
-        newTab: false,
-        path: "/auth/signin",
-      },
-      {
-        id: 35,
-        title: "Sign Up",
-        newTab: false,
-        path: "/auth/signup",
-      },
-      {
-        id: 35,
-        title: "Docs",
-        newTab: false,
-        path: "/docs",
-      },
-      {
-        id: 35.1,
-        title: "Support",
-        newTab: false,
-        path: "/support",
-      },
-      {
-        id: 36,
-        title: "404",
-        newTab: false,
-        path: "/error",
-      },
-    ],
+    path: "/products",
   },
-
   {
-    id: 4,
-    title: "Support",
+    id: 5,
+    title: "联系我们",
+    titleEn: "Contact",
     newTab: false,
-    path: "/support",
+    path: "/#contact",
   },
 ];
 

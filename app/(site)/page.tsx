@@ -1,41 +1,31 @@
 import { Metadata } from "next";
-import Hero from "@/components/Hero";
-import Brands from "@/components/Brands";
-import Feature from "@/components/Features";
-import About from "@/components/About";
-import FeaturesTab from "@/components/FeaturesTab";
-import FunFact from "@/components/FunFact";
-import Integration from "@/components/Integration";
-import CTA from "@/components/CTA";
-import FAQ from "@/components/FAQ";
-import Pricing from "@/components/Pricing";
+import Banner from "@/components/Banner";
+import Services from "@/components/Services";
+import AboutFactory from "@/components/AboutFactory";
+import RecentProjects from "@/components/RecentProjects";
+import TestimonialSection from "@/components/TestimonialSection";
 import Contact from "@/components/Contact";
-import Blog from "@/components/Blog";
-import Testimonial from "@/components/Testimonial";
 
-export const metadata: Metadata = {
-  title: "Next.js Starter Template for SaaS Startups - Solid SaaS Boilerplate",
+export async function generateMetadata(): Promise<Metadata> {
+  // 从i18nStore获取当前语言的元数据
+  const { getMetadata } = require('@/store/i18nStore').useI18nStore.getState();
+  const metadata = getMetadata();
 
-  // other metadata
-  description: "This is Home for Solid Pro"
-};
+  return {
+    title: metadata.title,
+    description: metadata.description,
+  };
+}
 
 export default function Home() {
   return (
     <main>
-      <Hero />
-      <Brands />
-      <Feature />
-      <About />
-      <FeaturesTab />
-      <FunFact />
-      <Integration />
-      <CTA />
-      <FAQ />
-      <Testimonial />
-      <Pricing />
+      <Banner />
+      <Services />
+      <AboutFactory />
+      <RecentProjects />
+      <TestimonialSection />
       <Contact />
-      <Blog />
     </main>
   );
 }
