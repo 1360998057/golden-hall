@@ -67,10 +67,15 @@ const ProductsPage = () => {
 
 
       {/* Products Grid */}
-      <section className="pb-16">
+      <section className="pb-16 mt-[20px]">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
-          <div className="mb-6 text-sm text-gray-500 text-center">
-            {t("productsCount")} {filteredProducts.length}
+          <div className="mb-8 text-center">
+            <span className="inline-block rounded-xl bg-gradient-to-r from-blue-50 to-cyan-50 px-6 py-3 text-sm font-medium text-blue-700 shadow-md transition-all duration-300 hover:shadow-lg">
+              {t("productsCount")} 
+              <span className="ml-2 rounded-full bg-gradient-to-r from-blue-600 to-cyan-600 px-3 py-1 text-sm font-bold text-white shadow-inner">
+                {filteredProducts.length}
+              </span>
+            </span>
           </div>
           <motion.div
             className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
