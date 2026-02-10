@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+.mid4{width:980px; overflow:hidden; margin:0px auto; }
+.mid4 td{ margin-right:10px; }
+.mid4 a{ display:block; width:240px; margin-right:10px; margin-top:20px;  text-align:center; vertical-align:middle;}
+.mid4 a img{width:240px; height:172px;}
+.mid4 a h3{ font-size:12px; line-height:2em; color:#323232;}

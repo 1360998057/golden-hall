@@ -1,0 +1,98 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body { font: 12px/1.5 'Microsoft YaHei', "微软雅黑", "宋体", "黑体"; background-color: #eaeaea; }
+body, form { margin: 0; padding: 0; }
+area { }
+* { list-style: none; margin: 0; padding: 0; }
+.width { width: 1000px; margin: auto; overflow: hidden; }
+.width980 { width: 980px; margin: auto; overflow: hidden; }
+.width960 { width: 960px; margin: auto; overflow: hidden; }
+.l { float: left; }
+.r { float: right; }
+.c { clear: both; }
+.m { margin-top: 10px; }
+.red { color: #f30; }
+.dis { display: none; }
+.m10 { margin: 10px; }
+* .mr0 { margin-right: 0px; }
+.mtb { margin-top: 10px; margin-bottom: 10px; }
+.mt10 { margin-top: 10px; }
+.mr10 { margin-right: 10px; }
+.mb10 { margin-bottom: 10px; }
+.pt10 { padding-top: 0px; }
+a { color: #666; text-decoration: none; }
+a:hover { text-decoration: none; color: #444; }
+/*格式化代码-s*/
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, dl, dt, dd, blockquote, fieldset, div, strong, label, em, body { margin: 0; padding: 0; border: 0; }
+ul, ol, li { list-style: none; }
+h1, h2, h3, h4, h5, h6 { font-size: 14px; }
+input, button { margin: 0; font-size: 12px; vertical-align: middle; }
+/*格式化代码-e*/
+/* `Clear Floated Elements
+----------------------------------------------------------------------------- */
+.clear { clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
+.clearfix:before, .clearfix:after, .container_12:before, .container_12:after { content: '.'; display: block; overflow: hidden; visibility: hidden; font-size: 0; line-height: 0; width: 0; height: 0; }
+.clearfix:after, .container_12:after { clear: both; }
+.C:before, .C:after { content: "."; display: block; height: 0; visibility: hidden; }
+.C:after { clear: both; }
+.C { zoom: 1; }
+.clearfix:before, .clearfix:after { content: "."; display: block; height: 0; visibility: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+/*全局变量*/
+/**header**/
+.ddHeadTop { height: 30px; margin-bottom: 90px; background: #0b2b4b; }
+.headTop { width: 980px; height: 30px; margin: 0 auto; }
+.headTop ul { float: right; margin-top: 11px; }
+.headTop li { float: left; height: 12px; border-right: 1px solid #4d4d4d; }
+.headTop .last { border: none; }
+.headTop a { position: relative; float: left; height: 30px; margin-top: -11px; padding: 0 18px; color: #fff; line-height: 30px; }
+.headTop .last a { background: #007cc2; }
+.headTop .blue a { margin: -11px -1px 0; background: #113f6c; color:#fff}
+.headTop a:hover { padding: 0 18px; color: #fff; }
+/* */
+.ddHeader { position: absolute; z-index: 999; width: 100%; top: 30px; left: 0; }
+.ddHeader2 { background: url(ddHeader2_bg.png) repeat-x left bottom; height:90px; }
+.header { position: relative; width: 980px; margin: 0 auto; overflow: hidden; }
+.header .logo { float: left; width: 335px; height: 50px; overflow: hidden; padding: 20px 8px 20px 0; }
+.header .logo a { display: block; width: 330px; height: 50px; background: url(logo.png) no-repeat; }
+.headNav { float: right; line-height: 42px; }
+.headerBottom { position: relative; z-index: 1000; width: 100%; height: 6px; overflow: hidden; background: url(global_repeat.png) repeat-x 0 -424px; z-index: 10; }
+.fixedHeader { position: fixed; left: 0; top: 0; }
+.fixedHeader .ddHeader2{ height:50px}
+* html, * html body /* 修正IE6振动bug */ { background-image: url(about:blank); background-attachment: fixed; }
+* html .fixedHeader /* IE6 头部固定 */ { position: absolute; bottom: auto; top:expression(eval (document.documentElement.scrollTop>35 ? document.documentElement.scrollTop : 35));
+}
+.subNav { position: absolute; top: 100%; left: 50%; z-index: 99; width: 980px; margin: -5px 0 0 -490px; }
+.subNav .cont { display: none; width: 980px; height: 258px; padding-top: 35px; background: url(nav_bg.png) no-repeat right bottom; }
+.subNav .leftBar { float: left; width: 151px; padding-left: 40px; line-height: 25px; }
+.subNav .leftBar a { color: #5c5c5c; padding-left: 15px; background: url(nav_menu.jpg) no-repeat 0 5px; }
+.subNav .leftBar a:hover { color: #1a4392; background: url(nav_menu_hover.jpg) no-repeat 0 5px; }
+.subNav .line { float: left; width: 1px; height: 215px; background: #ddd; }
+.subNav .rightBar { float: left; width: 540px; padding-left: 40px; overflow: hidden; color: #5c5c5c; position: static; }
+.subNav .rightBar .fld { float: left; width: 231px; margin-right: 38px; line-height: 20px; }
+.subNav .rightBar .fld img { display: block; width: 231px; height: 133px; }
+.subNav .rightBar .fld .txt { display: block; margin-top: 10px; color: #5c5c5c; }
+.subNav .rightBar .fld .txt:hover { color: #0126a5; }
+.subNav .rightBar .fld2 { float: left; width: 269px; overflow: hidden; line-height: 20px; }
+.subNav .rightBar .fld2 .left { float: left; width: 185px; }
+.subNav .rightBar .fld2 .left img { display: block; width: 185px; height: 109px; }
+.subNav .rightBar .fld2 .line { margin: 0 41px; }
+.subNav .rightBar .fld2 strong { display: block; height: 25px; padding-top: 20px; }
+.subNav .rightBar .fld2 strong { display: block; }
+.subNav .cont2 { display: none; width: 983px; height: 293px; background: url(nav_bg.png) no-repeat right bottom; }
+.subNav .cont2 .title { float: left; width: 205px; height: 290px; background: url(products_ico.jpg) no-repeat; }
+.subNav .cont2 .list { float: left; width: 775px; background: url(nav_car_bg.png) repeat-x left bottom; text-align: center; }
+.subNav .cont2 .last { background: none; }
+.subNav .cont2 .list li { float: left; width: 150px; height: 125px; margin-left: 23px; padding-top: 15px; _display: inline; }
+.subNav .cont2 .list li img { border: 1px solid #ebebeb; }
+.subNav .cont2 .list a { color: #666; }
+.subNav .cont2 .list li:hover a { color: #0126a5; }
+.subNav .cont2 .list a:hover { color: #0126a5; }
+.sonnav2 .title { float: left; width: 205px; height: 290px; background: url(sonnav_01.jpg) no-repeat; margin-top: -35px; }
+.sonnav3 .title { float: left; width: 205px; height: 290px; background: url(sonnav_02.jpg) no-repeat; margin-top: -35px; }
+.sonnav4 .title { float: left; width: 205px; height: 290px; background: url(sonnav_03.jpg) no-repeat; margin-top: -35px; }
+.sonnav5 .title { float: left; width: 205px; height: 290px; background: url(sonnav_04.jpg) no-repeat; margin-top: -35px; }
+.sonnav6 .title { float: left; width: 205px; height: 290px; background: url(sonnav_05.jpg) no-repeat; margin-top: -35px; }
+.sonnav7 .title { float: left; width: 205px; height: 290px; background: url(sonnav_06.jpg) no-repeat; margin-top: -35px; }
+
