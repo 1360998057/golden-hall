@@ -47,7 +47,7 @@ const Header = () => {
       <div className="max-w-c-1390 relative mx-auto items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
-            <Image
+            {/* <Image
               src="/images/logo/logo-dark.svg"
               alt={t('companyName')}
               width={119.03}
@@ -60,7 +60,7 @@ const Header = () => {
               width={119.03}
               height={30}
               className="w-full dark:hidden"
-            />
+            /> */}
           </a>
 
           {/* <!-- Hamburger Toggle BTN --> */}
