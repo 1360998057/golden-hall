@@ -1,11 +1,13 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { useI18nStore } from "@/store/i18nStore";
 
 const Footer = () => {
+  const { t } = useI18nStore();
   return (
     <>
-      <footer className="border-stroke dark:border-strokedark dark:bg-blacksection border-t bg-white">
+      <footer className="border-[#030517] dark:border-[#030517] dark:bg-[#030517] border-t bg-[#030517] text-white">
         <div className="max-w-c-1390 mx-auto px-4 md:px-8 2xl:px-0">
           {/* <!-- Footer Top --> */}
           <div className="py-20 lg:py-25">
@@ -45,16 +47,16 @@ const Footer = () => {
                   />
                 </a>
 
-                <p className="mt-5 mb-10">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <p className="mt-5 mb-10 text-white/90">
+                  {t("companyDescription")}
                 </p>
 
-                <p className="text-sectiontitle mb-1.5 tracking-[5px] uppercase">
-                  contact
+                <p className="text-sectiontitle mb-1.5 tracking-[5px] uppercase text-white">
+                  {t("contact")}
                 </p>
                 <a
                   href="#"
-                  className="text-itemtitle font-medium text-black dark:text-white"
+                  className="text-itemtitle font-medium text-white"
                 >
                   hello@solid.com
                 </a>
@@ -79,8 +81,8 @@ const Footer = () => {
                   viewport={{ once: true }}
                   className="animate_top"
                 >
-                  <h4 className="text-itemtitle2 mb-9 font-medium text-black dark:text-white">
-                    Quick Links
+                  <h4 className="text-itemtitle2 mb-9 font-medium text-yellow-400">
+                    {t("quickLinks")}
                   </h4>
 
                   <ul>
@@ -89,7 +91,7 @@ const Footer = () => {
                         href="/"
                         className="hover:text-primary mb-3 inline-block"
                       >
-                        Home
+                        {t("home")}
                       </a>
                     </li>
                     <li>
@@ -97,7 +99,7 @@ const Footer = () => {
                         href="/about"
                         className="hover:text-primary mb-3 inline-block"
                       >
-                        About Us
+                        {t("about")}
                       </a>
                     </li>
                     <li>
@@ -105,7 +107,15 @@ const Footer = () => {
                         href="/products"
                         className="hover:text-primary mb-3 inline-block"
                       >
-                        Products
+                        {t("products")}
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/strength"
+                        className="hover:text-primary mb-3 inline-block"
+                      >
+                        {t("strength")}
                       </a>
                     </li>
                     <li>
@@ -113,7 +123,7 @@ const Footer = () => {
                         href="/#contact"
                         className="hover:text-primary mb-3 inline-block"
                       >
-                        Contact Us
+                        {t("contact")}
                       </a>
                     </li>
                   </ul>
@@ -137,36 +147,7 @@ const Footer = () => {
                   viewport={{ once: true }}
                   className="animate_top"
                 >
-                  <h4 className="text-itemtitle2 mb-9 font-medium text-black dark:text-white">
-                    Support
-                  </h4>
-
-                  <ul>
-                    <li>
-                      <a
-                        href="/about#faqs"
-                        className="hover:text-primary mb-3 inline-block"
-                      >
-                        FAQs
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/about"
-                        className="hover:text-primary mb-3 inline-block"
-                      >
-                        About Us
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/#"
-                        className="hover:text-primary mb-3 inline-block"
-                      >
-                        Privacy Policy
-                      </a>
-                    </li>
-                  </ul>
+                
                 </motion.div>
 
                 <motion.div
@@ -187,19 +168,19 @@ const Footer = () => {
                   viewport={{ once: true }}
                   className="animate_top"
                 >
-                  <h4 className="text-itemtitle2 mb-9 font-medium text-black dark:text-white">
-                    Newsletter
+                  <h4 className="text-itemtitle2 mb-9 font-medium text-yellow-400">
+                    {t("footerNewsletterTitle")}
                   </h4>
-                  <p className="mb-4 w-[90%]">
-                    Subscribe to receive future updates
+                  <p className="mb-4 w-[90%] text-white/80">
+                    {t("footerNewsletterDesc")}
                   </p>
 
                   <form action="#">
                     <div className="relative">
                       <input
                         type="text"
-                        placeholder="Email address"
-                        className="border-stroke shadow-solid-11 focus:border-primary dark:border-strokedark dark:focus:border-primary w-full rounded-full border px-6 py-3 focus:outline-hidden dark:bg-black dark:shadow-none"
+                        placeholder={t("footerEmailPlaceholder")}
+                        className="border-white/30 bg-white/10 text-white placeholder-white/60 focus:border-white/60 w-full rounded-full border px-6 py-3 focus:outline-hidden"
                       />
 
                       <button
@@ -207,7 +188,7 @@ const Footer = () => {
                         className="absolute right-0 p-4"
                       >
                         <svg
-                          className="hover:fill-primary fill-[#757693] dark:fill-white"
+                          className="hover:fill-white fill-white/60"
                           width="20"
                           height="20"
                           viewBox="0 0 20 20"
@@ -236,7 +217,7 @@ const Footer = () => {
           {/* <!-- Footer Top --> */}
 
           {/* <!-- Footer Bottom --> */}
-          <div className="border-stroke dark:border-strokedark flex flex-col flex-wrap items-center justify-center gap-5 border-t py-7 lg:flex-row lg:justify-between lg:gap-0">
+          <div className="border-[#030517]/50 flex flex-col flex-wrap items-center justify-center gap-5 border-t py-7 lg:flex-row lg:justify-between lg:gap-0">
             <motion.div
               variants={{
                 hidden: {
@@ -258,17 +239,22 @@ const Footer = () => {
               <ul className="flex items-center gap-8">
                 <li>
                   <a href="/" className="hover:text-primary">
-                    Home
+                    {t("home")}
                   </a>
                 </li>
                 <li>
                   <a href="/about" className="hover:text-primary">
-                    About
+                    {t("about")}
                   </a>
                 </li>
                 <li>
                   <a href="/products" className="hover:text-primary">
-                    Products
+                    {t("products")}
+                  </a>
+                </li>
+                <li>
+                  <a href="/strength" className="hover:text-primary">
+                    {t("strength")}
                   </a>
                 </li>
               </ul>
@@ -292,8 +278,8 @@ const Footer = () => {
               viewport={{ once: true }}
               className="animate_top"
             >
-              <p>
-                &copy; {new Date().getFullYear()} Solid. All rights reserved
+              <p className="text-white/80">
+                &copy; {new Date().getFullYear()} {t("companyName")}. {t("allRightsReserved")}
               </p>
             </motion.div>
 

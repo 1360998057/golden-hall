@@ -64,7 +64,7 @@ const Banner = () => {
       className="banner_section relative bg-cover bg-center py-20 lg:py-32"
       style={{ backgroundImage: `url(${slides[currentSlide].image})` }}
     >
-      <div className="absolute inset-0 bg-black/50" />
+      <div className="absolute inset-0 bg-[#030517]/85" />
       <div className="container mx-auto px-4 relative z-10">
         <div className="relative">
           {/* Carousel Indicators */}
@@ -75,8 +75,8 @@ const Banner = () => {
                 onClick={() => setCurrentSlide(index)}
                 className={`w-3 h-3 rounded-full transition-all ${
                   currentSlide === index
-                    ? "bg-white w-8"
-                    : "bg-white/50 hover:bg-white/75"
+                    ? "bg-yellow-400 w-8"
+                    : "bg-white/30 hover:bg-white/50"
                 }`}
                 aria-label={`Go to slide ${index + 1}`}
               />
@@ -97,7 +97,7 @@ const Banner = () => {
             <div className="flex justify-center">
               <a
                 href="#services"
-                className="inline-block bg-white text-blue-900 px-8 py-3 rounded-full font-semibold hover:bg-blue-50 transition-colors"
+                className="inline-block bg-yellow-400 text-[#030517] px-8 py-3 rounded-full font-semibold hover:bg-yellow-300 transition-colors"
               >
                 {t("banner.readMore")}
               </a>

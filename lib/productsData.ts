@@ -5546,5 +5546,5 @@ const rawProducts: ProductItemRaw[] = [
 ];
 
 
-export const products =rawProducts
+export const products: ProductItem[] = rawProducts;
 

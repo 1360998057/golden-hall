@@ -40,10 +40,8 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 z-99999 w-full py-7 ${
-        stickyMenu
-          ? "bg-white py-4! shadow-sm transition duration-100 dark:bg-black"
-          : ""
+      className={`fixed top-0 left-0 z-99999 w-full border-b border-slate-200/60 bg-white/80 py-6 backdrop-blur transition duration-200 dark:border-slate-700/50 dark:bg-slate-900/75 ${
+        stickyMenu ? "py-4! shadow-md" : ""
       }`}
     >
       <div className="max-w-c-1390 relative mx-auto items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
@@ -74,29 +72,29 @@ const Header = () => {
             <span className="relative block h-5.5 w-5.5 cursor-pointer">
               <span className="absolute right-0 block h-full w-full">
                 <span
-                  className={`relative top-0 left-0 my-1 block h-0.5 rounded-sm bg-black delay-0 duration-200 ease-in-out dark:bg-white ${
+                  className={`relative top-0 left-0 my-1 block h-0.5 rounded-sm bg-slate-800 delay-0 duration-200 ease-in-out dark:bg-slate-200 ${
                     !navigationOpen ? "w-full! delay-300" : "w-0"
                   }`}
                 ></span>
                 <span
-                  className={`relative top-0 left-0 my-1 block h-0.5 rounded-sm bg-black delay-150 duration-200 ease-in-out dark:bg-white ${
+                  className={`relative top-0 left-0 my-1 block h-0.5 rounded-sm bg-slate-800 delay-150 duration-200 ease-in-out dark:bg-slate-200 ${
                     !navigationOpen ? "w-full! delay-400" : "w-0"
                   }`}
                 ></span>
                 <span
-                  className={`relative top-0 left-0 my-1 block h-0.5 rounded-sm bg-black delay-200 duration-200 ease-in-out dark:bg-white ${
+                  className={`relative top-0 left-0 my-1 block h-0.5 rounded-sm bg-slate-800 delay-200 duration-200 ease-in-out dark:bg-slate-200 ${
                     !navigationOpen ? "w-full! delay-500" : "w-0"
                   }`}
                 ></span>
               </span>
               <span className="du-block absolute right-0 h-full w-full rotate-45">
                 <span
-                  className={`absolute top-0 left-2.5 block h-full w-0.5 rounded-sm bg-black delay-300 duration-200 ease-in-out dark:bg-white ${
+                  className={`absolute top-0 left-2.5 block h-full w-0.5 rounded-sm bg-slate-800 delay-300 duration-200 ease-in-out dark:bg-slate-200 ${
                     !navigationOpen ? "h-0! delay-0" : "h-full"
                   }`}
                 ></span>
                 <span
-                  className={`absolute top-2.5 left-0 block h-0.5 w-full rounded-sm bg-black delay-400 duration-200 ease-in-out dark:bg-white ${
+                  className={`absolute top-2.5 left-0 block h-0.5 w-full rounded-sm bg-slate-800 delay-400 duration-200 ease-in-out dark:bg-slate-200 ${
                     !navigationOpen ? "h-0! delay-200" : "h-0.5"
                   }`}
                 ></span>
@@ -110,10 +108,10 @@ const Header = () => {
         <div
           className={`invisible h-0 w-full items-center justify-between xl:visible xl:flex xl:h-auto xl:w-full ${
             navigationOpen &&
-            "navbar shadow-solid-5 dark:bg-blacksection visible! mt-4 h-auto max-h-[400px] rounded-md bg-white p-7.5 xl:h-auto xl:p-0 xl:shadow-none xl:dark:bg-transparent"
+            "navbar shadow-solid-5 dark:bg-slate-900/90 visible! mt-4 h-auto max-h-[400px] rounded-md bg-white/90 p-7.5 xl:h-auto xl:bg-transparent xl:p-0 xl:shadow-none xl:dark:bg-transparent border border-slate-200/70 dark:border-slate-700/50"
           }`}
         >
-          <nav>
+          <nav className="text-slate-700 dark:text-slate-200">
             <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10">
               {menuData.map((menuItem, key) => (
                 <li key={key} className={menuItem.submenu && "group relative"}>

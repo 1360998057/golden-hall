@@ -26,10 +26,10 @@ const Services = () => {
   ];
 
   return (
-    <div id="services" className="services_section py-16 lg:py-24 bg-gray-50">
+    <div id="services" className="services_section py-16 lg:py-24 bg-[#030517] text-white">
       <div className="container mx-auto px-4">
         <div className="flex justify-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+          <h2 className="text-4xl md:text-5xl font-bold text-yellow-400">
             {t("services.title")}
           </h2>
         </div>
@@ -37,16 +37,16 @@ const Services = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
+              className="bg-white/10 backdrop-blur-sm rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow border border-white/20"
             >
               {/* Service Image */}
               <div
                 className={`h-64 bg-gradient-to-br ${
                   index === 0
-                    ? "from-blue-400 to-blue-600"
+                    ? "from-yellow-500 to-yellow-600"
                     : index === 1
-                    ? "from-orange-400 to-orange-600"
-                    : "from-gray-400 to-gray-600"
+                    ? "from-yellow-500 to-yellow-600"
+                    : "from-yellow-400 to-yellow-500"
                 }`}
               >
                 <div className="w-full h-full flex items-center justify-center">
@@ -62,14 +62,14 @@ const Services = () => {
                   <button
                     className={`w-full px-6 py-3 rounded-lg font-semibold transition-colors ${
                       service.active
-                        ? "bg-blue-600 text-white"
-                        : "bg-gray-200 text-gray-800 hover:bg-gray-300"
+                        ? "bg-yellow-400 text-[#030517]"
+                        : "bg-white/20 text-white hover:bg-white/30"
                     }`}
                   >
                     {service.title}
                   </button>
                 </div>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-white/80 leading-relaxed">
                   {service.description}
                 </p>
               </div>

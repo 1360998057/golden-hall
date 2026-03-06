@@ -222,7 +222,7 @@ const FAQSection = () => {
   };
 
   return (
-    <section className="bg-gray-50 py-16 lg:py-24">
+    <section className="bg-slate-950 py-16 lg:py-24">
       <div className="mx-auto max-w-c-1390 px-4 md:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -231,15 +231,19 @@ const FAQSection = () => {
           transition={{ duration: 0.6 }}
           className="mb-12 text-center"
         >
-          <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl">
+          <p className="mb-4 text-xs font-semibold uppercase tracking-[0.5em] text-amber-400">
+            {isZh ? "技术支持" : "Technical Support"}
+          </p>
+          <h2 className="mb-4 text-3xl font-bold text-white md:text-4xl">
             {isZh ? "常见问题解答" : "Frequently Asked Questions"}
           </h2>
-          <p className="mx-auto max-w-2xl text-gray-600">
+          <p className="mx-auto max-w-2xl text-slate-300">
             {isZh
               ? "以下是我们客户最常咨询的问题及解答"
               : "Below are the most common questions and answers from our customers"}
           </p>
         </motion.div>
+
 
         <div className="space-y-8">
           {data.map((category, categoryIndex) => (
@@ -249,13 +253,15 @@ const FAQSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: categoryIndex * 0.1 }}
-              className="rounded-2xl bg-white p-6 shadow-lg md:p-8"
+              className="rounded-2xl border border-slate-800 bg-slate-900/80 p-6 shadow-[inset_0_1px_0_rgba(148,163,184,0.12)] md:p-8"
+
             >
-              <h3 className="mb-6 border-b border-gray-200 pb-4 text-xl font-bold text-gray-900 md:text-2xl">
-                <span className="bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent">
+              <h3 className="mb-6 border-b border-slate-800 pb-4 text-xl font-bold text-white md:text-2xl">
+                <span className="bg-gradient-to-r from-amber-300 to-amber-500 bg-clip-text text-transparent">
                   {isZh ? category.titleZh : category.title}
                 </span>
               </h3>
+
 
               <div className="space-y-4">
                 {category.faqs.map((faq, faqIndex) => {
@@ -265,23 +271,24 @@ const FAQSection = () => {
                   return (
                     <div
                       key={key}
-                      className="overflow-hidden rounded-xl border border-gray-200 transition-all duration-300 hover:border-cyan-300"
+                      className="overflow-hidden rounded-xl border border-slate-800 transition-all duration-300 hover:border-amber-400/70"
                     >
                       <button
                         onClick={() => toggleItem(key)}
-                        className="flex w-full items-center justify-between bg-white p-4 text-left transition-colors hover:bg-gray-50 md:p-5"
+                        className="flex w-full items-center justify-between bg-slate-900/70 p-4 text-left transition-colors hover:bg-slate-900 md:p-5"
                       >
-                        <span className="pr-4 font-semibold text-gray-900">
-                          <span className="mr-2 text-cyan-500">
+                        <span className="pr-4 font-semibold text-slate-100">
+                          <span className="mr-2 text-amber-400">
                             Q{faqIndex + 1}:
                           </span>
                           {faq.question}
                         </span>
                         <span
-                          className={`flex-shrink-0 transform text-cyan-500 transition-transform duration-300 ${
+                          className={`flex-shrink-0 transform text-amber-400 transition-transform duration-300 ${
                             isOpen ? "rotate-180" : ""
                           }`}
                         >
+
                           <svg
                             className="h-5 w-5"
                             fill="none"
@@ -306,14 +313,15 @@ const FAQSection = () => {
                             exit={{ height: 0, opacity: 0 }}
                             transition={{ duration: 0.3 }}
                           >
-                            <div className="border-t border-gray-100 bg-gray-50 p-4 md:p-5">
-                              <p className="text-gray-600 leading-relaxed">
-                                <span className="mr-2 font-semibold text-cyan-600">
+                            <div className="border-t border-slate-800 bg-slate-900/80 p-4 md:p-5">
+                              <p className="text-slate-300 leading-relaxed">
+                                <span className="mr-2 font-semibold text-amber-400">
                                   {isZh ? "答:" : "A:"}
                                 </span>
                                 {faq.answer}
                               </p>
                             </div>
+
                           </motion.div>
                         )}
                       </AnimatePresence>

@@ -21,10 +21,10 @@ const RecentProjects = () => {
   ];
 
   return (
-    <div className="project_section py-16 lg:py-24 bg-gray-50">
+    <div className="project_section py-16 lg:py-24 bg-[#030517] text-white">
       <div className="container mx-auto px-4">
         <div className="flex justify-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+          <h2 className="text-4xl md:text-5xl font-bold text-yellow-400">
             {t("projects.title")}
           </h2>
         </div>
@@ -33,7 +33,7 @@ const RecentProjects = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2 duration-300"
+              className="bg-white/10 backdrop-blur-sm rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-all hover:-translate-y-2 duration-300 border border-white/20"
             >
               <div className="aspect-[4/3] relative overflow-hidden">
                 <Image
@@ -45,7 +45,7 @@ const RecentProjects = () => {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 text-center">
+                <h3 className="text-xl font-bold text-white text-center">
                   {project.title}
                 </h3>
               </div>
@@ -56,7 +56,7 @@ const RecentProjects = () => {
         <div className="flex justify-center">
           <a
             href="products"
-            className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+            className="inline-block bg-yellow-400 text-[#030517] px-8 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition-colors"
           >
             {t("projects.seeMore")}
           </a>

@@ -6,20 +6,20 @@ const AboutFactory = () => {
   const { t } = useI18nStore();
 
   return (
-    <div className="about_section py-16 lg:py-24 bg-white">
+    <div className="about_section py-16 lg:py-24 bg-[#030517] text-white">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            <h2 className="text-4xl md:text-5xl font-bold text-yellow-400 mb-6">
               {t("about.factoryTitle")}
             </h2>
-            <p className="text-gray-600 text-lg leading-relaxed mb-8">
+            <p className="text-white/80 text-lg leading-relaxed mb-8">
               {t("about.factoryDescription")}
             </p>
             <a
               href="#"
-              className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+              className="inline-block bg-yellow-400 text-[#030517] px-8 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition-colors"
             >
               {t("about.readMore")}
             </a>

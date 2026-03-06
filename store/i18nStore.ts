@@ -16,6 +16,7 @@ const resources = {
     home: "Home",
     about: "About Us",
     products: "Products",
+    strength: "Strength",
     news: "News",
     contact: "Contact",
     language: "Language",
@@ -114,6 +115,9 @@ const resources = {
     quickLinks: "Quick Links",
     followUs: "Follow Us",
     allRightsReserved: "All Rights Reserved",
+    footerNewsletterTitle: "Newsletter",
+    footerNewsletterDesc: "Subscribe to receive future updates",
+    footerEmailPlaceholder: "Email address",
     
     // 其他
     currentPosition: "Current Position",
@@ -126,6 +130,7 @@ const resources = {
     home: "首页",
     about: "关于我们",
     products: "产品中心",
+    strength: "公司实力",
     news: "新闻中心",
     contact: "联系我们",
     language: "语言",
@@ -224,6 +229,9 @@ const resources = {
     quickLinks: "快速链接",
     followUs: "关注我们",
     allRightsReserved: "版权所有",
+    footerNewsletterTitle: "订阅通讯",
+    footerNewsletterDesc: "订阅以获取后续更新",
+    footerEmailPlaceholder: "邮箱地址",
     
     // 其他
     currentPosition: "当前位置",

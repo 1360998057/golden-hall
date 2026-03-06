@@ -23,6 +23,13 @@ const menuData: Menu[] = [
     path: "/products",
   },
   {
+    id: 4,
+    title: "公司实力",
+    titleEn: "Strength",
+    newTab: false,
+    path: "/strength",
+  },
+  {
     id: 5,
     title: "联系我们",
     titleEn: "Contact",

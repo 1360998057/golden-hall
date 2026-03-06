@@ -1,10 +1,12 @@
 "use client";
 
+import { useEffect } from "react";
 import { useParams } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { products } from "@/lib/productsData";
 import { useI18nStore } from "@/store/i18nStore";
+
 
 const ProductDetailPage = () => {
   const { t, language } = useI18nStore();
@@ -18,20 +20,29 @@ const ProductDetailPage = () => {
     return text[language] || text.zh || text.en || '';
   };
 
+  useEffect(() => {
+    return () => {
+      if (typeof window !== "undefined" && productId) {
+        window.sessionStorage.setItem("lastRoute", `/products/${productId}`);
+      }
+    };
+  }, [productId]);
+
+
 
 
   if (!product) {
     return (
-      <main className="bg-gray-50">
-        <section className="bg-white py-10">
+      <main className="bg-slate-950 text-slate-100">
+        <section className="py-10">
           <div className="mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
             <Link
               href="/products"
-              className="text-sm font-semibold text-blue-600 hover:text-blue-700"
+              className="text-sm font-semibold text-amber-300 hover:text-amber-200"
             >
               {t("productsBack")}
             </Link>
-            <div className="mt-6 rounded-lg border border-gray-200 bg-gray-50 p-6 text-gray-600">
+            <div className="mt-6 rounded-xl border border-slate-800 bg-slate-900/80 p-6 text-slate-300">
               {t("noData")}
             </div>
           </div>
@@ -41,49 +52,54 @@ const ProductDetailPage = () => {
   }
 
   return (
-    <main className="bg-gray-50 mt-[80px]">
-      <section className="bg-white py-10">
+    <main className="bg-slate-950 text-slate-100 mt-[80px]">
+      <section className="py-10">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
           <Link
             href="/products"
-            className="text-sm font-semibold text-blue-600 hover:text-blue-700"
+            className="text-sm font-semibold text-amber-300 hover:text-amber-200"
           >
             {t("productsBack")}
           </Link>
 
-          <div className="mt-6 grid gap-10 lg:grid-cols-2">
-            <div className="relative aspect-[4/3] overflow-hidden rounded-lg bg-gray-100">
-              {product.image ? (
-                <Image
-                  src={product.image}
-                  alt={getText(product.title)}
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                />
 
-              ) : (
-                <div className="flex h-full w-full items-center justify-center text-gray-400">
-                  No Image
-                </div>
-              )}
+          <div className="mt-6 grid gap-10 lg:grid-cols-2">
+            <div className="relative overflow-hidden rounded-3xl border border-slate-700/60 bg-slate-900/60 p-[1px] shadow-[0_0_40px_rgba(2,6,23,0.7)]">
+              <div className="relative aspect-[4/3] overflow-hidden rounded-3xl bg-slate-800">
+                {product.image ? (
+                  <Image
+                    src={product.image}
+                    alt={getText(product.title)}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                  />
+
+                ) : (
+                  <div className="flex h-full w-full items-center justify-center text-slate-500">
+                    No Image
+                  </div>
+                )}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+              </div>
             </div>
 
-            <div>
-              <div className="text-sm font-semibold uppercase tracking-wide text-blue-600">
+            <div className="rounded-3xl border border-slate-800 bg-slate-900/80 p-8 shadow-[inset_0_1px_0_rgba(148,163,184,0.12)]">
+              <div className="text-xs font-semibold uppercase tracking-[0.35em] text-amber-400">
                 {getText(product.categoryName)}
               </div>
-              <h1 className="mt-3 text-3xl md:text-4xl font-bold text-gray-900">
+              <h1 className="mt-4 text-3xl md:text-4xl font-bold text-white">
                 {getText(product.title)}
               </h1>
 
+
               {/* 规格参数 */}
               {product.specification && Object.keys(product.specification).length > 0 && (
-                <div className="mt-8">
-                  <h2 className="text-xl font-bold text-gray-900">
+                <div className="mt-10">
+                  <h2 className="text-xl font-bold text-white">
                     {language === 'zh' ? '规格参数' : 'Specifications'}
                   </h2>
-                  <div className="mt-4 rounded-lg border border-gray-200 bg-gray-50">
+                  <div className="mt-4 rounded-2xl border border-slate-800 bg-slate-900/70">
                     <table className="w-full">
                       <tbody>
                         {(() => {
@@ -99,11 +115,11 @@ const ProductDetailPage = () => {
                             }
                           }
                           return specEntries.map(([key, value]) => (
-                            <tr key={key} className="border-t border-gray-200">
-                              <td className="px-4 py-3 font-semibold text-gray-900 sm:w-1/3">
+                            <tr key={key} className="border-t border-slate-800">
+                              <td className="px-4 py-3 font-semibold text-slate-200 sm:w-1/3">
                                 {key}
                               </td>
-                              <td className="px-4 py-3 text-gray-700">
+                              <td className="px-4 py-3 text-slate-300">
                                 {value}
                               </td>
                             </tr>
@@ -115,13 +131,14 @@ const ProductDetailPage = () => {
                 </div>
               )}
 
+
               {/* 材料与工艺 - 直接循环展示 */}
               {product.materials_and_processes && product.materials_and_processes.length > 0 && (
-                <div className="mt-8">
-                  <h2 className="text-xl font-bold text-gray-900">
+                <div className="mt-10">
+                  <h2 className="text-xl font-bold text-white">
                     {language === 'zh' ? '材料与工艺' : 'Materials and Processes'}
                   </h2>
-                  <div className="mt-4 rounded-lg border border-gray-200 bg-gray-50">
+                  <div className="mt-4 rounded-2xl border border-slate-800 bg-slate-900/70">
                     <table className="w-full">
                       <tbody>
                         {product.materials_and_processes.map((item, index) => {
@@ -131,11 +148,11 @@ const ProductDetailPage = () => {
                           if (!materialText && !processText) return null;
 
                           return (
-                            <tr key={index} className="border-t border-gray-200">
-                              <td className="px-4 py-3 text-gray-700">
+                            <tr key={index} className="border-t border-slate-800">
+                              <td className="px-4 py-3 text-slate-300">
                                 {processText}
                               </td>
-                              <td className="px-4 py-3 font-semibold text-gray-900 sm:w-1/3">
+                              <td className="px-4 py-3 font-semibold text-slate-200 sm:w-1/3">
                                 {materialText}
                               </td>
                               
@@ -147,6 +164,7 @@ const ProductDetailPage = () => {
                   </div>
                 </div>
               )}
+
 
             </div>
           </div>
