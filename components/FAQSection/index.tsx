@@ -17,194 +17,116 @@ interface FAQCategory {
 
 const faqData: FAQCategory[] = [
   {
-    title: "Product Selection & Customization",
-    titleZh: "产品选型与定制",
+    title: "Products & Services",
+    titleZh: "产品与服务",
     faqs: [
       {
-        question: "How do I choose the right screw model for my application?",
-        answer:
-          "Selection depends on load capacity, precision, speed, and environment. We recommend providing your technical requirements to our engineering team for expert assistance.",
+        question: "What types of barrels and screws do you manufacture?",
+        answer: "We manufacture conical twin screws, parallel twin screws, single screws, and various types of barrels suitable for plastic extrusion and injection molding machines."
       },
       {
-        question: "Can you manufacture screws according to my drawings?",
-        answer:
-          "Yes. We specialize in custom solutions and can process shaft ends, special pitches, and specific lengths based on your 2D (PDF/DWG) or 3D (STEP/IGS) drawings.",
+        question: "What materials do you use for your products?",
+        answer: "We use high-quality materials such as 38CrMoAlA, SKD61, W6Mo5Cr4V2, and other specialized alloys with various surface treatments including nitriding, quenching, and coating."
       },
       {
-        question: "Do you provide CAD models before I place an order?",
-        answer:
-          "Certainly. We can provide 3D models (STEP, IGS, or SolidWorks) for your design verification before production starts.",
-      },
-      {
-        question: "What materials and surface treatments do you offer?",
-        answer:
-          "Our primary material is 38CrMoAl (Nitriding Steel). Other alloy steels are available upon request. To enhance durability, we offer Nitriding Treatment and Hard Chrome Plating.",
-      },
-    ],
+        question: "Do you provide customized solutions?",
+        answer: "Yes, we offer customized design and manufacturing services based on customer requirements, including special specifications, materials, and surface treatments."
+      }
+    ]
   },
   {
-    title: "Payment & Orders",
-    titleZh: "付款与订单",
+    title: "Quality & Certification",
+    titleZh: "质量与认证",
     faqs: [
       {
-        question: "What are your standard payment terms?",
-        answer:
-          "Typically, we require a 30% T/T deposit in advance, with the remaining 70% balance paid before shipment.",
+        question: "Are your products ISO certified?",
+        answer: "Yes, we are ISO9001:2000 certified and follow strict quality control processes throughout manufacturing."
       },
       {
-        question: "Do you accept sample orders? How can I pay?",
-        answer:
-          "Yes. For small sample orders, we accept PayPal, Credit Card, or Alibaba Trade Assurance for faster and more secure transactions.",
+        question: "How do you ensure product quality?",
+        answer: "We have comprehensive quality control systems, including material inspection, process monitoring, and final product testing with advanced equipment."
       },
       {
-        question: "Is there a Minimum Order Quantity (MOQ)?",
-        answer:
-          "For customized products, it varies based on complexity—please consult our sales team for details.",
-      },
-    ],
+        question: "What is your quality guarantee?",
+        answer: "We provide quality guarantees for all our products and offer after-sales support, including technical assistance and replacement if needed."
+      }
+    ]
   },
   {
-    title: "Shipping & Logistics",
-    titleZh: "运输与物流",
+    title: "Technical Support",
+    titleZh: "技术支持",
     faqs: [
       {
-        question: "Which Incoterms do you usually support?",
-        answer:
-          "We primarily work with FOB, CIF, and EXW (if you have your own forwarder in China).",
+        question: "Do you provide technical support?",
+        answer: "Yes, we have a dedicated technical support team to assist with installation, operation, and maintenance guidance."
       },
       {
-        question:
-          "How do you protect products from rust and damage during transit?",
-        answer:
-          "Each screw is coated with anti-rust oil, sealed in plastic bag, and secured in a fumigation-free plywood case with shock-absorbing materials.",
+        question: "What is your typical delivery time?",
+        answer: "Standard products usually take 15-30 days, while customized orders may take 30-60 days depending on specifications."
       },
       {
-        question: "What is the typical lead time?",
-        answer:
-          "Lead times depend on the complexity and quantity of the order. We will provide a confirmed delivery date upon receiving your formal order.",
-      },
-    ],
-  },
-  {
-    title: "After-Sales & Technical Support",
-    titleZh: "售后与技术支持",
-    faqs: [
-      {
-        question: "What is your warranty policy?",
-        answer:
-          "Warranty terms vary by product type and operating environment. Specific details are outlined in each formal contract. In case of any issues, our team will provide timely evaluation and professional resolutions.",
-      },
-      {
-        question: "What if the package arrives damaged?",
-        answer:
-          "Please inspect the goods upon arrival. If damaged, provide photos/videos within 48 hours. We will assist in the investigation and find a resolution based on the shipping terms.",
-      },
-      {
-        question: "Do you offer technical support for installation?",
-        answer:
-          "Yes. We offer remote technical guidance via video calls or email to assist your team with assembly and troubleshooting.",
-      },
-      {
-        question: "How often should I lubricate the screws?",
-        answer:
-          "The maintenance cycle depends on the environment, machine type, and duty cycle. We recommend a schedule based on your actual conditions. Contact our technical team for specific advice on grease types and intervals.",
-      },
-    ],
-  },
+        question: "Do you offer on-site services?",
+        answer: "Yes, we provide on-site surveying, installation guidance, and maintenance services for our customers."
+      }
+    ]
+  }
 ];
 
 const faqDataZh: FAQCategory[] = [
   {
-    title: "Product Selection & Customization",
-    titleZh: "产品选型与定制",
+    title: "Products & Services",
+    titleZh: "产品与服务",
     faqs: [
       {
-        question: "如何为我的应用选择合适的螺杆型号？",
-        answer:
-          "选型取决于负载能力、精度要求、运行速度和工作环境。建议您将技术需求告知我们的工程团队，以获取专家建议。",
+        question: "你们生产什么类型的机筒螺杆？",
+        answer: "我们生产锥形双螺杆、平行双螺杆、单螺杆以及各种类型的机筒，适用于塑料挤出和注塑机。"
       },
       {
-        question: "可以根据我的图纸加工螺杆吗？",
-        answer:
-          "可以。我们擅长定制化方案，可根据您的2D (PDF/DWG) 或3D (STEP/IGS) 图纸进行轴端、特殊螺距及特定长度的加工。",
+        question: "你们的产品使用什么材料？",
+        answer: "我们使用38CrMoAlA、SKD61、W6Mo5Cr4V2等高质量材料，提供氮化、淬火、电镀等各种表面处理。"
       },
       {
-        question: "下单前可以提供 CAD 模型吗？",
-        answer:
-          "当然可以。我们可以在生产开始前提供 3D 模型（STEP、IGS 或 SolidWorks 格式）供您的设计团队进行验证。",
-      },
-      {
-        question: "你们提供哪些材料和表面处理？",
-        answer:
-          "我们的主要材料是 38CrMoAl（氮化钢）。如需其他合金钢，可根据要求提供。为提高耐用性，我们还提供氮化处理和镀硬铬。",
-      },
-    ],
+        question: "你们提供定制服务吗？",
+        answer: "是的，我们根据客户需求提供定制设计和制造服务，包括特殊规格、材料和表面处理。"
+      }
+    ]
   },
   {
-    title: "Payment & Orders",
-    titleZh: "付款与订单",
+    title: "Quality & Certification",
+    titleZh: "质量与认证",
     faqs: [
       {
-        question: "标准付款方式是怎样的？",
-        answer: "通常我们要求预付 30% T/T 定金，剩余 70% 尾款在发货前付清。",
+        question: "你们的产品有ISO认证吗？",
+        answer: "是的，我们通过了ISO9001:2000认证，在整个制造过程中遵循严格的质量控制流程。"
       },
       {
-        question: "接受样品订单吗？如何支付？",
-        answer:
-          "接受。对于小额样品订单，我们支持 PayPal、信用卡或阿里巴巴贸易保障，以确保交易更快速、安全。",
+        question: "你们如何确保产品质量？",
+        answer: "我们有完善的质量控制系统，包括材料检验、过程监控和成品测试，配备先进的检测设备。"
       },
       {
-        question: "有起订量（MOQ）要求吗？",
-        answer: "对于定制产品，起订量根据复杂程度而定，请咨询销售人员。",
-      },
-    ],
+        question: "你们的质保政策是什么？",
+        answer: "我们为所有产品提供质量保证，并包括售后支持，如技术指导和必要时的更换服务。"
+      }
+    ]
   },
   {
-    title: "Shipping & Logistics",
-    titleZh: "运输与物流",
+    title: "Technical Support",
+    titleZh: "技术支持",
     faqs: [
       {
-        question: "支持哪些贸易术语？",
-        answer: "我们主要采用 FOB、CIF 和 EXW（如果您在中国有自己的货运代理）。",
+        question: "你们提供技术支持吗？",
+        answer: "是的，我们有专业的技术支持团队，协助客户进行安装、操作和维护指导。"
       },
       {
-        question: "如何防止产品在运输过程中生锈或损坏？",
-        answer:
-          "每根螺杆都会涂抹防锈油，使用塑料袋密封，并固定在装有缓冲材料的免熏蒸木箱中。",
+        question: "你们的交货期一般是多久？",
+        answer: "标准产品通常需要15-30天，定制订单根据规格需要30-60天。"
       },
       {
-        question: "常规交期是多久？",
-        answer:
-          "交期取决于订单的复杂程度和数量。我们将在收到正式订单后提供确切的交货日期。",
-      },
-    ],
-  },
-  {
-    title: "After-Sales & Technical Support",
-    titleZh: "售后与技术支持",
-    faqs: [
-      {
-        question: "保修政策是怎样的？",
-        answer:
-          "保修条款根据产品类型和使用环境而有所不同。具体细节将在正式合同中注明。如遇任何问题，我司团队将及时跟进评估并提供专业解决方案。",
-      },
-      {
-        question: "如果收到的包裹损坏了怎么办？",
-        answer:
-          "请在到货时立即验货。如发现损坏，请在 48 小时内提供照片/视频。我们将根据运输条款协助调查并寻求解决方案。",
-      },
-      {
-        question: "你们提供安装技术支持吗？",
-        answer:
-          "是的。我们通过视频通话或电子邮件提供远程技术指导，协助您的团队进行组装和故障排除。",
-      },
-      {
-        question: "螺杆多久润滑一次？",
-        answer:
-          "维护周期取决于使用环境、机器类型和工作频率。建议根据您的实际工况制定保养表。有关油脂类型和润滑间隔的具体建议，请联系我们的技术团队。",
-      },
-    ],
-  },
+        question: "你们提供上门服务吗？",
+        answer: "是的，我们为客户提供上门测绘、安装指导和维护服务。"
+      }
+    ]
+  }
 ];
 
 const FAQSection = () => {
@@ -222,7 +144,7 @@ const FAQSection = () => {
   };
 
   return (
-    <section className="bg-slate-950 py-16 lg:py-24">
+    <section className="bg-slate-100 py-16 lg:py-24">
       <div className="mx-auto max-w-c-1390 px-4 md:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -234,16 +156,15 @@ const FAQSection = () => {
           <p className="mb-4 text-xs font-semibold uppercase tracking-[0.5em] text-amber-400">
             {isZh ? "技术支持" : "Technical Support"}
           </p>
-          <h2 className="mb-4 text-3xl font-bold text-white md:text-4xl">
+          <h2 className="mb-4 text-3xl font-bold text-slate-900 md:text-4xl">
             {isZh ? "常见问题解答" : "Frequently Asked Questions"}
           </h2>
-          <p className="mx-auto max-w-2xl text-slate-300">
+          <p className="mx-auto max-w-2xl text-slate-600">
             {isZh
               ? "以下是我们客户最常咨询的问题及解答"
-              : "Below are the most common questions and answers from our customers"}
+              : "Below are most common questions and answers from our customers"}
           </p>
         </motion.div>
-
 
         <div className="space-y-8">
           {data.map((category, categoryIndex) => (
@@ -253,15 +174,13 @@ const FAQSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: categoryIndex * 0.1 }}
-              className="rounded-2xl border border-slate-800 bg-slate-900/80 p-6 shadow-[inset_0_1px_0_rgba(148,163,184,0.12)] md:p-8"
-
+              className="rounded-2xl border border-slate-300 bg-slate-50 p-6 shadow-lg md:p-8"
             >
-              <h3 className="mb-6 border-b border-slate-800 pb-4 text-xl font-bold text-white md:text-2xl">
-                <span className="bg-gradient-to-r from-amber-300 to-amber-500 bg-clip-text text-transparent">
+              <h3 className="mb-6 border-b border-slate-300 pb-4 text-xl font-bold text-slate-900 md:text-2xl">
+                <span className="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
                   {isZh ? category.titleZh : category.title}
                 </span>
               </h3>
-
 
               <div className="space-y-4">
                 {category.faqs.map((faq, faqIndex) => {
@@ -271,13 +190,13 @@ const FAQSection = () => {
                   return (
                     <div
                       key={key}
-                      className="overflow-hidden rounded-xl border border-slate-800 transition-all duration-300 hover:border-amber-400/70"
+                      className="overflow-hidden rounded-xl border border-slate-300 transition-all duration-300 hover:border-blue-400"
                     >
                       <button
                         onClick={() => toggleItem(key)}
-                        className="flex w-full items-center justify-between bg-slate-900/70 p-4 text-left transition-colors hover:bg-slate-900 md:p-5"
+                        className="flex w-full items-center justify-between bg-slate-100 p-4 text-left transition-colors hover:bg-slate-200 md:p-5"
                       >
-                        <span className="pr-4 font-semibold text-slate-100">
+                        <span className="pr-4 font-semibold text-gray-800">
                           <span className="mr-2 text-amber-400">
                             Q{faqIndex + 1}:
                           </span>
@@ -288,7 +207,6 @@ const FAQSection = () => {
                             isOpen ? "rotate-180" : ""
                           }`}
                         >
-
                           <svg
                             className="h-5 w-5"
                             fill="none"
@@ -313,15 +231,14 @@ const FAQSection = () => {
                             exit={{ height: 0, opacity: 0 }}
                             transition={{ duration: 0.3 }}
                           >
-                            <div className="border-t border-slate-800 bg-slate-900/80 p-4 md:p-5">
-                              <p className="text-slate-300 leading-relaxed">
+                            <div className="border-t border-slate-300 bg-slate-50 p-4 md:p-5">
+                              <p className="text-gray-600 leading-relaxed">
                                 <span className="mr-2 font-semibold text-amber-400">
                                   {isZh ? "答:" : "A:"}
                                 </span>
                                 {faq.answer}
                               </p>
                             </div>
-
                           </motion.div>
                         )}
                       </AnimatePresence>

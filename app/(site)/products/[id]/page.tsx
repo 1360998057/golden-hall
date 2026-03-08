@@ -33,16 +33,16 @@ const ProductDetailPage = () => {
 
   if (!product) {
     return (
-      <main className="bg-slate-950 text-slate-100">
+      <main className="bg-slate-100 text-slate-900">
         <section className="py-10">
           <div className="mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
             <Link
               href="/products"
-              className="text-sm font-semibold text-amber-300 hover:text-amber-200"
+              className="text-sm font-semibold text-amber-600 hover:text-amber-700"
             >
               {t("productsBack")}
             </Link>
-            <div className="mt-6 rounded-xl border border-slate-800 bg-slate-900/80 p-6 text-slate-300">
+            <div className="mt-6 rounded-xl border border-slate-300 bg-slate-50 p-6 text-slate-700">
               {t("noData")}
             </div>
           </div>
@@ -52,20 +52,20 @@ const ProductDetailPage = () => {
   }
 
   return (
-    <main className="bg-slate-950 text-slate-100 mt-[80px]">
+    <main className="bg-gradient-to-br from-slate-50 via-white to-slate-100 text-slate-900 mt-[80px]">
       <section className="py-10">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
           <Link
             href="/products"
-            className="text-sm font-semibold text-amber-300 hover:text-amber-200"
+            className="text-sm font-semibold text-amber-600 hover:text-amber-700"
           >
             {t("productsBack")}
           </Link>
 
 
           <div className="mt-6 grid gap-10 lg:grid-cols-2">
-            <div className="relative overflow-hidden rounded-3xl border border-slate-700/60 bg-slate-900/60 p-[1px] shadow-[0_0_40px_rgba(2,6,23,0.7)]">
-              <div className="relative aspect-[4/3] overflow-hidden rounded-3xl bg-slate-800">
+            <div className="relative overflow-hidden rounded-3xl border border-slate-200/50 bg-white/80 backdrop-blur-sm p-[1px] shadow-xl">
+              <div className="relative aspect-[4/3] overflow-hidden rounded-3xl bg-gradient-to-br from-slate-100 to-slate-200">
                 {product.image ? (
                   <Image
                     src={product.image}
@@ -76,7 +76,7 @@ const ProductDetailPage = () => {
                   />
 
                 ) : (
-                  <div className="flex h-full w-full items-center justify-center text-slate-500">
+                  <div className="flex h-full w-full items-center justify-center text-slate-400">
                     No Image
                   </div>
                 )}
@@ -84,11 +84,11 @@ const ProductDetailPage = () => {
               </div>
             </div>
 
-            <div className="rounded-3xl border border-slate-800 bg-slate-900/80 p-8 shadow-[inset_0_1px_0_rgba(148,163,184,0.12)]">
-              <div className="text-xs font-semibold uppercase tracking-[0.35em] text-amber-400">
+            <div className="rounded-3xl border border-slate-200/50 bg-white/80 backdrop-blur-sm p-8 shadow-xl">
+              <div className="text-xs font-semibold uppercase tracking-[0.35em] text-blue-600">
                 {getText(product.categoryName)}
               </div>
-              <h1 className="mt-4 text-3xl md:text-4xl font-bold text-white">
+              <h1 className="mt-4 text-3xl md:text-4xl font-bold text-slate-900">
                 {getText(product.title)}
               </h1>
 
@@ -96,10 +96,10 @@ const ProductDetailPage = () => {
               {/* 规格参数 */}
               {product.specification && Object.keys(product.specification).length > 0 && (
                 <div className="mt-10">
-                  <h2 className="text-xl font-bold text-white">
+                  <h2 className="text-xl font-bold text-slate-900">
                     {language === 'zh' ? '规格参数' : 'Specifications'}
                   </h2>
-                  <div className="mt-4 rounded-2xl border border-slate-800 bg-slate-900/70">
+                  <div className="mt-4 rounded-2xl border border-slate-200/50 bg-white/60 backdrop-blur-sm">
                     <table className="w-full">
                       <tbody>
                         {(() => {
@@ -115,11 +115,11 @@ const ProductDetailPage = () => {
                             }
                           }
                           return specEntries.map(([key, value]) => (
-                            <tr key={key} className="border-t border-slate-800">
-                              <td className="px-4 py-3 font-semibold text-slate-200 sm:w-1/3">
+                            <tr key={key}>
+                              <td className="px-4 py-3 font-semibold text-slate-700 sm:w-1/3">
                                 {key}
                               </td>
-                              <td className="px-4 py-3 text-slate-300">
+                              <td className="px-4 py-3 text-slate-600">
                                 {value}
                               </td>
                             </tr>
@@ -135,10 +135,10 @@ const ProductDetailPage = () => {
               {/* 材料与工艺 - 直接循环展示 */}
               {product.materials_and_processes && product.materials_and_processes.length > 0 && (
                 <div className="mt-10">
-                  <h2 className="text-xl font-bold text-white">
+                  <h2 className="text-xl font-bold text-slate-900">
                     {language === 'zh' ? '材料与工艺' : 'Materials and Processes'}
                   </h2>
-                  <div className="mt-4 rounded-2xl border border-slate-800 bg-slate-900/70">
+                  <div className="mt-4 rounded-2xl border border-slate-200/50 bg-white/60 backdrop-blur-sm">
                     <table className="w-full">
                       <tbody>
                         {product.materials_and_processes.map((item, index) => {
@@ -148,11 +148,11 @@ const ProductDetailPage = () => {
                           if (!materialText && !processText) return null;
 
                           return (
-                            <tr key={index} className="border-t border-slate-800">
-                              <td className="px-4 py-3 text-slate-300">
+                            <tr key={index}>
+                              <td className="px-4 py-3 text-slate-600">
                                 {processText}
                               </td>
-                              <td className="px-4 py-3 font-semibold text-slate-200 sm:w-1/3">
+                              <td className="px-4 py-3 font-semibold text-slate-700 sm:w-1/3">
                                 {materialText}
                               </td>
                               

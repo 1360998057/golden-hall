@@ -11,43 +11,43 @@ const Banner = () => {
       title: t("banner.title"),
       subtitle: t("banner.subtitle"),
       description: t("banner.description"),
-      image: "/images/legacy/banner-bg-13.png",
+  image: "/images/banner-bg.png",
     },
     {
       title: t("banner.title"),
       subtitle: t("banner.subtitle"),
       description: t("banner.description"),
-      image: "/images/legacy/banner-bg-1.png",
+      image: "/images/banner-bg.png",
     },
     {
       title: t("banner.title"),
       subtitle: t("banner.subtitle"),
       description: t("banner.description"),
-      image: "/images/legacy/banner-bg-3.png",
+       image: "/images/banner-bg.png",
     },
     {
       title: t("banner.title"),
       subtitle: t("banner.subtitle"),
       description: t("banner.description"),
-      image: "/images/legacy/banner-bg-5.png",
+  image: "/images/banner-bg.png",
     },
     {
       title: t("banner.title"),
       subtitle: t("banner.subtitle"),
       description: t("banner.description"),
-      image: "/images/legacy/banner-bg-7.png",
+      image: "/images/banner-bg.png",
     },
     {
       title: t("banner.title"),
       subtitle: t("banner.subtitle"),
       description: t("banner.description"),
-      image: "/images/legacy/banner-bg-9.png",
+      image: "/images/banner-bg.png",
     },
     {
       title: t("banner.title"),
       subtitle: t("banner.subtitle"),
       description: t("banner.description"),
-      image: "/images/legacy/banner-bg-11.png",
+       image: "/images/banner-bg.png",
     },
   ];
 
@@ -64,7 +64,7 @@ const Banner = () => {
       className="banner_section relative bg-cover bg-center py-20 lg:py-32"
       style={{ backgroundImage: `url(${slides[currentSlide].image})` }}
     >
-      <div className="absolute inset-0 bg-[#030517]/85" />
+      <div className="absolute inset-0 bg-black/40" />
       <div className="container mx-auto px-4 relative z-10">
         <div className="relative">
           {/* Carousel Indicators */}
@@ -75,7 +75,7 @@ const Banner = () => {
                 onClick={() => setCurrentSlide(index)}
                 className={`w-3 h-3 rounded-full transition-all ${
                   currentSlide === index
-                    ? "bg-yellow-400 w-8"
+                    ? "bg-primary w-8"
                     : "bg-white/30 hover:bg-white/50"
                 }`}
                 aria-label={`Go to slide ${index + 1}`}
@@ -96,8 +96,8 @@ const Banner = () => {
             </p>
             <div className="flex justify-center">
               <a
-                href="#services"
-                className="inline-block bg-yellow-400 text-[#030517] px-8 py-3 rounded-full font-semibold hover:bg-yellow-300 transition-colors"
+                href="#about"
+                className="inline-block bg-primary text-white px-8 py-3 rounded-full font-semibold hover:bg-primaryho transition-colors"
               >
                 {t("banner.readMore")}
               </a>

@@ -10,9 +10,9 @@ const AboutPage = () => {
   const isZh = language === "zh";
 
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-100">
+    <main className="min-h-screen bg-slate-100 text-slate-900">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-[radial-gradient(circle_at_top,_#1f2937,_#0f172a_65%,_#020617_100%)] py-20 lg:py-28">
+      <section className="relative overflow-hidden bg-slate-50 py-20 lg:py-28">
         <div className="absolute inset-0 bg-[linear-gradient(120deg,rgba(148,163,184,0.08),rgba(2,6,23,0.2))]" />
         <div className="absolute inset-0 opacity-20 [background-image:linear-gradient(rgba(148,163,184,0.12)_1px,transparent_1px),linear-gradient(90deg,rgba(148,163,184,0.12)_1px,transparent_1px)] [background-size:48px_48px]" />
         <div className="relative mx-auto max-w-c-1390 px-4 md:px-8">
@@ -22,13 +22,13 @@ const AboutPage = () => {
             transition={{ duration: 0.6 }}
             className="text-center"
           >
-            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.5em] text-amber-400">
+            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.5em] text-amber-600">
               {isZh ? "工业实力" : "Industrial Strength"}
             </p>
-            <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
+            <h1 className="mb-6 text-4xl font-bold text-slate-900 md:text-5xl lg:text-6xl">
               {isZh ? "关于我们" : "About Us"}
             </h1>
-            <p className="mx-auto max-w-3xl text-base text-slate-300 md:text-lg">
+            <p className="mx-auto max-w-3xl text-base text-slate-600 md:text-lg">
               {isZh
                 ? "专业从事机筒螺杆制造，拥有15年以上行业经验"
                 : "Specializing in barrel and screw manufacturing with 15+ years of industry experience"}

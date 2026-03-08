@@ -38,19 +38,15 @@ const resources = {
     "banner.description": "A professional manufacturer of barrel screws focusing on conical twin screws, parallel twin screws, single screw extruders, injection machines, and more. High-quality products with ISO9001-2000 certification.",
     "banner.readMore": "Learn More",
     
-    // Services 区域
-    "services.title": "Our Services",
-    "services.localSpecials": "Custom Design",
-    "services.localSpecialsDesc": "Providing on-site mapping, design, transformation, and customization services to meet specific customer requirements with professional technical support.",
-    "services.pistonPresser": "Professional Manufacturing",
-    "services.pistonPresserDesc": "Specializing in conical twin screws, parallel twin screws, single screws made from 38CrMoALA alloy steel with long service life and excellent wear resistance.",
-    "services.weldingIrons": "Repair & Maintenance",
-    "services.weldingIronsDesc": "Expert repair services for various worn barrel screws and machine components, ensuring optimal performance and extended equipment lifespan.",
+
     
     // About Factory 区域
-    "about.factoryTitle": "About Weida Machinery",
-    "about.factoryDescription": "Zhoushan Weida Machinery Co., Ltd is a leading domestic manufacturer specializing in barrel screws. We focus on conical twin screws, parallel twin screws, single screw extruders, injection machines, rubber melting machines, and chemical fiber machines. Our products are made from 38CrMoALA alloy steel through quenching, tempering, nitriding, and polishing processes, featuring long service life, strong wear resistance, and excellent anti-corrosion performance. We strictly manage according to ISO9001-2000 quality system certification and adhere to the principle of 'contract honoring and promise keeping'.",
+    "about.factoryTitle": "About Weida",
+    "about.factoryDescription": "Since 1992, Weida Machinery specializes in custom extruder and injection screws, notably PS/PE foam. We deliver precision-engineered, cost-effective solutions to clients across Asia, Africa, and the Middle East.",
     "about.readMore": "Learn More",
+    
+    // About Us 详细介绍
+    "about.detailedDescription": "Zhoushan Weida Machinery, founded in 1992 in Zhoushan China's \"Screw Capital\", specializes in high-performance extruder and injection screws, particularly for PS and PE foam extruders. With 30+ years of expertise, our veteran technical team manages full in-house production to ensure superior durability and wear resistance. We deliver precision-engineered, cost-effective bespoke solutions to partners across Asia, Africa, and the Middle East, tailored strictly to your technical drawings and production needs.",
     
     // Projects 区域
     "projects.title": "Product Categories",
@@ -60,10 +56,7 @@ const resources = {
     "projects.category3": "Parallel Twin Screws",
     "projects.seeMore": "View All Products",
     
-    // Testimonial 区域
-    "testimonial.title": "Quality Assurance",
-    "testimonial.clientName": "ISO9001-2000 Certified",
-    "testimonial.content": "We strictly manage according to ISO9001-2000 quality system certification. With high-precision production equipment, advanced technology, and integrated production lines, we have achieved remarkable progress in quality and technology, becoming an enterprise with excellent quality and reputation. We always adhere to survival by quality and development by integrity.",
+
     
     // 关于我们 - 4个特色模块
     feature1Title: "Professional Manufacturing",
@@ -94,17 +87,20 @@ const resources = {
     industryNews: "Industry News",
     readMore: "Read More",
     
+    // FAQs
+    faqsTitle: "FAQs",
+    faqsSubtitle: "Frequently Asked Questions",
+    
     // 联系我们
     contactTitle: "Contact Us",
     contactSubtitle: "We look forward to cooperating with you, our professional team is always ready to provide you with quality service",
     messageTitle: "Online Message",
     contactInfo: "Contact Information",
-    formTitle: "Title",
-    formTitlePlaceholder: "Consultation Topic",
+    formTitle: "Subject",
+    formTitlePlaceholder: "Enter subject",
     formName: "Name",
     formNamePlaceholder: "Your Name",
-    formQQ: "QQ",
-    formQQPlaceholder: "Optional: Your QQ Number",
+
     formEmail: "Email",
     formEmailPlaceholder: "your@email.com",
     formTel: "Phone",
@@ -125,18 +121,16 @@ const resources = {
     email: "Email",
     
     // 页脚
-    quickLinks: "Quick Links",
     followUs: "Follow Us",
     allRightsReserved: "All Rights Reserved",
-    footerNewsletterTitle: "Newsletter",
-    footerNewsletterDesc: "Subscribe to receive future updates",
-    footerEmailPlaceholder: "Email address",
     
     // 其他
     currentPosition: "Current Position",
     more: "More",
     loading: "Loading...",
     noData: "No Data",
+    clickToCopy: "Click to copy",
+    copied: "copied to clipboard",
   },
   zh: {
     // 导航菜单
@@ -165,19 +159,15 @@ const resources = {
     "banner.description": "舟山市伟达机械有限公司系国内专业制造机筒螺杆的重点骨干企业，专业致力于锥形双螺杆、平行双螺杆、单螺杆挤出机、注塑机等主要部件的专业生产，通过ISO9001-2000质量体系认证。",
     "banner.readMore": "了解更多",
     
-    // Services 区域
-    "services.title": "服务项目",
-    "services.localSpecials": "定制设计",
-    "services.localSpecialsDesc": "公司可为客户提供上门测绘、设计、改造、定制等多项服务，根据客户需求提供专业技术支持和解决方案。",
-    "services.pistonPresser": "专业制造",
-    "services.pistonPresserDesc": "专业致力于锥形双螺杆、平行双螺杆、单螺杆等产品，材料采用38CrMoALA合金钢，具有使用寿命长、耐磨性强、防腐性能好等优点。",
-    "services.weldingIrons": "维修服务",
-    "services.weldingIronsDesc": "对各种磨损机筒螺杆进行专业修复，提供全面的售后服务体系，确保设备最佳性能和使用寿命。",
+
     
     // About Factory 区域
     "about.factoryTitle": "关于伟达",
-    "about.factoryDescription": "舟山市伟达机械有限公司系国内专业制造机筒螺杆的重点骨干企业，公司主要致力于：锥形双螺杆、平行双螺杆、单螺杆挤出机、注塑机、橡胶熔胶机、化纤机、发泡挤出机等主要部件的专业生产。材料采用38CrMoALA合金钢，经调质、定性、氮化、抛光等工艺精制而成，具有使用寿命长、耐磨性强、防腐性能好等优点。公司严格按照ISO9001-2000质量体系认证进行管理，并始终坚持以质量求生存，以诚信谋发展。",
+    "about.factoryDescription": "自1992年以来，伟达机械专注于定制挤出机和注塑螺杆，特别是PS/PE泡沫。我们为亚洲、非洲和中东的客户提供精密工程、高性价比的解决方案。",
     "about.readMore": "了解更多",
+    
+    // About Us 详细介绍
+    "about.detailedDescription": "舟山市伟达机械有限公司，1992年创立于中国\"螺杆之都\"舟山，专注于高性能挤出机和注塑机螺杆，特别是在PS和PE发泡挤出机领域。凭借30多年的专业经验，我们的资深技术团队管理全面自主生产，确保卓越的耐用性和耐磨性。我们为亚洲、非洲和中东的合作伙伴提供精密工程、高性价比的定制解决方案，严格按照您的技术图纸和生产需求量身定制。",
     
     // Projects 区域
     "projects.title": "产品分类",
@@ -187,10 +177,7 @@ const resources = {
     "projects.category3": "平行双机筒/螺杆",
     "projects.seeMore": "查看全部产品",
     
-    // Testimonial 区域
-    "testimonial.title": "品质保证",
-    "testimonial.clientName": "ISO9001-2000质量认证",
-    "testimonial.content": "公司严格按照ISO9001-2000质量体系认证进行管理，目前已拥有一套完善的质量保证及售后服务体系，同时借助高精密的生产设备，运用先进的工艺和一体化的流水作业，使公司在质量、技术方面均取得突飞猛进的飞跃，成为一家质量及信誉过硬的企业。始终坚持以质量求生存，以诚信谋发展。",
+
     
     // 关于我们 - 4个特色模块
     feature1Title: "专业制造",
@@ -221,17 +208,20 @@ const resources = {
     industryNews: "行业新闻",
     readMore: "阅读更多",
     
+    // FAQs
+    faqsTitle: "常见问题",
+    faqsSubtitle: "常见问题解答",
+    
     // 联系我们
     contactTitle: "联系我们",
     contactSubtitle: "我们期待与您的合作，专业的团队随时为您提供优质服务",
     messageTitle: "在线留言",
     contactInfo: "联系方式",
-    formTitle: "标题",
-    formTitlePlaceholder: "咨询主题",
+    formTitle: "主题",
+    formTitlePlaceholder: "输入主题",
     formName: "姓名",
     formNamePlaceholder: "请输入您的姓名",
-    formQQ: "QQ",
-    formQQPlaceholder: "选填：您的QQ号码",
+
     formEmail: "邮箱",
     formEmailPlaceholder: "your@email.com",
     formTel: "电话",
@@ -252,18 +242,16 @@ const resources = {
     email: "电子信箱",
     
     // 页脚
-    quickLinks: "快速链接",
     followUs: "关注我们",
     allRightsReserved: "版权所有",
-    footerNewsletterTitle: "订阅通讯",
-    footerNewsletterDesc: "订阅以获取后续更新",
-    footerEmailPlaceholder: "邮箱地址",
     
     // 其他
     currentPosition: "当前位置",
     more: "更多",
     loading: "加载中...",
     noData: "暂无数据",
+    clickToCopy: "点击复制",
+    copied: "已复制到剪贴板",
   },
 };
 

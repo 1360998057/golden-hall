@@ -8,25 +8,53 @@
 
   --color-current: currentColor;
   --color-transparent: transparent;
-  --color-stroke: #eeeeee;
-  --color-strokedark: #2d2f40;
-  --color-hoverdark: #252a42;
-  --color-titlebg: #adfff8;
-  --color-titlebg2: #ffeac2;
-  --color-titlebgdark: #46495a;
-  --color-btndark: #292e45;
+  /* 白色背景蓝色装饰主题 */
+  --color-stroke: #e2e8f0;
+  --color-strokedark: #cbd5e1;
+  --color-hoverdark: #f1f5f9;
+  --color-titlebg: #eff6ff;
+  --color-titlebg2: #dbeafe;
+  --color-titlebgdark: #1e40af;
+  --color-btndark: #1e3a8a;
   --color-white: #ffffff;
-  --color-black: #181c31;
-  --color-blackho: #2c3149;
-  --color-blacksection: #1c2136;
-  --color-primary: #006bff;
-  --color-primaryho: #0063ec;
-  --color-meta: #20c5a8;
-  --color-waterloo: #757693;
-  --color-manatee: #999aa1;
-  --color-alabaster: #fbfbfb;
-  --color-zumthor: #edf5ff;
-  --color-socialicon: #d1d8e0;
+  --color-black: #1e40af;
+  
+  /* 柔和浅灰背景为主的配色 */
+  --color-slate-50: #f1f5f9;
+  --color-slate-100: #e2e8f0;
+  --color-slate-200: #cbd5e1;
+  --color-slate-300: #94a3b8;
+  --color-slate-400: #64748b;
+  --color-slate-500: #475569;
+  --color-slate-600: #334155;
+  --color-slate-700: #1e293b;
+  --color-slate-800: #0f172a;
+  --color-slate-900: #020617;
+  
+  /* 重新定义琥珀色为蓝色主题 */
+  --color-amber-400: #2563eb;
+  --color-amber-500: #1d4ed8;
+  
+  --color-gray-50: #f8fafc;
+  --color-gray-100: #f1f5f9;
+  --color-gray-200: #e2e8f0;
+  --color-gray-300: #cbd5e1;
+  --color-gray-400: #94a3b8;
+  --color-gray-500: #64748b;
+  --color-gray-600: #475569;
+  --color-gray-700: #334155;
+  --color-gray-800: #1e293b;
+  --color-gray-900: #0f172a;
+  --color-blackho: #2563eb;
+  --color-blacksection: #f8fafc;
+  --color-primary: #2563eb;
+  --color-primaryho: #1d4ed8;
+  --color-meta: #2563eb;
+  --color-waterloo: #64748b;
+  --color-manatee: #475569;
+  --color-alabaster: #f8fafc;
+  --color-zumthor: #eff6ff;
+  --color-socialicon: #93c5fd;
 
   --text-metatitle: 12px, 20px;
   --text-sectiontitle: 14px, 22px;
@@ -54,17 +82,17 @@
 
   --transition-property-width: width;
 
-  --shadow-solid-l: 0px 10px 120px 0px rgba(45, 74, 170, 0.1);
-  --shadow-solid-2: 0px 2px 10px rgba(122, 135, 167, 0.05);
-  --shadow-solid-3: 0px 6px 90px rgba(8, 14, 40, 0.04);
-  --shadow-solid-4: 0px 6px 90px rgba(8, 14, 40, 0.1);
-  --shadow-solid-5: 0px 8px 24px rgba(45, 74, 170, 0.08);
-  --shadow-solid-6: 0px 8px 24px rgba(10, 16, 35, 0.08);
-  --shadow-solid-7: 0px 30px 50px rgba(45, 74, 170, 0.1);
-  --shadow-solid-8: 0px 12px 120px rgba(45, 74, 170, 0.06);
-  --shadow-solid-9: 0px 12px 30px rgba(45, 74, 170, 0.06);
-  --shadow-solid-10: 0px 8px 30px rgba(45, 74, 170, 0.06);
-  --shadow-solid-11: 0px 6px 20px rgba(45, 74, 170, 0.05);
+  --shadow-solid-l: 0px 10px 120px 0px rgba(0, 0, 0, 0.08);
+  --shadow-solid-2: 0px 2px 10px rgba(0, 0, 0, 0.03);
+  --shadow-solid-3: 0px 6px 90px rgba(0, 0, 0, 0.02);
+  --shadow-solid-4: 0px 6px 90px rgba(0, 0, 0, 0.06);
+  --shadow-solid-5: 0px 8px 24px rgba(37, 99, 235, 0.05);
+  --shadow-solid-6: 0px 8px 24px rgba(0, 0, 0, 0.05);
+  --shadow-solid-7: 0px 30px 50px rgba(0, 0, 0, 0.08);
+  --shadow-solid-8: 0px 12px 120px rgba(0, 0, 0, 0.04);
+  --shadow-solid-9: 0px 12px 30px rgba(0, 0, 0, 0.04);
+  --shadow-solid-10: 0px 8px 30px rgba(0, 0, 0, 0.04);
+  --shadow-solid-11: 0px 6px 20px rgba(0, 0, 0, 0.03);
   --shadow-solid-12: 0px 2px 10px rgba(0, 0, 0, 0.05);
   --shadow-solid-13: 0px 2px 19px rgba(0, 0, 0, 0.05);
 
@@ -102,10 +130,10 @@
 }
 
 @utility dropdown {
-  @apply -left-7.5 mt-2 hidden min-w-max flex-col gap-4 rounded-md border border-stroke bg-white px-8 py-5 shadow-solid-13 duration-300 ease-in dark:border-strokedark dark:bg-black xl:invisible xl:absolute
+  @apply -left-7.5 mt-2 hidden min-w-max flex-col gap-4 rounded-md border border-slate-300 bg-slate-50 px-8 py-5 shadow-solid-13 duration-300 ease-in xl:invisible xl:absolute
     xl:mt-0 xl:flex xl:w-[250px] xl:translate-y-10 xl:opacity-0
-    xl:before:absolute xl:before:-top-1.5 xl:before:left-10 xl:before:h-3 xl:before:w-3 xl:before:rotate-45 xl:before:border-l xl:before:border-t xl:before:border-stroke xl:before:bg-white xl:group-hover:visible xl:group-hover:translate-y-6.5 
-    xl:group-hover:opacity-100 xl:dark:before:border-strokedark xl:dark:before:bg-black;
+    xl:before:absolute xl:before:-top-1.5 xl:before:left-10 xl:before:h-3 xl:before:w-3 xl:before:rotate-45 xl:before:border-l xl:before:border-t xl:before:border-slate-300 xl:before:bg-slate-50 xl:group-hover:visible xl:group-hover:translate-y-6.5 
+    xl:group-hover:opacity-100;
 }
 
 @utility no-scrollbar {
@@ -115,6 +143,19 @@
   }
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+}
+
+@utility animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @utility img-white {

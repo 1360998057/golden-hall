@@ -1,9 +1,7 @@
 import { Metadata } from "next";
 import Banner from "@/components/Banner";
-import Services from "@/components/Services";
 import AboutFactory from "@/components/AboutFactory";
 import RecentProjects from "@/components/RecentProjects";
-import TestimonialSection from "@/components/TestimonialSection";
 import Contact from "@/components/Contact";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -21,10 +19,8 @@ export default function Home() {
   return (
     <main>
       <Banner />
-      <Services />
       <AboutFactory />
       <RecentProjects />
-      <TestimonialSection />
       <Contact />
     </main>
   );

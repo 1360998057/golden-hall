@@ -8,23 +8,23 @@ const RecentProjects = () => {
   const projects = [
     {
       title: t("projects.category1"),
-      image: "/images/legacy/project-1.jpg",
+      image: "/images/挤出机螺杆.png",
     },
     {
       title: t("projects.category2"),
-      image: "/images/legacy/project-2.jpg",
+      image: "/images/注塑机螺杆.png",
     },
     {
       title: t("projects.category3"),
-      image: "/images/legacy/project-3.jpg",
+      image: "/images/注塑机螺杆.png",
     },
   ];
 
   return (
-    <div className="project_section py-16 lg:py-24 bg-[#030517] text-white">
+    <div className="project_section py-16 lg:py-24 bg-slate-50 text-black">
       <div className="container mx-auto px-4">
         <div className="flex justify-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-yellow-400">
+          <h2 className="text-4xl md:text-5xl font-bold text-primary">
             {t("projects.title")}
           </h2>
         </div>
@@ -45,7 +45,7 @@ const RecentProjects = () => {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold text-white text-center">
+                <h3 className="text-xl font-bold text-black text-center">
                   {project.title}
                 </h3>
               </div>
@@ -56,7 +56,7 @@ const RecentProjects = () => {
         <div className="flex justify-center">
           <a
             href="products"
-            className="inline-block bg-yellow-400 text-[#030517] px-8 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition-colors"
+            className="inline-block bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-primaryho transition-colors"
           >
             {t("projects.seeMore")}
           </a>
