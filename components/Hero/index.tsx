@@ -1,18 +1,27 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { useI18nStore } from "@/store/i18nStore";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
-const carouselSlides = [
+const carouselSlides: Array<{
+  id: number;
+  title: string;
+  titleEn: string;
+  subtitle: string;
+  subtitleEn: string;
+  video?: string;
+  image?: string;
+  bgGradient: string;
+}> = [
   {
     id: 1,
     title: "专业机筒螺杆制造企业",
     titleEn: "Professional Barrel & Screw Manufacturer",
     subtitle: "15年行业经验 · 500+合作客户 · ISO9001认证",
     subtitleEn: "15 Years Experience · 500+ Clients · ISO9001 Certified",
-    image: "/images/hero/hero-light.svg",
+    video: "/video/f40679321fd675e51e942585fd8fe018.mp4",
     bgGradient: "from-blue-50 via-cyan-50 to-white",
   },
   {
@@ -41,6 +50,7 @@ const Hero = () => {
   const { language } = useI18nStore();
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
     if (isPaused) return;
@@ -51,6 +61,16 @@ const Hero = () => {
 
     return () => clearInterval(interval);
   }, [isPaused]);
+
+  // 当切换到视频幻灯片时播放视频
+  useEffect(() => {
+    if (currentSlide === 0 && videoRef.current) {
+      videoRef.current.currentTime = 0;
+      videoRef.current.play().catch(() => {
+        // 视频自动播放可能被浏览器阻止，忽略错误
+      });
+    }
+  }, [currentSlide]);
 
   const slide = carouselSlides[currentSlide];
 
@@ -151,7 +171,7 @@ const Hero = () => {
               </motion.div>
             </div>
 
-            {/* 右侧图像 */}
+            {/* 右侧图像/视频 */}
             <div className="order-1 lg:order-2 relative">
               <motion.div
                 key={`slide-${currentSlide}`}
@@ -160,16 +180,28 @@ const Hero = () => {
                 transition={{ duration: 0.8, delay: 0.3 }}
                 className="relative"
               >
-                {/* 主图像 */}
+                {/* 主图像/视频 */}
                 <div className="relative mx-auto lg:mx-0 w-full max-w-md lg:max-w-none">
-                  <Image
-                    src={slide.image}
-                    alt={language === "zh" ? slide.title : slide.titleEn}
-                    width={600}
-                    height={400}
-                    className="w-full h-auto object-contain"
-                    priority
-                  />
+                  {slide.video ? (
+                    <video
+                      ref={videoRef}
+                      src={slide.video}
+                      autoPlay
+                      muted
+                      loop
+                      playsInline
+                      className="w-full h-auto object-contain rounded-2xl"
+                    />
+                  ) : (
+                    <Image
+                      src={slide.image!}
+                      alt={language === "zh" ? slide.title : slide.titleEn}
+                      width={600}
+                      height={400}
+                      className="w-full h-auto object-contain"
+                      priority
+                    />
+                  )}
                 </div>
 
                 {/* 装饰元素 */}

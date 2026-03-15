@@ -46,7 +46,7 @@ const resources = {
     "about.readMore": "Learn More",
     
     // About Us 详细介绍
-    "about.detailedDescription": "Zhoushan Weida Machinery, founded in 1992 in Zhoushan China's \"Screw Capital\", specializes in high-performance extruder and injection screws, particularly for PS and PE foam extruders. With 30+ years of expertise, our veteran technical team manages full in-house production to ensure superior durability and wear resistance. We deliver precision-engineered, cost-effective bespoke solutions to partners across Asia, Africa, and the Middle East, tailored strictly to your technical drawings and production needs.",
+    "about.detailedDescription": "Zhoushan Weida Machinery, founded in 1992 in Zhoushan China's 'Screw Capital' , specializes in high-performance extruder and injection screws, particularly for PS and PE foam extruders. With 30+ years of expertise, our veteran technical team manages full in-house production to ensure superior durability and wear resistance. We deliver precision-engineered, cost-effective bespoke solutions to partners across Asia, Africa, and the Middle East, tailored strictly to your technical drawings and production needs.",
     
     // Projects 区域
     "projects.title": "Product Categories",
@@ -167,7 +167,7 @@ const resources = {
     "about.readMore": "了解更多",
     
     // About Us 详细介绍
-    "about.detailedDescription": "舟山市伟达机械有限公司，1992年创立于中国\"螺杆之都\"舟山，专注于高性能挤出机和注塑机螺杆，特别是在PS和PE发泡挤出机领域。凭借30多年的专业经验，我们的资深技术团队管理全面自主生产，确保卓越的耐用性和耐磨性。我们为亚洲、非洲和中东的合作伙伴提供精密工程、高性价比的定制解决方案，严格按照您的技术图纸和生产需求量身定制。",
+    "about.detailedDescription": "舟山市伟达机械有限公司，1992年创立于中国'螺杆之都'舟山，专注于高性能挤出机和注塑机螺杆，特别是在PS和PE发泡挤出机领域。凭借30多年的专业经验，我们的资深技术团队管理全面自主生产，确保卓越的耐用性和耐磨性。我们为亚洲、非洲和中东的合作伙伴提供精密工程、高性价比的定制解决方案，严格按照您的技术图纸和生产需求量身定制。",
     
     // Projects 区域
     "projects.title": "产品分类",

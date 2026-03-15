@@ -13,7 +13,7 @@ const menuData: Menu[] = [
     title: "关于我们",
     titleEn: "About Us",
     newTab: false,
-    path: "/strength",
+    path: "/about",
   },
   {
     id: 3,
