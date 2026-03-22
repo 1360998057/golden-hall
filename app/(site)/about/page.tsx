@@ -40,7 +40,7 @@ const AboutPage = () => {
         zh: "拥有先进的数控加工设备和检测仪器，能够加工各种规格的机筒螺杆，确保产品精度和质量。",
         en: "Equipped with advanced CNC machining equipment and testing instruments, capable of processing barrels and screws of various specifications to ensure product precision and quality."
       },
-      image: "/images/strength/manufacturing.jpg",
+      image: "/images/strength/manufacturing.png",
       alt: {
         zh: "制造设备",
         en: "Manufacturing Equipment"
@@ -59,7 +59,7 @@ const AboutPage = () => {
         zh: "30年专业经验积累，掌握核心制造工艺，为客户提供最优解决方案和技术支持。",
         en: "30 years of professional experience, mastering core manufacturing processes, providing optimal solutions and technical support to customers."
       },
-      image: "/images/strength/technology.jpg",
+      image: "/images/strength/technology.jpg"  ,
       alt: {
         zh: "技术团队",
         en: "Technical Team"
@@ -165,7 +165,7 @@ const AboutPage = () => {
               <div className="w-full lg:w-1/2">
                 <div className="rounded-3xl border border-gray-200 bg-white p-8 shadow-lg">
                   <div className="flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.35em] text-blue-600">
-                    <span className="flex h-9 w-9 items-center justify-center rounded-full border border-blue-600 text-blue-600">
+                    <span className="flex h-9 w-9 pl-[4px] text-[16px] items-center justify-center rounded-full border border-blue-600 text-blue-600">
                       {index + 1}
                     </span>
                     {language === "zh" ? "核心优势" : "Key Strength"}
@@ -227,7 +227,7 @@ const AboutPage = () => {
               <div className="overflow-hidden rounded-3xl border border-gray-200 bg-white p-[1px] shadow-lg">
                 <div className="relative overflow-hidden rounded-3xl">
                   <img
-                    src="/images/about/factory.jpg"
+                    src="/images/strength/factory.jpg"
                     alt="Factory"
                     className="h-full w-full object-cover"
                   />

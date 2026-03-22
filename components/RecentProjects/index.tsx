@@ -8,15 +8,15 @@ const RecentProjects = () => {
   const projects = [
     {
       title: t("projects.category1"),
-      image: "/images/挤出机螺杆.png",
+      image: "/images/铰孔5.jpg",
     },
     {
       title: t("projects.category2"),
-      image: "/images/注塑机螺杆.png",
+      image: "/images/法兰6.jpg",
     },
     {
       title: t("projects.category3"),
-      image: "/images/注塑机螺杆.png",
+      image: "/images/磨床3.jpg",
     },
   ];
 

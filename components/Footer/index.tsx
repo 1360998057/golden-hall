@@ -30,14 +30,7 @@ const Footer = () => {
                 viewport={{ once: true }}
                 className="animate_top text-center max-w-lg"
               >
-                <a href="/" className="relative">
-                  <Image
-                    width={110}
-                    height={80}
-                    src="/images/logo/logo.png"
-                    alt="Weida Machinery Logo"
-                  />
-                </a>
+               
 
                 <p className="mt-5 mb-10 text-slate-600">
                   {t("companyDescription")}
