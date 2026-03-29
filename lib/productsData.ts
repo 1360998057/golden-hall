@@ -1942,26 +1942,6 @@ const rawProducts: ProductItemRaw[] = [
         ]
     },
     {
-        "id": "102",
-        "title": {
-            "zh": "橡胶机机筒/螺杆",
-            "en": "橡胶螺杆、机筒"
-        },
-        "categoryId": "8",
-        "categoryName": {
-            "zh": "橡胶机机筒/螺杆",
-            "en": "橡胶机机筒/螺杆"
-        },
-        "image": "/images/products/20130408205922830.jpg",
-        "date": "",
-        "description": {
-            "zh": "",
-            "en": ""
-        },
-        "specification": {},
-        "materials_and_processes": []
-    },
-    {
         "id": "104",
         "title": {
             "zh": "注塑机螺杆/机筒",
@@ -3652,46 +3632,6 @@ const rawProducts: ProductItemRaw[] = [
         ]
     },
     {
-        "id": "119",
-        "title": {
-            "zh": "造粒机螺杆/机筒",
-            "en": "造粒机螺杆"
-        },
-        "categoryId": "9",
-        "categoryName": {
-            "zh": "造粒机螺杆/机筒",
-            "en": "造粒机螺杆/机筒"
-        },
-        "image": "/images/products/20130604145049470.jpg",
-        "date": "",
-        "description": {
-            "zh": "",
-            "en": ""
-        },
-        "specification": {},
-        "materials_and_processes": []
-    },
-    {
-        "id": "72",
-        "title": {
-            "zh": "不锈钢螺杆机筒",
-            "en": "不锈钢螺杆机筒"
-        },
-        "categoryId": "13",
-        "categoryName": {
-            "zh": "不锈钢螺杆机筒",
-            "en": "不锈钢螺杆机筒"
-        },
-        "image": "/images/products/20130408204118288.jpg",
-        "date": "",
-        "description": {
-            "zh": "",
-            "en": ""
-        },
-        "specification": {},
-        "materials_and_processes": []
-    },
-    {
         "id": "87",
         "title": {
             "zh": "锥形双机筒/螺杆",
@@ -4032,26 +3972,6 @@ const rawProducts: ProductItemRaw[] = [
                 }
             }
         ]
-    },
-    {
-        "id": "120",
-        "title": {
-            "zh": "造粒机螺杆/机筒",
-            "en": "造粒机螺杆"
-        },
-        "categoryId": "9",
-        "categoryName": {
-            "zh": "造粒机螺杆/机筒",
-            "en": "造粒机螺杆/机筒"
-        },
-        "image": "/images/products/20130410152606646.jpg",
-        "date": "",
-        "description": {
-            "zh": "",
-            "en": ""
-        },
-        "specification": {},
-        "materials_and_processes": []
     },
     {
         "id": "138",
@@ -4856,26 +4776,6 @@ const rawProducts: ProductItemRaw[] = [
                 }
             }
         ]
-    },
-    {
-        "id": "144",
-        "title": {
-            "zh": "注塑机螺杆/机筒",
-            "en": "注塑机螺杆"
-        },
-        "categoryId": "2",
-        "categoryName": {
-            "zh": "注塑机螺杆/机筒",
-            "en": "注塑机螺杆/机筒"
-        },
-        "image": "/images/products/20130604143003751.jpg",
-        "date": "",
-        "description": {
-            "zh": "",
-            "en": ""
-        },
-        "specification": {},
-        "materials_and_processes": []
     },
     {
         "id": "146",

@@ -8,15 +8,15 @@ const RecentProjects = () => {
   const projects = [
     {
       title: t("projects.category1"),
-      image: "/images/铰孔5.jpg",
+      image: "/images/注塑机螺杆.png",
     },
     {
       title: t("projects.category2"),
-      image: "/images/法兰6.jpg",
+      image: "/images/挤出机螺杆.png",
     },
     {
       title: t("projects.category3"),
-      image: "/images/磨床3.jpg",
+      image: "/images/注塑机螺杆配件.png",
     },
   ];
 
@@ -35,7 +35,7 @@ const RecentProjects = () => {
               key={index}
               className="bg-white/10 backdrop-blur-sm rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-all hover:-translate-y-2 duration-300 border border-white/20"
             >
-              <div className="aspect-[4/3] relative overflow-hidden">
+              <div className="aspect-[4/3] relative overflow-hidden bg-white">
                 <Image
                   src={project.image}
                   alt={project.title}

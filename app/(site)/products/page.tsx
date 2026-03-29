@@ -89,7 +89,7 @@ const ProductsPageContent = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="text-center"
           >
-            <motion.div 
+            {/* <motion.div 
               className="inline-flex items-center gap-2 mb-6 px-4 py-2 rounded-full bg-gradient-to-r from-blue-50 to-blue-100 border border-blue-200/50"
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -99,7 +99,7 @@ const ProductsPageContent = () => {
               <span className="text-sm font-semibold text-blue-700 tracking-wide">
                 {isZh ? "工业实力" : "Industrial Strength"}
               </span>
-            </motion.div>
+            </motion.div> */}
             
             <motion.h1 
               className="mb-8 text-5xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-slate-900 via-blue-700 to-slate-900 bg-clip-text text-transparent leading-tight"
@@ -126,13 +126,13 @@ const ProductsPageContent = () => {
 
 
       {/* Filters and Search - 重新设计 */}
-      <section className="py-12 bg-white/60 backdrop-blur-sm border-b border-slate-200/50">
+      <section className="py-12 bg-white/60 backdrop-blur-sm border-b border-slate-200/50 relative z-[60]">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8">
           <div className="flex flex-col xl:flex-row gap-8 items-center justify-between">
             {/* 左侧筛选区域 */}
-            <div className="flex flex-col sm:flex-row gap-4 items-center w-full xl:w-auto">
+            <div className="flex flex-col sm:flex-row gap-4 items-center w-full xl:w-auto relative z-[70]">
               {/* 分类筛选 */}
-              <div className="w-full sm:w-auto">
+              <div className="w-full sm:w-auto relative z-[999]">
                 <ProductCategoryFilter
                   activeCategory={activeCategory}
                   onCategoryChange={setActiveCategory}
@@ -191,7 +191,7 @@ const ProductsPageContent = () => {
 
 
       {/* Products Grid - 重新设计 */}
-      <section className="py-16 lg:py-20 bg-gradient-to-b from-transparent to-white/30">
+      <section className="py-16 lg:py-20 bg-gradient-to-b from-transparent to-white/30 relative z-10">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
           {/* 网格布局 */}
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:gap-10">
@@ -206,7 +206,7 @@ const ProductsPageContent = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: index * 0.1 }}
                 whileHover={{ y: -5 }}
-                className="group"
+                className="group relative z-0"
               >
                 <Link href={`/products/${item.id}`}>
                   <div className="bg-white/80 backdrop-blur-sm rounded-3xl border border-slate-200/50 shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden h-full flex flex-col">

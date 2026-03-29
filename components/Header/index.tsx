@@ -28,6 +28,29 @@ const Header = () => {
     }
   };
 
+  // 平滑滚动到锚点
+  const scrollToAnchor = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    if (href.startsWith('/#')) {
+      e.preventDefault();
+      const targetId = href.substring(2);
+      const targetElement = document.getElementById(targetId);
+      
+      if (targetElement) {
+        const headerOffset = 80; // Header高度
+        const elementPosition = targetElement.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+        
+        // 更新URL但不触发跳转
+        window.history.pushState(null, '', href);
+      }
+    }
+  };
+
   useEffect(() => {
     handleStickyMenu();
     window.addEventListener("scroll", handleStickyMenu, { passive: true });
@@ -36,7 +59,7 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 z-50 w-full transition-all duration-300 ${
+      className={`fixed top-0 left-0 z-[100] w-full transition-all duration-300 ${
         stickyMenu
           ? "bg-white/95 backdrop-blur-md shadow-lg shadow-slate-900/5 py-3"
           : "bg-white/80 backdrop-blur-sm py-4"
@@ -59,7 +82,7 @@ const Header = () => {
           </a>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-1">
+          <nav className="hidden lg:flex items-center gap-1 ">
             {menuData.map((menuItem) => (
               <div key={menuItem.id} className="group relative">
                 {menuItem.submenu ? (
@@ -71,7 +94,7 @@ const Header = () => {
                       </svg>
                     </button>
                     {/* Dropdown */}
-                    <div className="absolute top-full left-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                    <div className="absolute top-full left-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-[1000]">
                       <div className="bg-white rounded-xl shadow-xl shadow-slate-900/10 border border-slate-100 py-2 min-w-[200px] overflow-hidden">
                         {menuItem.submenu.map((item) => (
                           <Link
@@ -88,6 +111,11 @@ const Header = () => {
                 ) : (
                   <Link
                     href={menuItem.path || "/"}
+                    onClick={(e) => {
+                      if (menuItem.path?.startsWith('/#')) {
+                        scrollToAnchor(e, menuItem.path);
+                      }
+                    }}
                     className={`px-4 py-2 text-sm font-medium rounded-lg transition-all ${
                       pathUrl === menuItem.path
                         ? "text-blue-600 bg-blue-50"
@@ -179,7 +207,12 @@ const Header = () => {
                             ? "text-blue-600 bg-blue-50"
                             : "text-slate-700 hover:text-blue-600 hover:bg-slate-100"
                         }`}
-                        onClick={() => setNavigationOpen(false)}
+                        onClick={(e) => {
+                          if (menuItem.path?.startsWith('/#')) {
+                            scrollToAnchor(e, menuItem.path);
+                          }
+                          setNavigationOpen(false);
+                        }}
                       >
                         {language === "zh" ? menuItem.title : menuItem.titleEn}
                       </Link>

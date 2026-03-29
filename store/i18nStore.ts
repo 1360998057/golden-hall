@@ -51,9 +51,9 @@ const resources = {
     // Projects 区域
     "projects.title": "Product Categories",
     "projects.autoEngineering": "Barrel Screws Manufacturing",
-    "projects.category1": "Injection Machine Screws",
-    "projects.category2": "Extruder Screws",
-    "projects.category3": "Parallel Twin Screws",
+    "projects.category1": "Injection Molding Machine Screw/Barrel",
+    "projects.category2": "Extruder Screw/Barrel",
+    "projects.category3": "Accessories for Injection Molding Machine Screw/Barrel",
     "projects.seeMore": "View All Products",
     
 
@@ -123,6 +123,29 @@ const resources = {
     // 页脚
     followUs: "Follow Us",
     allRightsReserved: "All Rights Reserved",
+
+    // Contact 页面
+    "contact.information": "Contact",
+    "contact.form": "Contact Form",
+    "contact.address": "Address",
+    "contact.phone": "Phone",
+    "contact.mobile": "Mobile",
+    "contact.landline": "Landline",
+    "contact.email": "Email",
+    "contact.sales": "Sales",
+    "contact.support": "Support",
+    "contact.name": "Name",
+    "contact.namePlaceholder": "Your Name",
+    "contact.emailPlaceholder": "your@email.com",
+    "contact.phonePlaceholder": "Please enter contact phone",
+    "contact.company": "Company",
+    "contact.companyPlaceholder": "Company Name",
+    "contact.message": "Message",
+    "contact.messagePlaceholder": "Please describe your requirements or questions in detail...",
+    "contact.send": "Send Message",
+    "contact.sending": "Sending...",
+    "contact.success": "Message sent successfully! We will reply as soon as possible.",
+    "contact.error": "Failed to send message. Please try again.",
     
     // 其他
     currentPosition: "Current Position",
@@ -174,7 +197,7 @@ const resources = {
     "projects.autoEngineering": "机筒螺杆制造",
     "projects.category1": "注塑机螺杆/机筒",
     "projects.category2": "挤出机螺杆/机筒",
-    "projects.category3": "平行双机筒/螺杆",
+    "projects.category3": "注塑机螺杆/机筒配件",
     "projects.seeMore": "查看全部产品",
     
 
@@ -244,6 +267,29 @@ const resources = {
     // 页脚
     followUs: "关注我们",
     allRightsReserved: "版权所有",
+
+    // Contact 页面
+    "contact.information": "联系方式",
+    "contact.form": "在线留言",
+    "contact.address": "企业地址",
+    "contact.phone": "联系电话",
+    "contact.mobile": "手机",
+    "contact.landline": "座机",
+    "contact.email": "电子邮箱",
+    "contact.sales": "销售",
+    "contact.support": "客服",
+    "contact.name": "姓名",
+    "contact.namePlaceholder": "请输入您的姓名",
+    "contact.emailPlaceholder": "your@email.com",
+    "contact.phonePlaceholder": "请输入联系电话",
+    "contact.company": "公司名称",
+    "contact.companyPlaceholder": "请输入公司名称",
+    "contact.message": "留言内容",
+    "contact.messagePlaceholder": "请详细描述您的需求或问题...",
+    "contact.send": "发送留言",
+    "contact.sending": "发送中...",
+    "contact.success": "留言发送成功！我们会尽快回复您。",
+    "contact.error": "发送失败，请重试。",
     
     // 其他
     currentPosition: "当前位置",

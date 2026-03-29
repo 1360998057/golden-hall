@@ -7,8 +7,25 @@ import { AnimatePresence, motion } from "framer-motion";
 const FAQsPage = () => {
   const { language } = useI18nStore();
   const [activeIndex, setActiveIndex] = useState<string | null>(null);
+  const [activeCategory, setActiveCategory] = useState<number | null>(null);
 
   const isZh = language === "zh";
+
+  // 平滑滚动到分类
+  const scrollToCategory = (categoryIndex: number) => {
+    setActiveCategory(categoryIndex);
+    const element = document.getElementById(`faq-category-${categoryIndex}`);
+    if (element) {
+      const headerOffset = 100;
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+      
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
+  };
 
   // FAQ数据 - 从FAQSection组件迁移过来的完整内容
   const faqCategories = [
@@ -166,17 +183,7 @@ const FAQsPage = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="text-center"
           >
-            <motion.div 
-              className="inline-flex items-center gap-2 mb-6 px-4 py-2 rounded-full bg-gradient-to-r from-amber-50 to-amber-100 border border-amber-200/50"
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.2, duration: 0.6 }}
-            >
-              <div className="w-2 h-2 bg-amber-500 rounded-full animate-pulse"></div>
-              <span className="text-sm font-semibold text-amber-700 tracking-wide">
-                {isZh ? "常见问题" : "Frequently Asked Questions"}
-              </span>
-            </motion.div>
+          
             
             <motion.h1 
               className="mb-8 text-5xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-slate-900 via-slate-700 to-slate-900 bg-clip-text text-transparent leading-tight"
@@ -206,12 +213,17 @@ const FAQsPage = () => {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8">
           {/* 分类标签 */}
           <div className="flex flex-wrap justify-center gap-3 mb-12">
-            {faqCategories.map((category) => (
+            {faqCategories.map((category, index) => (
               <motion.button
                 key={category.title}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-6 py-3 rounded-full bg-gradient-to-r from-slate-100 to-slate-200 border border-slate-300 text-slate-700 font-medium hover:from-amber-100 hover:to-amber-200 hover:border-amber-300 hover:text-amber-700 transition-all duration-300"
+                onClick={() => scrollToCategory(index)}
+                className={`px-6 py-3 rounded-full font-medium transition-all duration-300 cursor-pointer ${
+                  activeCategory === index
+                    ? "bg-gradient-to-r from-amber-400 to-amber-500 text-white border-amber-500 shadow-lg shadow-amber-200"
+                    : "bg-gradient-to-r from-slate-100 to-slate-200 border border-slate-300 text-slate-700 hover:from-amber-100 hover:to-amber-200 hover:border-amber-300 hover:text-amber-700"
+                }`}
               >
                 {isZh ? category.titleZh : category.title}
               </motion.button>
@@ -222,6 +234,7 @@ const FAQsPage = () => {
             {faqCategories.map((category, categoryIndex) => (
               <motion.div
                 key={category.title}
+                id={`faq-category-${categoryIndex}`}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}

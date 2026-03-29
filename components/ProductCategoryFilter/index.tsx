@@ -46,7 +46,7 @@ const ProductCategoryFilter = ({
         </button>
 
         {isDropdownOpen && (
-          <div className="absolute top-full left-0 right-0 z-50 mt-2 bg-white/95 backdrop-blur-sm border border-slate-200/60 rounded-2xl shadow-2xl overflow-hidden">
+          <div className="absolute top-full left-0 right-0 z-[999] mt-2 bg-white/95 backdrop-blur-sm border border-slate-200/60 rounded-2xl shadow-2xl overflow-hidden">
             <div className="max-h-96 overflow-y-auto">
               {productCategories.map((category) => (
                 <button

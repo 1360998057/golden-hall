@@ -77,9 +77,9 @@ const Contact = () => {
               transition={{ duration: 0.5 }}
               className="text-center"
             >
-              <span className="inline-block mb-4 rounded-full bg-blue-100 px-6 py-2 text-sm font-semibold text-blue-600 uppercase tracking-wider">
+              {/* <span className="inline-block mb-4 rounded-full bg-blue-100 px-6 py-2 text-sm font-semibold text-blue-600 uppercase tracking-wider">
                 {t("contact.title")}
-              </span>
+              </span> */}
               <motion.h2 
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -89,9 +89,9 @@ const Contact = () => {
               >
                 {language === "zh" ? "联系我们" : "Contact Us"}
               </motion.h2>
-              <p className="text-xl text-white/90 max-w-3xl mx-auto mb-8 leading-relaxed">
+              {/* <p className="text-xl text-white/90 max-w-3xl mx-auto mb-8 leading-relaxed">
                 {t("contact.subtitle")}
-              </p>
+              </p> */}
               <div className="mx-auto h-1 w-32 bg-gradient-to-r from-blue-400 via-blue-500 to-cyan-400 rounded-full shadow-lg shadow-blue-500/25"></div>
             </motion.div>
         </motion.div>
@@ -123,13 +123,21 @@ const Contact = () => {
                   <div>
                     <h4 className="text-lg font-semibold text-white mb-2">{t("contact.address")}</h4>
                     <p className="text-white/80 leading-relaxed">
-                      <span className="text-primary font-medium">🇨🇳 China</span> 
+                      <span className="text-primary font-medium">🇨🇳 China</span>
                       <br />
-                      Zhoushan City, Zhejiang Province
-                      <br />
-                      Putuo District, Changzhi Island
-                      <br />
-                      Industrial Zone A
+                      {language === "zh" ? (
+                        <>
+                          舟山市定海区金塘镇西堠工业区
+                          <br />
+                          金山路2号
+                        </>
+                      ) : (
+                        <>
+                          No. 2 Jinshan Road, Xihou Industrial Zone
+                          <br />
+                          Jintang Town, Dinghai District, Zhoushan City
+                        </>
+                      )}
                     </p>
                   </div>
                 </div>
@@ -157,9 +165,9 @@ const Contact = () => {
                           href="tel:+8613665815216"
                           className="text-white/80 cursor-pointer"
                         >
-                          <span className="text-primary font-medium">+86</span> 136 6581 5216 
+                          <span className="text-primary font-medium">+86</span> 136 6581 5216
                         </a>
-                        <span className="text-white/60 ml-2">({t("contact.mobile")})</span>
+                        <span className="text-white/60 ml-2">(WhatsApp)</span>
                       </div>
                       <div>
                         <p className="text-white/80 cursor-pointer">0580-8592328</p>

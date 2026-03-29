@@ -17,8 +17,8 @@ const AboutPage = () => {
     },
     {
       label: { zh: "制造底蕴", en: "Heritage" },
-      value: "30+年",
-      valueEn: "30+ Years",
+      value: "30多年",
+      valueEn: "Over 30 Years",
     },
     {
       label: { zh: "服务客户", en: "Clients Served" },
@@ -59,7 +59,7 @@ const AboutPage = () => {
         zh: "30年专业经验积累，掌握核心制造工艺，为客户提供最优解决方案和技术支持。",
         en: "30 years of professional experience, mastering core manufacturing processes, providing optimal solutions and technical support to customers."
       },
-      image: "/images/strength/technology.jpg"  ,
+      image: "/images/strength/quality.jpg",
       alt: {
         zh: "技术团队",
         en: "Technical Team"
@@ -78,7 +78,7 @@ const AboutPage = () => {
         zh: "通过ISO9001质量体系认证，建立完善的质量管理体系，从原材料到成品全程质量控制。",
         en: "ISO9001 quality system certified, establishing a comprehensive quality management system with full-process quality control from raw materials to finished products."
       },
-      image: "/images/strength/quality.jpg",
+      image: "/images/strength/technology.jpg",
       alt: {
         zh: "质量检测",
         en: "Quality Inspection"
@@ -93,22 +93,31 @@ const AboutPage = () => {
   return (
     <main className="bg-slate-50 text-gray-900">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-white py-20 lg:py-28">
-        <div className="absolute inset-0 bg-[linear-gradient(120deg,rgba(59,130,246,0.05),rgba(6,182,212,0.08))]" />
-        <div className="absolute inset-0 opacity-20 [background-image:linear-gradient(rgba(229,231,235,0.5)_1px,transparent_1px),linear-gradient(90deg,rgba(229,231,235,0.5)_1px,transparent_1px)] [background-size:48px_48px]" />
-        <div className="relative mx-auto max-w-c-1390 px-4 md:px-8">
+      <section className="relative overflow-hidden py-20 lg:py-28">
+        {/* 背景图片 */}
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/images/strength/factory.jpg"
+            alt="Factory Background"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-900/80 to-slate-900/70" />
+        </div>
+        <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 z-10">
           <div className="text-center">
-            <h1 className="mb-6 text-4xl font-bold text-gray-900 md:text-5xl lg:text-6xl">
+            <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
               {t("about")}
             </h1>
-            <p className="mx-auto max-w-3xl text-base text-gray-600 md:text-lg">
+            <p className="mx-auto max-w-3xl text-base text-white/90 md:text-lg">
               {language === "zh"
                 ? "以实力铸就信赖，以工艺成就卓越"
                 : "Powering trust with precision and proven capability"}
             </p>
 
             <div className="mx-auto max-w-5xl mt-8">
-              <p className="text-base text-gray-600 leading-relaxed md:text-lg">
+              <p className="text-base text-white/80 leading-relaxed md:text-lg">
                 {t("about.detailedDescription")}
               </p>
             </div>
@@ -194,50 +203,36 @@ const AboutPage = () => {
       </section>
 
       {/* Company Introduction */}
-      <section className="py-16 lg:py-24 bg-gray-50">
+      {/* <section className="py-16 lg:py-24 bg-gray-50">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="grid gap-12 lg:grid-cols-2 lg:items-center"
+            className="rounded-3xl border border-gray-200 bg-white p-8 shadow-lg"
           >
-            <div className="rounded-3xl border border-gray-200 bg-white p-8 shadow-lg">
-              <h2 className="mb-6 text-3xl font-bold text-gray-900">
-                {language === "zh" ? "公司介绍" : "Company Introduction"}
-              </h2>
-              <p className="mb-4 text-lg leading-relaxed text-gray-600">
-                {language === "zh"
-                  ? "舟山市伟达机械有限公司是一家专业从事机筒螺杆制造的企业，拥有30年以上的行业经验。我们致力于为客户提供高品质的锥形双螺杆、平行双螺杆和单螺杆产品。"
-                  : "Zhoushan Weida Machinery Co., Ltd. is a professional enterprise specializing in barrel and screw manufacturing, with over 30 years of industry experience. We are committed to providing customers with high-quality conical twin screws, parallel twin screws, and single screw products."}
-              </p>
-              <p className="mb-4 text-lg leading-relaxed text-gray-600">
-                {language === "zh"
-                  ? "公司通过了ISO9001-2000质量管理体系认证，拥有先进的生产设备和专业的技术团队。我们提供上门测绘、设计、改造、定制及修复等全方位服务。"
-                  : "Our company has passed ISO9001-2000 quality management system certification, with advanced production equipment and a professional technical team. We provide comprehensive services including on-site surveying, design, modification, customization, and repair."}
-              </p>
-              <p className="text-lg leading-relaxed text-gray-600">
-                {language === "zh"
-                  ? "产品远销海内外，赢得了500多家客户的信赖与支持。"
-                  : "Our products are exported worldwide, winning trust and support of over 500 customers."}
-              </p>
-            </div>
-            <div className="relative">
-              <div className="overflow-hidden rounded-3xl border border-gray-200 bg-white p-[1px] shadow-lg">
-                <div className="relative overflow-hidden rounded-3xl">
-                  <img
-                    src="/images/strength/factory.jpg"
-                    alt="Factory"
-                    className="h-full w-full object-cover"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-black/5 to-transparent" />
-                </div>
-              </div>
-            </div>
+            <h2 className="mb-6 text-3xl font-bold text-gray-900">
+              {language === "zh" ? "公司介绍" : "Company Introduction"}
+            </h2>
+            <p className="mb-4 text-lg leading-relaxed text-gray-600">
+              {language === "zh"
+                ? "舟山市伟达机械有限公司是一家专业从事机筒螺杆制造的企业，拥有30年以上的行业经验。我们致力于为客户提供高品质的锥形双螺杆、平行双螺杆和单螺杆产品。"
+                : "Zhoushan Weida Machinery Co., Ltd. is a professional enterprise specializing in barrel and screw manufacturing, with over 30 years of industry experience. We are committed to providing customers with high-quality conical twin screws, parallel twin screws, and single screw products."}
+            </p>
+            <p className="mb-4 text-lg leading-relaxed text-gray-600">
+              {language === "zh"
+                ? "公司通过了ISO9001-2000质量管理体系认证，拥有先进的生产设备和专业的技术团队。我们提供上门测绘、设计、改造、定制及修复等全方位服务。"
+                : "Our company has passed ISO9001-2000 quality management system certification, with advanced production equipment and a professional technical team. We provide comprehensive services including on-site surveying, design, modification, customization, and repair."}
+            </p>
+            <p className="text-lg leading-relaxed text-gray-600">
+              {language === "zh"
+                ? "产品远销海内外，赢得了500多家客户的信赖与支持。"
+                : "Our products are exported worldwide, winning trust and support of over 500 customers."}
+            </p>
           </motion.div>
         </div>
-      </section>
+      </section> */}
 
       {/* Key Strength Section - 四大特色服务 */}
       <section className="py-16 lg:py-24 bg-white">

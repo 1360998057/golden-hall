@@ -23,7 +23,7 @@ export const productCategories: ProductCategory[] = [
     id: "2",
     name: {
       zh: "注塑机螺杆/机筒",
-      en: "Injection Screw Barrel"
+      en: "Injection Molding Machine Screw/Barrel"
     },
     icon: "🔧"
   },
@@ -31,7 +31,7 @@ export const productCategories: ProductCategory[] = [
     id: "3",
     name: {
       zh: "挤出机螺杆/机筒",
-      en: "Extruder Screw Barrel"
+      en: "Extruder Screw/Barrel"
     },
     icon: "⚙️"
   },
@@ -39,7 +39,7 @@ export const productCategories: ProductCategory[] = [
     id: "4",
     name: {
       zh: "平行双机筒/螺杆",
-      en: "Parallel Twin Screw Barrel"
+      en: "Parallel Twin Screw/Barrel"
     },
     icon: "🔄"
   },
@@ -47,7 +47,7 @@ export const productCategories: ProductCategory[] = [
     id: "5",
     name: {
       zh: "锥形双机筒/螺杆",
-      en: "Conical Twin Screw Barrel"
+      en: "Conical Twin Screw/Barrel"
     },
     icon: "🔺"
   },
@@ -55,7 +55,7 @@ export const productCategories: ProductCategory[] = [
     id: "8",
     name: {
       zh: "橡胶机机筒/螺杆",
-      en: "Rubber Screw Barrel"
+      en: "Rubber Machine Screw/Barrel"
     },
     icon: "🛞"
   },
@@ -63,7 +63,7 @@ export const productCategories: ProductCategory[] = [
     id: "9",
     name: {
       zh: "造粒机螺杆/机筒",
-      en: "Pelletizer Screw Barrel"
+      en: "Pelletizer Screw/Barrel"
     },
     icon: "🔩"
   },
@@ -71,7 +71,7 @@ export const productCategories: ProductCategory[] = [
     id: "13",
     name: {
       zh: "不锈钢螺杆机筒",
-      en: "Stainless Steel Screw Barrel"
+      en: "Stainless Steel Screw & Barrel"
     },
     icon: "🛡️"
   }

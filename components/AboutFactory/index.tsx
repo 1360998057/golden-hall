@@ -27,13 +27,13 @@ const AboutFactory = () => {
 
           {/* Image */}
           <div className="relative">
-            <div className="aspect-[4/3] rounded-lg shadow-lg overflow-hidden relative">
+            <div className="rounded-lg shadow-lg overflow-hidden relative h-auto">
               <Image
-                src="/images/挤出机螺杆.jpg"
+                src="/images/banner-bg.png"
                 alt={t("about.factoryTitle")}
-                fill
-                className="object-cover"
-                sizes="(max-width: 1024px) 100vw, 50vw"
+                width={800}
+                height={600}
+                className="w-full h-auto object-contain"
               />
             </div>
           </div>

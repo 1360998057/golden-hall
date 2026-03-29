@@ -32,49 +32,49 @@ const menuData: Menu[] = [
       {
         id: 32,
         title: "注塑机螺杆/机筒",
-        titleEn: "Injection Screw Barrel",
+        titleEn: "Injection Molding Machine Screw/Barrel",
         path: "/products?category=2",
         newTab: false
       },
       {
         id: 33,
         title: "挤出机螺杆/机筒",
-        titleEn: "Extruder Screw Barrel",
+        titleEn: "Extruder Screw/Barrel",
         path: "/products?category=3",
         newTab: false
       },
       {
         id: 34,
         title: "平行双机筒/螺杆",
-        titleEn: "Parallel Twin Screw Barrel",
+        titleEn: "Parallel Twin Screw/Barrel",
         path: "/products?category=4",
         newTab: false
       },
       {
         id: 35,
         title: "锥形双机筒/螺杆",
-        titleEn: "Conical Twin Screw Barrel",
+        titleEn: "Conical Twin Screw/Barrel",
         path: "/products?category=5",
         newTab: false
       },
       {
         id: 36,
         title: "橡胶机机筒/螺杆",
-        titleEn: "Rubber Screw Barrel",
+        titleEn: "Rubber Machine Screw/Barrel",
         path: "/products?category=8",
         newTab: false
       },
       {
         id: 37,
         title: "造粒机螺杆/机筒",
-        titleEn: "Pelletizer Screw Barrel",
+        titleEn: "Pelletizer Screw/Barrel",
         path: "/products?category=9",
         newTab: false
       },
       {
         id: 38,
         title: "不锈钢螺杆机筒",
-        titleEn: "Stainless Steel Screw Barrel",
+        titleEn: "Stainless Steel Screw & Barrel",
         path: "/products?category=13",
         newTab: false
       }
