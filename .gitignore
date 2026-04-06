@@ -32,6 +32,9 @@ yarn-error.log*
 .env*.local
 .env
 
+# Cloudflare local dev vars
+.dev.vars
+
 # vercel
 .vercel
 .vercel

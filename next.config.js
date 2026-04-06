@@ -1,18 +1,20 @@
 /** @type {import('next').NextConfig} */
 
+const isProduction = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
   reactStrictMode: true,
-  // 优化构建性能
-  swcMinify: true,
   // 实验性功能
   experimental: {
     optimizeCss: true,
   },
+  // 仅在生产环境启用静态导出
+  ...(isProduction && {
+    output: 'export',
+    trailingSlash: true,
+  }),
   images: {
-    domains: [
-      'localhost',
-      'cdn.sanity.io',
-    ],
+    unoptimized: true, // Cloudflare Pages 静态导出需要
     remotePatterns: [
       {
         protocol: "https",

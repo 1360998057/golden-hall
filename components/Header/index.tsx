@@ -31,23 +31,28 @@ const Header = () => {
   // 平滑滚动到锚点
   const scrollToAnchor = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     if (href.startsWith('/#')) {
-      e.preventDefault();
       const targetId = href.substring(2);
-      const targetElement = document.getElementById(targetId);
-      
-      if (targetElement) {
-        const headerOffset = 80; // Header高度
-        const elementPosition = targetElement.getBoundingClientRect().top;
-        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: 'smooth'
-        });
-        
-        // 更新URL但不触发跳转
-        window.history.pushState(null, '', href);
+      // 如果在首页，平滑滚动
+      if (pathUrl === '/') {
+        e.preventDefault();
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+          const headerOffset = 80; // Header高度
+          const elementPosition = targetElement.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+
+          // 更新URL但不触发跳转
+          window.history.pushState(null, '', href);
+        }
       }
+      // 如果不在首页，不阻止默认行为，让链接正常跳转到首页
     }
   };
 
@@ -131,7 +136,6 @@ const Header = () => {
 
           {/* Desktop Actions */}
           <div className="hidden lg:flex items-center gap-3">
-            <ThemeToggler />
             <button
               onClick={() => setLanguage(language === "en" ? "zh" : "en")}
               className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-slate-600 hover:text-blue-600 border border-slate-200 hover:border-blue-300 rounded-lg transition-all hover:shadow-md"
