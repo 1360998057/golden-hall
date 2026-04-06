@@ -8,11 +8,8 @@ const nextConfig = {
   experimental: {
     optimizeCss: true,
   },
-  // 仅在生产环境启用静态导出
-  ...(isProduction && {
-    output: 'export',
-    trailingSlash: true,
-  }),
+  // OpenNext Cloudflare 需要 standalone 输出
+  output: 'standalone',
   images: {
     unoptimized: true, // Cloudflare Pages 静态导出需要
     remotePatterns: [
