@@ -4,10 +4,6 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
   reactStrictMode: true,
-  // 实验性功能
-  experimental: {
-    optimizeCss: true,
-  },
   // OpenNext Cloudflare 需要 standalone 输出
   output: 'standalone',
   images: {
