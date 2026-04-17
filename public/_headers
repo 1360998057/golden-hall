@@ -1,0 +1,16 @@
+# Cloudflare Pages Headers 配置
+# https://developers.cloudflare.com/pages/platform/headers
+
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+
+# 静态资源缓存
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# 图片缓存
+/images/*
+  Cache-Control: public, max-age=31536000, immutable

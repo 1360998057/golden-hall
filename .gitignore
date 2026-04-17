@@ -35,7 +35,10 @@ yarn-error.log*
 # Cloudflare local dev vars
 .dev.vars
 
+# OpenNext
+.open-next/
+.wrangler/
+
 # vercel
-.vercel
 .vercel
 .env*.local
