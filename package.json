@@ -12,12 +12,13 @@
     "deploy": "npx opennextjs-cloudflare build && npx opennextjs-cloudflare deploy"
   },
   "dependencies": {
-    "framer-motion": "^12.0.6",
+    "framer-motion": "^12.38.0",
     "next": "16.0.11",
     "next-themes": "^0.2.1",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
     "react-hot-toast": "^2.4.1",
+    "styled-jsx": "^5.1.7",
     "swiper": "^12.0.3",
     "zustand": "^5.0.9"
   },
