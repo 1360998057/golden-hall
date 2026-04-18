@@ -11,8 +11,9 @@ export async function generateStaticParams() {
 }
 
 // 产品详情页面 - 服务器组件
-const ProductDetailPage = ({ params }: { params: { id: string } }) => {
-  const product = products.find((item) => item.id === params.id);
+const ProductDetailPage = async ({ params }: { params: Promise<{ id: string }> }) => {
+  const { id } = await params;
+  const product = products.find((item) => item.id === id);
 
   if (!product) {
     return (

@@ -40,7 +40,7 @@ const ProductDetailClient = ({ product }: ProductDetailClientProps) => {
 
           <div className="mt-6 grid gap-10 lg:grid-cols-2">
             <div className="relative overflow-hidden rounded-3xl border border-slate-200/50 bg-white/80 backdrop-blur-sm p-[1px] shadow-xl">
-              <div className="relative aspect-[4/3] overflow-hidden rounded-3xl bg-gradient-to-br from-slate-100 to-slate-200">
+              <div className="relative aspect-[4/3] overflow-hidden rounded-3xl bg-white">
                 {product.image ? (
                   <Image
                     src={product.image}
@@ -54,7 +54,7 @@ const ProductDetailClient = ({ product }: ProductDetailClientProps) => {
                     No Image
                   </div>
                 )}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+
               </div>
             </div>
 

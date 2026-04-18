@@ -44,18 +44,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "165",
         "title": {
             "zh": "平行双机筒/螺杆",
-            "en": "平行双机筒/螺杆"
+            "en": "Parallel Twin Barrel and Screw"
         },
         "categoryId": "4",
         "categoryName": {
             "zh": "平行双机筒/螺杆",
-            "en": "平行双机筒/螺杆"
+            "en": "Parallel Twin Barrel and Screw"
         },
         "image": "/images/products/20140523091522172.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ45/2mm - Φ220/2mm 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 整体硬化；工艺 4：9Cr18Mov 精加工",
-            "en": "Specification: 规格范围：Φ45/2mm - Φ220/2mm Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 整体硬化；工艺 4：9Cr18Mov 精加工"
+            "zh": "规格：Spec Range: Φ45/2mm - Φ220/2mm Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Through Hardening；Process 4: 9Cr18Mov Precision Finishing",
+            "en": "Specification: Spec Range: Φ45/2mm - Φ220/2mm Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Through Hardening；Process 4: 9Cr18Mov Precision Finishing"
         },
         "specification": {
             "zh": {
@@ -72,7 +72,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -92,7 +92,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -114,7 +114,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 整体硬化",
+                    "zh": "SKD61 Through Hardening",
                     "en": "SKD61 Through-Hardening"
                 },
                 "parameters": {
@@ -136,7 +136,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -168,7 +168,7 @@ const rawProducts: ProductItemRaw[] = [
     "image": "/images/products/20140523095412175.jpg",
     "date": "",
     "description": {
-        "zh": "规格：规格范围：Φ45/2mm- Φ220/2mm 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 整体硬化；工艺 4：9Cr18Mov 精加工",
+        "zh": "规格：Spec Range: Φ45/2mm- Φ220/2mm Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Through Hardening；Process 4: 9Cr18Mov Precision Finishing",
         "en": "Specification: Range: Φ45/2mm- Φ220/2mm Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment; Process 2: 42CrMo Electroplating Process; Process 3: SKD61 Through-Hardening; Process 4: 9Cr18Mov Precision Machining"
     },
     "specification": {
@@ -186,7 +186,7 @@ const rawProducts: ProductItemRaw[] = [
                 "en": "Process 1"
             },
             "material": {
-                "zh": "38CrMoALA 氮化处理",
+                "zh": "38CrMoALA Nitriding Treatment",
                 "en": "38CrMoALA Nitriding Treatment"
             },
             "parameters": {
@@ -206,7 +206,7 @@ const rawProducts: ProductItemRaw[] = [
                 "en": "Process 2"
             },
             "material": {
-                "zh": "42CrMo 电镀工艺",
+                "zh": "42CrMo Electroplating",
                 "en": "42CrMo Electroplating Process"
             },
             "parameters": {
@@ -228,7 +228,7 @@ const rawProducts: ProductItemRaw[] = [
                 "en": "Process 3"
             },
             "material": {
-                "zh": "SKD61 整体硬化",
+                "zh": "SKD61 Through Hardening",
                 "en": "SKD61 Through-Hardening"
             },
             "parameters": {
@@ -250,7 +250,7 @@ const rawProducts: ProductItemRaw[] = [
                 "en": "Process 4"
             },
             "material": {
-                "zh": "9Cr18Mov 精加工",
+                "zh": "9Cr18Mov Precision Finishing",
                 "en": "9Cr18Mov Precision Machining"
             },
             "parameters": {
@@ -272,18 +272,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "167",
         "title": {
             "zh": "注塑机螺杆/机筒",
-            "en": "注塑机螺杆与机筒"
+            "en": "Injection Molding Screw and Barrel"
         },
         "categoryId": "2",
         "categoryName": {
             "zh": "注塑机螺杆/机筒",
-            "en": "注塑机螺杆/机筒"
+            "en": "Injection Molding Machine Screw and Barrel"
         },
         "image": "/images/products/20140523100209509.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ20mm - Φ220mm；锁模力：100KN - 35000KN；射胶量：30g - 30000g 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标",
-            "en": "Specification: 规格范围：Φ20mm - Φ220mm；锁模力：100KN - 35000KN；射胶量：30g - 30000g Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标"
+            "zh": "规格：Spec Range: Φ20mm - Φ220mm；Clamping Force: 100KN - 35000KN；Shot Capacity: 30g - 30000g Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification",
+            "en": "Specification: Spec Range: Φ20mm - Φ220mm；Clamping Force: 100KN - 35000KN；Shot Capacity: 30g - 30000g Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification"
         },
         "specification": {
             "zh": {
@@ -304,7 +304,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -324,7 +324,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -346,7 +346,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -368,7 +368,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -390,7 +390,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Technical Index 5"
                 },
                 "material": {
-                    "zh": "电镀硬铬技术指标",
+                    "zh": "Hard Chrome Plating Specification",
                     "en": "Hard Chrome Plating"
                 },
                 "parameters": {
@@ -399,7 +399,7 @@ const rawProducts: ProductItemRaw[] = [
                         "镀层硬度": "HV≥960"
                     },
                     "en": {
-                        "镀层厚度": "Coating thickness 0.05-0.10mm",
+                        "Coating Thickness": "Coating Thickness 0.05-0.10mm",
                         "Coating Hardness": "HV≥960"
                     }
                 }
@@ -410,18 +410,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "168",
         "title": {
             "zh": "注塑机螺杆/机筒",
-            "en": "螺杆附件"
+            "en": "Screw Accessories and Fittings"
         },
         "categoryId": "2",
         "categoryName": {
             "zh": "注塑机螺杆/机筒",
-            "en": "注塑机螺杆/机筒"
+            "en": "Injection Molding Machine Screw and Barrel"
         },
         "image": "/images/products/20140525075341851.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ20mm - Φ220mm；锁模力：100KN - 35000KN；射胶量：30g - 30000g 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标",
-            "en": "Specification: 规格范围：Φ20mm - Φ220mm；锁模力：100KN - 35000KN；射胶量：30g - 30000g Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标"
+            "zh": "规格：Spec Range: Φ20mm - Φ220mm；Clamping Force: 100KN - 35000KN；Shot Capacity: 30g - 30000g Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification",
+            "en": "Specification: Spec Range: Φ20mm - Φ220mm；Clamping Force: 100KN - 35000KN；Shot Capacity: 30g - 30000g Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification"
         },
         "specification": {
             "zh": {
@@ -442,7 +442,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -462,7 +462,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -484,7 +484,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -506,7 +506,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -528,7 +528,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Technical Index 5"
                 },
                 "material": {
-                    "zh": "电镀硬铬技术指标",
+                    "zh": "Hard Chrome Plating Specification",
                     "en": "Hard Chrome Plating"
                 },
                 "parameters": {
@@ -537,7 +537,7 @@ const rawProducts: ProductItemRaw[] = [
                         "镀层硬度": "HV≥960"
                     },
                     "en": {
-                        "镀层厚度": "Coating thickness 0.05-0.10mm",
+                        "Coating Thickness": "Coating Thickness 0.05-0.10mm",
                         "Coating Hardness": "HV≥960"
                     }
                 }
@@ -548,18 +548,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "171",
         "title": {
             "zh": "锥形双机筒/螺杆",
-            "en": "锥形双螺杆"
+            "en": "Conical Twin Screw Assembly"
         },
         "categoryId": "5",
         "categoryName": {
             "zh": "锥形双机筒/螺杆",
-            "en": "锥形双机筒/螺杆"
+            "en": "Conical Twin Barrel and Screw"
         },
         "image": "/images/products/20140525083058294.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ45/90mm- Φ92/188mm 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工",
-            "en": "Specification: 规格范围：Φ45/90mm- Φ92/188mm Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工"
+            "zh": "规格：Spec Range: Φ45/90mm- Φ92/188mm Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing",
+            "en": "Specification: Spec Range: Φ45/90mm- Φ92/188mm Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing"
         },
         "specification": {
             "zh": {
@@ -576,7 +576,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -596,7 +596,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -618,7 +618,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -640,7 +640,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -662,22 +662,22 @@ const rawProducts: ProductItemRaw[] = [
         "id": "172",
         "title": {
             "zh": "橡胶机机筒/螺杆",
-            "en": "橡塑螺杆、机筒"
+            "en": "Rubber and Plastic Screw and Barrel"
         },
         "categoryId": "8",
         "categoryName": {
             "zh": "橡胶机机筒/螺杆",
-            "en": "橡胶机机筒/螺杆"
+            "en": "Rubber Machine Barrel and Screw"
         },
         "image": "/images/products/20140525083337955.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：销钉螺杆、机筒规格：Φ75mm - Φ200mm；冷、热喂料螺杆规格：Φ65mm - Φ650mm 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工",
-            "en": "Specification: 规格范围：销钉螺杆、机筒规格：Φ75mm - Φ200mm；冷、热喂料螺杆规格：Φ65mm - Φ650mm Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工"
+            "zh": "规格：Spec Range: Pin Screw and Barrel Spec: Φ75mm - Φ200mm；Cold/Hot Feed Screw Spec: Φ65mm - Φ650mm Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing",
+            "en": "Specification: Spec Range: Pin Screw and Barrel Spec: Φ75mm - Φ200mm；Cold/Hot Feed Screw Spec: Φ65mm - Φ650mm Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing"
         },
         "specification": {
             "zh": {
-                "规格范围": "销钉螺杆、机筒规格：Φ75mm - Φ200mm",
+                "规格范围": "Pin Screw and Barrel Spec: Φ75mm - Φ200mm",
                 "冷、热喂料螺杆规格": "Φ65mm - Φ650mm"
             },
             "en": {
@@ -692,7 +692,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -712,7 +712,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -734,7 +734,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -756,7 +756,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -778,7 +778,7 @@ const rawProducts: ProductItemRaw[] = [
         "id": "90",
         "title": {
             "zh": "锥形双螺杆",
-            "en": "锥形双螺杆"
+            "en": "Conical Twin Screw Assembly"
         },
         "categoryId": "",
         "categoryName": {
@@ -801,18 +801,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "92",
         "title": {
             "zh": "平行双机筒/螺杆",
-            "en": "平行双螺杆"
+            "en": "Parallel Twin Screw Assembly"
         },
         "categoryId": "4",
         "categoryName": {
             "zh": "平行双机筒/螺杆",
-            "en": "平行双机筒/螺杆"
+            "en": "Parallel Twin Barrel and Screw"
         },
         "image": "/images/products/20130408205429184.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ45/2mm - Φ200/2mm 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工",
-            "en": "Specification: 规格范围：Φ45/2mm - Φ200/2mm Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工"
+            "zh": "规格：Spec Range: Φ45/2mm - Φ200/2mm Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing",
+            "en": "Specification: Spec Range: Φ45/2mm - Φ200/2mm Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing"
         },
         "specification": {
             "zh": {
@@ -829,7 +829,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -849,7 +849,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -871,7 +871,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -893,7 +893,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -915,18 +915,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "93",
         "title": {
             "zh": "平行双机筒/螺杆",
-            "en": "平行双螺杆"
+            "en": "Parallel Twin Screw Assembly"
         },
         "categoryId": "4",
         "categoryName": {
             "zh": "平行双机筒/螺杆",
-            "en": "平行双机筒/螺杆"
+            "en": "Parallel Twin Barrel and Screw"
         },
         "image": "/images/products/20130408205448844.gif",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ45/2mm - Φ200/2mm 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工",
-            "en": "Specification: 规格范围：Φ45/2mm - Φ200/2mm Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工"
+            "zh": "规格：Spec Range: Φ45/2mm - Φ200/2mm Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing",
+            "en": "Specification: Spec Range: Φ45/2mm - Φ200/2mm Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing"
         },
         "specification": {
             "zh": {
@@ -943,7 +943,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -963,7 +963,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -985,7 +985,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -1007,7 +1007,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -1029,18 +1029,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "94",
         "title": {
             "zh": "平行双机筒/螺杆",
-            "en": "平行双螺杆"
+            "en": "Parallel Twin Screw Assembly"
         },
         "categoryId": "4",
         "categoryName": {
             "zh": "平行双机筒/螺杆",
-            "en": "平行双机筒/螺杆"
+            "en": "Parallel Twin Barrel and Screw"
         },
         "image": "/images/products/20130408205506971.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ45/2mm - Φ200/2mm 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工",
-            "en": "Specification: 规格范围：Φ45/2mm - Φ200/2mm Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工"
+            "zh": "规格：Spec Range: Φ45/2mm - Φ200/2mm Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing",
+            "en": "Specification: Spec Range: Φ45/2mm - Φ200/2mm Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing"
         },
         "specification": {
             "zh": {
@@ -1057,7 +1057,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -1077,7 +1077,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -1099,7 +1099,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -1121,7 +1121,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -1143,18 +1143,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "95",
         "title": {
             "zh": "平行双机筒/螺杆",
-            "en": "平行双螺杆"
+            "en": "Parallel Twin Screw Assembly"
         },
         "categoryId": "4",
         "categoryName": {
             "zh": "平行双机筒/螺杆",
-            "en": "平行双机筒/螺杆"
+            "en": "Parallel Twin Barrel and Screw"
         },
         "image": "/images/products/20130408205522155.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ45/2mm - Φ200/2mm 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工",
-            "en": "Specification: 规格范围：Φ45/2mm - Φ200/2mm Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工"
+            "zh": "规格：Spec Range: Φ45/2mm - Φ200/2mm Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing",
+            "en": "Specification: Spec Range: Φ45/2mm - Φ200/2mm Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing"
         },
         "specification": {
             "zh": {
@@ -1171,7 +1171,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -1191,7 +1191,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -1213,7 +1213,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -1235,7 +1235,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -1257,18 +1257,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "96",
         "title": {
             "zh": "平行双机筒/螺杆",
-            "en": "平行双螺杆"
+            "en": "Parallel Twin Screw Assembly"
         },
         "categoryId": "4",
         "categoryName": {
             "zh": "平行双机筒/螺杆",
-            "en": "平行双机筒/螺杆"
+            "en": "Parallel Twin Barrel and Screw"
         },
         "image": "/images/products/20130408205539610.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ45/2mm - Φ200/2mm 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工",
-            "en": "Specification: 规格范围：Φ45/2mm - Φ200/2mm Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工"
+            "zh": "规格：Spec Range: Φ45/2mm - Φ200/2mm Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing",
+            "en": "Specification: Spec Range: Φ45/2mm - Φ200/2mm Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing"
         },
         "specification": {
             "zh": {
@@ -1285,7 +1285,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -1305,7 +1305,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -1327,7 +1327,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -1349,7 +1349,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -1371,18 +1371,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "97",
         "title": {
             "zh": "平行双机筒/螺杆",
-            "en": "平行双螺杆"
+            "en": "Parallel Twin Screw Assembly"
         },
         "categoryId": "4",
         "categoryName": {
             "zh": "平行双机筒/螺杆",
-            "en": "平行双机筒/螺杆"
+            "en": "Parallel Twin Barrel and Screw"
         },
         "image": "/images/products/20130408205556870.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ45/2mm - Φ200/2mm 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工",
-            "en": "Specification: 规格范围：Φ45/2mm - Φ200/2mm Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工"
+            "zh": "规格：Spec Range: Φ45/2mm - Φ200/2mm Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing",
+            "en": "Specification: Spec Range: Φ45/2mm - Φ200/2mm Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing"
         },
         "specification": {
             "zh": {
@@ -1399,7 +1399,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -1419,7 +1419,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -1441,7 +1441,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -1463,7 +1463,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -1485,18 +1485,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "98",
         "title": {
             "zh": "锥形双机筒/螺杆",
-            "en": "锥形双螺杆"
+            "en": "Conical Twin Screw Assembly"
         },
         "categoryId": "5",
         "categoryName": {
             "zh": "锥形双机筒/螺杆",
-            "en": "锥形双机筒/螺杆"
+            "en": "Conical Twin Barrel and Screw"
         },
         "image": "/images/products/20130408205612868.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ45/90mm- Φ92/188mm 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工",
-            "en": "Specification: 规格范围：Φ45/90mm- Φ92/188mm Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工"
+            "zh": "规格：Spec Range: Φ45/90mm- Φ92/188mm Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing",
+            "en": "Specification: Spec Range: Φ45/90mm- Φ92/188mm Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing"
         },
         "specification": {
             "zh": {
@@ -1513,7 +1513,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -1533,7 +1533,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -1555,7 +1555,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -1577,7 +1577,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -1599,18 +1599,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "99",
         "title": {
             "zh": "平行双机筒/螺杆",
-            "en": "平行双螺杆"
+            "en": "Parallel Twin Screw Assembly"
         },
         "categoryId": "4",
         "categoryName": {
             "zh": "平行双机筒/螺杆",
-            "en": "平行双机筒/螺杆"
+            "en": "Parallel Twin Barrel and Screw"
         },
         "image": "/images/products/20130408205629899.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ45/2mm - Φ200/2mm 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工",
-            "en": "Specification: 规格范围：Φ45/2mm - Φ200/2mm Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工"
+            "zh": "规格：Spec Range: Φ45/2mm - Φ200/2mm Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing",
+            "en": "Specification: Spec Range: Φ45/2mm - Φ200/2mm Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing"
         },
         "specification": {
             "zh": {
@@ -1627,7 +1627,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -1647,7 +1647,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -1669,7 +1669,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -1691,7 +1691,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -1713,22 +1713,22 @@ const rawProducts: ProductItemRaw[] = [
         "id": "100",
         "title": {
             "zh": "橡胶机机筒/螺杆",
-            "en": "橡胶螺杆、机筒"
+            "en": "Rubber Extruder Screw and Barrel"
         },
         "categoryId": "8",
         "categoryName": {
             "zh": "橡胶机机筒/螺杆",
-            "en": "橡胶机机筒/螺杆"
+            "en": "Rubber Machine Barrel and Screw"
         },
         "image": "/images/products/20130408205755790.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：销钉螺杆、机筒规格：Φ75mm - Φ200mm；冷、热喂料螺杆规格：Φ65mm - Φ650mm 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工",
-            "en": "Specification: 规格范围：销钉螺杆、机筒规格：Φ75mm - Φ200mm；冷、热喂料螺杆规格：Φ65mm - Φ650mm Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工"
+            "zh": "规格：Spec Range: Pin Screw and Barrel Spec: Φ75mm - Φ200mm；Cold/Hot Feed Screw Spec: Φ65mm - Φ650mm Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing",
+            "en": "Specification: Spec Range: Pin Screw and Barrel Spec: Φ75mm - Φ200mm；Cold/Hot Feed Screw Spec: Φ65mm - Φ650mm Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing"
         },
         "specification": {
             "zh": {
-                "规格范围": "销钉螺杆、机筒规格：Φ75mm - Φ200mm",
+                "规格范围": "Pin Screw and Barrel Spec: Φ75mm - Φ200mm",
                 "冷、热喂料螺杆规格": "Φ65mm - Φ650mm"
             },
             "en": {
@@ -1743,7 +1743,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -1763,7 +1763,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -1785,7 +1785,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -1807,7 +1807,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -1829,22 +1829,22 @@ const rawProducts: ProductItemRaw[] = [
         "id": "101",
         "title": {
             "zh": "橡胶机机筒/螺杆",
-            "en": "橡胶螺杆、机筒"
+            "en": "Rubber Extruder Screw and Barrel"
         },
         "categoryId": "8",
         "categoryName": {
             "zh": "橡胶机机筒/螺杆",
-            "en": "橡胶机机筒/螺杆"
+            "en": "Rubber Machine Barrel and Screw"
         },
         "image": "/images/products/20130408205832479.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：销钉螺杆、机筒规格：Φ75mm - Φ200mm；冷、热喂料螺杆规格：Φ65mm - Φ650mm 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工",
-            "en": "Specification: 规格范围：销钉螺杆、机筒规格：Φ75mm - Φ200mm；冷、热喂料螺杆规格：Φ65mm - Φ650mm Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工"
+            "zh": "规格：Spec Range: Pin Screw and Barrel Spec: Φ75mm - Φ200mm；Cold/Hot Feed Screw Spec: Φ65mm - Φ650mm Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing",
+            "en": "Specification: Spec Range: Pin Screw and Barrel Spec: Φ75mm - Φ200mm；Cold/Hot Feed Screw Spec: Φ65mm - Φ650mm Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing"
         },
         "specification": {
             "zh": {
-                "规格范围": "销钉螺杆、机筒规格：Φ75mm - Φ200mm",
+                "规格范围": "Pin Screw and Barrel Spec: Φ75mm - Φ200mm",
                 "冷、热喂料螺杆规格": "Φ65mm - Φ650mm"
             },
             "en": {
@@ -1859,7 +1859,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -1879,7 +1879,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -1901,7 +1901,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -1923,7 +1923,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -1945,18 +1945,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "104",
         "title": {
             "zh": "注塑机螺杆/机筒",
-            "en": "注塑机螺杆、机筒"
+            "en": "Injection Molding Screw and Barrel"
         },
         "categoryId": "2",
         "categoryName": {
             "zh": "注塑机螺杆/机筒",
-            "en": "注塑机螺杆/机筒"
+            "en": "Injection Molding Machine Screw and Barrel"
         },
         "image": "/images/products/20130408210028389.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ20mm - Φ220mm；锁模力：100KN - 35000KN；射胶量：30g - 30000g 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标",
-            "en": "Specification: 规格范围：Φ20mm - Φ220mm；锁模力：100KN - 35000KN；射胶量：30g - 30000g Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标"
+            "zh": "规格：Spec Range: Φ20mm - Φ220mm；Clamping Force: 100KN - 35000KN；Shot Capacity: 30g - 30000g Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification",
+            "en": "Specification: Spec Range: Φ20mm - Φ220mm；Clamping Force: 100KN - 35000KN；Shot Capacity: 30g - 30000g Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification"
         },
         "specification": {
             "zh": {
@@ -1977,7 +1977,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -1997,7 +1997,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -2019,7 +2019,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -2041,7 +2041,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -2063,7 +2063,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Technical Index 5"
                 },
                 "material": {
-                    "zh": "电镀硬铬技术指标",
+                    "zh": "Hard Chrome Plating Specification",
                     "en": "Hard Chrome Plating"
                 },
                 "parameters": {
@@ -2072,7 +2072,7 @@ const rawProducts: ProductItemRaw[] = [
                         "镀层硬度": "HV≥960"
                     },
                     "en": {
-                        "镀层厚度": "Coating thickness 0.05-0.10mm",
+                        "Coating Thickness": "Coating Thickness 0.05-0.10mm",
                         "Coating Hardness": "HV≥960"
                     }
                 }
@@ -2083,18 +2083,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "105",
         "title": {
             "zh": "挤出机螺杆/机筒",
-            "en": "挤出机螺杆、机筒"
+            "en": "Extruder Screw and Barrel"
         },
         "categoryId": "3",
         "categoryName": {
             "zh": "挤出机螺杆/机筒",
-            "en": "挤出机螺杆/机筒"
+            "en": "Extruder Screw and Barrel"
         },
         "image": "/images/products/20130408210058464.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ20mm - Φ300mm；长径比 L/D=15-65 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标",
-            "en": "Specification: 规格范围：Φ20mm - Φ300mm；长径比 L/D=15-65 Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标"
+            "zh": "规格：Spec Range: Φ20mm - Φ300mm；长径比 L/D=15-65 Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification",
+            "en": "Specification: Spec Range: Φ20mm - Φ300mm; L/D Ratio L/D=15-65 Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification"
         },
         "specification": {
             "zh": {
@@ -2111,7 +2111,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -2131,7 +2131,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -2153,7 +2153,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -2175,7 +2175,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -2197,7 +2197,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Technical Index 5"
                 },
                 "material": {
-                    "zh": "电镀硬铬技术指标",
+                    "zh": "Hard Chrome Plating Specification",
                     "en": "Hard Chrome Plating"
                 },
                 "parameters": {
@@ -2206,7 +2206,7 @@ const rawProducts: ProductItemRaw[] = [
                         "镀层硬度": "HV≥960"
                     },
                     "en": {
-                        "镀层厚度": "Coating thickness 0.05-0.10mm",
+                        "Coating Thickness": "Coating Thickness 0.05-0.10mm",
                         "Coating Hardness": "HV≥960"
                     }
                 }
@@ -2217,18 +2217,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "106",
         "title": {
             "zh": "注塑机螺杆/机筒",
-            "en": "注塑机螺杆、机筒"
+            "en": "Injection Molding Screw and Barrel"
         },
         "categoryId": "2",
         "categoryName": {
             "zh": "注塑机螺杆/机筒",
-            "en": "注塑机螺杆/机筒"
+            "en": "Injection Molding Machine Screw and Barrel"
         },
         "image": "/images/products/20130408210124349.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ20mm - Φ220mm；锁模力：100KN - 35000KN；射胶量：30g - 30000g 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标",
-            "en": "Specification: 规格范围：Φ20mm - Φ220mm；锁模力：100KN - 35000KN；射胶量：30g - 30000g Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标"
+            "zh": "规格：Spec Range: Φ20mm - Φ220mm；Clamping Force: 100KN - 35000KN；Shot Capacity: 30g - 30000g Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification",
+            "en": "Specification: Spec Range: Φ20mm - Φ220mm；Clamping Force: 100KN - 35000KN；Shot Capacity: 30g - 30000g Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification"
         },
         "specification": {
             "zh": {
@@ -2249,7 +2249,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -2269,7 +2269,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -2291,7 +2291,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -2313,7 +2313,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -2335,7 +2335,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Technical Index 5"
                 },
                 "material": {
-                    "zh": "电镀硬铬技术指标",
+                    "zh": "Hard Chrome Plating Specification",
                     "en": "Hard Chrome Plating"
                 },
                 "parameters": {
@@ -2344,7 +2344,7 @@ const rawProducts: ProductItemRaw[] = [
                         "镀层硬度": "HV≥960"
                     },
                     "en": {
-                        "镀层厚度": "Coating thickness 0.05-0.10mm",
+                        "Coating Thickness": "Coating Thickness 0.05-0.10mm",
                         "Coating Hardness": "HV≥960"
                     }
                 }
@@ -2355,18 +2355,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "107",
         "title": {
             "zh": "挤出机螺杆/机筒",
-            "en": "挤出机螺杆、机筒"
+            "en": "Extruder Screw and Barrel"
         },
         "categoryId": "3",
         "categoryName": {
             "zh": "挤出机螺杆/机筒",
-            "en": "挤出机螺杆/机筒"
+            "en": "Extruder Screw and Barrel"
         },
         "image": "/images/products/20130408210148954.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ20mm - Φ300mm；长径比 L/D=15-65 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标",
-            "en": "Specification: 规格范围：Φ20mm - Φ300mm；长径比 L/D=15-65 Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标"
+            "zh": "规格：Spec Range: Φ20mm - Φ300mm；长径比 L/D=15-65 Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification",
+            "en": "Specification: Spec Range: Φ20mm - Φ300mm; L/D Ratio L/D=15-65 Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification"
         },
         "specification": {
             "zh": {
@@ -2383,7 +2383,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -2403,7 +2403,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -2425,7 +2425,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -2447,7 +2447,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -2469,7 +2469,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Technical Index 5"
                 },
                 "material": {
-                    "zh": "电镀硬铬技术指标",
+                    "zh": "Hard Chrome Plating Specification",
                     "en": "Hard Chrome Plating"
                 },
                 "parameters": {
@@ -2478,7 +2478,7 @@ const rawProducts: ProductItemRaw[] = [
                         "镀层硬度": "HV≥960"
                     },
                     "en": {
-                        "镀层厚度": "Coating thickness 0.05-0.10mm",
+                        "Coating Thickness": "Coating Thickness 0.05-0.10mm",
                         "Coating Hardness": "HV≥960"
                     }
                 }
@@ -2489,18 +2489,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "108",
         "title": {
             "zh": "挤出机螺杆/机筒",
-            "en": "挤出机螺杆、机筒"
+            "en": "Extruder Screw and Barrel"
         },
         "categoryId": "3",
         "categoryName": {
             "zh": "挤出机螺杆/机筒",
-            "en": "挤出机螺杆/机筒"
+            "en": "Extruder Screw and Barrel"
         },
         "image": "/images/products/20130408210211510.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ20mm - Φ300mm；长径比 L/D=15-65 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标",
-            "en": "Specification: 规格范围：Φ20mm - Φ300mm；长径比 L/D=15-65 Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标"
+            "zh": "规格：Spec Range: Φ20mm - Φ300mm；长径比 L/D=15-65 Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification",
+            "en": "Specification: Spec Range: Φ20mm - Φ300mm; L/D Ratio L/D=15-65 Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification"
         },
         "specification": {
             "zh": {
@@ -2517,7 +2517,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -2537,7 +2537,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -2559,7 +2559,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -2581,7 +2581,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -2603,7 +2603,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Technical Index 5"
                 },
                 "material": {
-                    "zh": "电镀硬铬技术指标",
+                    "zh": "Hard Chrome Plating Specification",
                     "en": "Hard Chrome Plating"
                 },
                 "parameters": {
@@ -2612,7 +2612,7 @@ const rawProducts: ProductItemRaw[] = [
                         "镀层硬度": "HV≥960"
                     },
                     "en": {
-                        "镀层厚度": "Coating thickness 0.05-0.10mm",
+                        "Coating Thickness": "Coating Thickness 0.05-0.10mm",
                         "Coating Hardness": "HV≥960"
                     }
                 }
@@ -2623,18 +2623,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "109",
         "title": {
             "zh": "挤出机螺杆/机筒",
-            "en": "挤出机螺杆、机筒"
+            "en": "Extruder Screw and Barrel"
         },
         "categoryId": "3",
         "categoryName": {
             "zh": "挤出机螺杆/机筒",
-            "en": "挤出机螺杆/机筒"
+            "en": "Extruder Screw and Barrel"
         },
         "image": "/images/products/20130408210230778.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ20mm - Φ300mm；长径比 L/D=15-65 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标",
-            "en": "Specification: 规格范围：Φ20mm - Φ300mm；长径比 L/D=15-65 Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标"
+            "zh": "规格：Spec Range: Φ20mm - Φ300mm；长径比 L/D=15-65 Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification",
+            "en": "Specification: Spec Range: Φ20mm - Φ300mm; L/D Ratio L/D=15-65 Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification"
         },
         "specification": {
             "zh": {
@@ -2651,7 +2651,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -2671,7 +2671,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -2693,7 +2693,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -2715,7 +2715,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -2737,7 +2737,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Technical Index 5"
                 },
                 "material": {
-                    "zh": "电镀硬铬技术指标",
+                    "zh": "Hard Chrome Plating Specification",
                     "en": "Hard Chrome Plating"
                 },
                 "parameters": {
@@ -2746,7 +2746,7 @@ const rawProducts: ProductItemRaw[] = [
                         "镀层硬度": "HV≥960"
                     },
                     "en": {
-                        "镀层厚度": "Coating thickness 0.05-0.10mm",
+                        "Coating Thickness": "Coating Thickness 0.05-0.10mm",
                         "Coating Hardness": "HV≥960"
                     }
                 }
@@ -2757,18 +2757,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "110",
         "title": {
             "zh": "注塑机螺杆/机筒",
-            "en": "注塑机螺杆、机筒"
+            "en": "Injection Molding Screw and Barrel"
         },
         "categoryId": "2",
         "categoryName": {
             "zh": "注塑机螺杆/机筒",
-            "en": "注塑机螺杆/机筒"
+            "en": "Injection Molding Machine Screw and Barrel"
         },
         "image": "/images/products/20130408210403692.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ20mm - Φ220mm；锁模力：100KN - 35000KN；射胶量：30g - 30000g 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标",
-            "en": "Specification: 规格范围：Φ20mm - Φ220mm；锁模力：100KN - 35000KN；射胶量：30g - 30000g Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标"
+            "zh": "规格：Spec Range: Φ20mm - Φ220mm；Clamping Force: 100KN - 35000KN；Shot Capacity: 30g - 30000g Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification",
+            "en": "Specification: Spec Range: Φ20mm - Φ220mm；Clamping Force: 100KN - 35000KN；Shot Capacity: 30g - 30000g Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification"
         },
         "specification": {
             "zh": {
@@ -2789,7 +2789,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -2809,7 +2809,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -2831,7 +2831,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -2853,7 +2853,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -2875,7 +2875,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Technical Index 5"
                 },
                 "material": {
-                    "zh": "电镀硬铬技术指标",
+                    "zh": "Hard Chrome Plating Specification",
                     "en": "Hard Chrome Plating"
                 },
                 "parameters": {
@@ -2884,7 +2884,7 @@ const rawProducts: ProductItemRaw[] = [
                         "镀层硬度": "HV≥960"
                     },
                     "en": {
-                        "镀层厚度": "Coating thickness 0.05-0.10mm",
+                        "Coating Thickness": "Coating Thickness 0.05-0.10mm",
                         "Coating Hardness": "HV≥960"
                     }
                 }
@@ -2895,18 +2895,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "111",
         "title": {
             "zh": "注塑机螺杆/机筒",
-            "en": "注塑机螺杆、机筒"
+            "en": "Injection Molding Screw and Barrel"
         },
         "categoryId": "2",
         "categoryName": {
             "zh": "注塑机螺杆/机筒",
-            "en": "注塑机螺杆/机筒"
+            "en": "Injection Molding Machine Screw and Barrel"
         },
         "image": "/images/products/20130408210424887.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ20mm - Φ220mm；锁模力：100KN - 35000KN；射胶量：30g - 30000g 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标",
-            "en": "Specification: 规格范围：Φ20mm - Φ220mm；锁模力：100KN - 35000KN；射胶量：30g - 30000g Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标"
+            "zh": "规格：Spec Range: Φ20mm - Φ220mm；Clamping Force: 100KN - 35000KN；Shot Capacity: 30g - 30000g Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification",
+            "en": "Specification: Spec Range: Φ20mm - Φ220mm；Clamping Force: 100KN - 35000KN；Shot Capacity: 30g - 30000g Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification"
         },
         "specification": {
             "zh": {
@@ -2927,7 +2927,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -2947,7 +2947,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -2969,7 +2969,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -2991,7 +2991,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -3013,7 +3013,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Technical Index 5"
                 },
                 "material": {
-                    "zh": "电镀硬铬技术指标",
+                    "zh": "Hard Chrome Plating Specification",
                     "en": "Hard Chrome Plating"
                 },
                 "parameters": {
@@ -3022,7 +3022,7 @@ const rawProducts: ProductItemRaw[] = [
                         "镀层硬度": "HV≥960"
                     },
                     "en": {
-                        "镀层厚度": "Coating thickness 0.05-0.10mm",
+                        "Coating Thickness": "Coating Thickness 0.05-0.10mm",
                         "Coating Hardness": "HV≥960"
                     }
                 }
@@ -3033,18 +3033,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "113",
         "title": {
             "zh": "注塑机螺杆/机筒",
-            "en": "注塑机螺杆、机筒"
+            "en": "Injection Molding Screw and Barrel"
         },
         "categoryId": "2",
         "categoryName": {
             "zh": "注塑机螺杆/机筒",
-            "en": "注塑机螺杆/机筒"
+            "en": "Injection Molding Machine Screw and Barrel"
         },
         "image": "/images/products/20130408210514926.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ20mm - Φ220mm；锁模力：100KN - 35000KN；射胶量：30g - 30000g 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标",
-            "en": "Specification: 规格范围：Φ20mm - Φ220mm；锁模力：100KN - 35000KN；射胶量：30g - 30000g Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标"
+            "zh": "规格：Spec Range: Φ20mm - Φ220mm；Clamping Force: 100KN - 35000KN；Shot Capacity: 30g - 30000g Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification",
+            "en": "Specification: Spec Range: Φ20mm - Φ220mm；Clamping Force: 100KN - 35000KN；Shot Capacity: 30g - 30000g Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification"
         },
         "specification": {
             "zh": {
@@ -3065,7 +3065,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -3085,7 +3085,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -3107,7 +3107,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -3129,7 +3129,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -3151,7 +3151,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Technical Index 5"
                 },
                 "material": {
-                    "zh": "电镀硬铬技术指标",
+                    "zh": "Hard Chrome Plating Specification",
                     "en": "Hard Chrome Plating"
                 },
                 "parameters": {
@@ -3160,7 +3160,7 @@ const rawProducts: ProductItemRaw[] = [
                         "镀层硬度": "HV≥960"
                     },
                     "en": {
-                        "镀层厚度": "Coating thickness 0.05-0.10mm",
+                        "Coating Thickness": "Coating Thickness 0.05-0.10mm",
                         "Coating Hardness": "HV≥960"
                     }
                 }
@@ -3171,22 +3171,22 @@ const rawProducts: ProductItemRaw[] = [
         "id": "114",
         "title": {
             "zh": "橡胶机机筒/螺杆",
-            "en": "橡胶螺杆、机筒"
+            "en": "Rubber Extruder Screw and Barrel"
         },
         "categoryId": "8",
         "categoryName": {
             "zh": "橡胶机机筒/螺杆",
-            "en": "橡胶机机筒/螺杆"
+            "en": "Rubber Machine Barrel and Screw"
         },
         "image": "/images/products/20130410142658829.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：销钉螺杆、机筒规格：Φ75mm - Φ200mm；冷、热喂料螺杆规格：Φ65mm - Φ650mm 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工",
-            "en": "Specification: 规格范围：销钉螺杆、机筒规格：Φ75mm - Φ200mm；冷、热喂料螺杆规格：Φ65mm - Φ650mm Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工"
+            "zh": "规格：Spec Range: Pin Screw and Barrel Spec: Φ75mm - Φ200mm；Cold/Hot Feed Screw Spec: Φ65mm - Φ650mm Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing",
+            "en": "Specification: Spec Range: Pin Screw and Barrel Spec: Φ75mm - Φ200mm；Cold/Hot Feed Screw Spec: Φ65mm - Φ650mm Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing"
         },
         "specification": {
             "zh": {
-                "规格范围": "销钉螺杆、机筒规格：Φ75mm - Φ200mm",
+                "规格范围": "Pin Screw and Barrel Spec: Φ75mm - Φ200mm",
                 "冷、热喂料螺杆规格": "Φ65mm - Φ650mm"
             },
             "en": {
@@ -3201,7 +3201,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -3221,7 +3221,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -3243,7 +3243,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -3265,7 +3265,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -3287,22 +3287,22 @@ const rawProducts: ProductItemRaw[] = [
         "id": "115",
         "title": {
             "zh": "橡胶机机筒/螺杆",
-            "en": "橡胶螺杆、机筒"
+            "en": "Rubber Extruder Screw and Barrel"
         },
         "categoryId": "8",
         "categoryName": {
             "zh": "橡胶机机筒/螺杆",
-            "en": "橡胶机机筒/螺杆"
+            "en": "Rubber Machine Barrel and Screw"
         },
         "image": "/images/products/20130410142719372.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：销钉螺杆、机筒规格：Φ75mm - Φ200mm；冷、热喂料螺杆规格：Φ65mm - Φ650mm 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工",
-            "en": "Specification: 规格范围：销钉螺杆、机筒规格：Φ75mm - Φ200mm；冷、热喂料螺杆规格：Φ65mm - Φ650mm Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工"
+            "zh": "规格：Spec Range: Pin Screw and Barrel Spec: Φ75mm - Φ200mm；Cold/Hot Feed Screw Spec: Φ65mm - Φ650mm Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing",
+            "en": "Specification: Spec Range: Pin Screw and Barrel Spec: Φ75mm - Φ200mm；Cold/Hot Feed Screw Spec: Φ65mm - Φ650mm Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing"
         },
         "specification": {
             "zh": {
-                "规格范围": "销钉螺杆、机筒规格：Φ75mm - Φ200mm",
+                "规格范围": "Pin Screw and Barrel Spec: Φ75mm - Φ200mm",
                 "冷、热喂料螺杆规格": "Φ65mm - Φ650mm"
             },
             "en": {
@@ -3317,7 +3317,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -3337,7 +3337,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -3359,7 +3359,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -3381,7 +3381,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -3403,22 +3403,22 @@ const rawProducts: ProductItemRaw[] = [
         "id": "116",
         "title": {
             "zh": "橡胶机机筒/螺杆",
-            "en": "橡胶螺杆、机筒"
+            "en": "Rubber Extruder Screw and Barrel"
         },
         "categoryId": "8",
         "categoryName": {
             "zh": "橡胶机机筒/螺杆",
-            "en": "橡胶机机筒/螺杆"
+            "en": "Rubber Machine Barrel and Screw"
         },
         "image": "/images/products/20130410142746716.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：销钉螺杆、机筒规格：Φ75mm - Φ200mm；冷、热喂料螺杆规格：Φ65mm - Φ650mm 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工",
-            "en": "Specification: 规格范围：销钉螺杆、机筒规格：Φ75mm - Φ200mm；冷、热喂料螺杆规格：Φ65mm - Φ650mm Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工"
+            "zh": "规格：Spec Range: Pin Screw and Barrel Spec: Φ75mm - Φ200mm；Cold/Hot Feed Screw Spec: Φ65mm - Φ650mm Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing",
+            "en": "Specification: Spec Range: Pin Screw and Barrel Spec: Φ75mm - Φ200mm；Cold/Hot Feed Screw Spec: Φ65mm - Φ650mm Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing"
         },
         "specification": {
             "zh": {
-                "规格范围": "销钉螺杆、机筒规格：Φ75mm - Φ200mm",
+                "规格范围": "Pin Screw and Barrel Spec: Φ75mm - Φ200mm",
                 "冷、热喂料螺杆规格": "Φ65mm - Φ650mm"
             },
             "en": {
@@ -3433,7 +3433,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -3453,7 +3453,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -3475,7 +3475,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -3497,7 +3497,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -3519,22 +3519,22 @@ const rawProducts: ProductItemRaw[] = [
         "id": "117",
         "title": {
             "zh": "橡胶机机筒/螺杆",
-            "en": "橡胶螺杆、机筒"
+            "en": "Rubber Extruder Screw and Barrel"
         },
         "categoryId": "8",
         "categoryName": {
             "zh": "橡胶机机筒/螺杆",
-            "en": "橡胶机机筒/螺杆"
+            "en": "Rubber Machine Barrel and Screw"
         },
         "image": "/images/products/20130410142810861.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：销钉螺杆、机筒规格：Φ75mm - Φ200mm；冷、热喂料螺杆规格：Φ65mm - Φ650mm 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工",
-            "en": "Specification: 规格范围：销钉螺杆、机筒规格：Φ75mm - Φ200mm；冷、热喂料螺杆规格：Φ65mm - Φ650mm Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工"
+            "zh": "规格：Spec Range: Pin Screw and Barrel Spec: Φ75mm - Φ200mm；Cold/Hot Feed Screw Spec: Φ65mm - Φ650mm Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing",
+            "en": "Specification: Spec Range: Pin Screw and Barrel Spec: Φ75mm - Φ200mm；Cold/Hot Feed Screw Spec: Φ65mm - Φ650mm Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing"
         },
         "specification": {
             "zh": {
-                "规格范围": "销钉螺杆、机筒规格：Φ75mm - Φ200mm",
+                "规格范围": "Pin Screw and Barrel Spec: Φ75mm - Φ200mm",
                 "冷、热喂料螺杆规格": "Φ65mm - Φ650mm"
             },
             "en": {
@@ -3549,7 +3549,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -3569,7 +3569,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -3591,7 +3591,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -3613,7 +3613,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -3635,18 +3635,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "87",
         "title": {
             "zh": "锥形双机筒/螺杆",
-            "en": "锥形双螺杆"
+            "en": "Conical Twin Screw Assembly"
         },
         "categoryId": "5",
         "categoryName": {
             "zh": "锥形双机筒/螺杆",
-            "en": "锥形双机筒/螺杆"
+            "en": "Conical Twin Barrel and Screw"
         },
         "image": "/images/products/20130408205143616.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ45/90mm- Φ92/188mm 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工",
-            "en": "Specification: 规格范围：Φ45/90mm- Φ92/188mm Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工"
+            "zh": "规格：Spec Range: Φ45/90mm- Φ92/188mm Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing",
+            "en": "Specification: Spec Range: Φ45/90mm- Φ92/188mm Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing"
         },
         "specification": {
             "zh": {
@@ -3663,7 +3663,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -3683,7 +3683,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -3705,7 +3705,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -3727,7 +3727,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -3749,18 +3749,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "88",
         "title": {
             "zh": "锥形双机筒/螺杆",
-            "en": "锥形双螺杆"
+            "en": "Conical Twin Screw Assembly"
         },
         "categoryId": "5",
         "categoryName": {
             "zh": "锥形双机筒/螺杆",
-            "en": "锥形双机筒/螺杆"
+            "en": "Conical Twin Barrel and Screw"
         },
         "image": "/images/products/20130408205204696.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ45/90mm- Φ92/188mm 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工",
-            "en": "Specification: 规格范围：Φ45/90mm- Φ92/188mm Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工"
+            "zh": "规格：Spec Range: Φ45/90mm- Φ92/188mm Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing",
+            "en": "Specification: Spec Range: Φ45/90mm- Φ92/188mm Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing"
         },
         "specification": {
             "zh": {
@@ -3777,7 +3777,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -3797,7 +3797,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -3819,7 +3819,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -3841,7 +3841,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -3863,18 +3863,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "89",
         "title": {
             "zh": "锥形双机筒/螺杆",
-            "en": "锥形双螺杆"
+            "en": "Conical Twin Screw Assembly"
         },
         "categoryId": "5",
         "categoryName": {
             "zh": "锥形双机筒/螺杆",
-            "en": "锥形双机筒/螺杆"
+            "en": "Conical Twin Barrel and Screw"
         },
         "image": "/images/products/20130408205221704.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ45/90mm- Φ92/188mm 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工",
-            "en": "Specification: 规格范围：Φ45/90mm- Φ92/188mm Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工"
+            "zh": "规格：Spec Range: Φ45/90mm- Φ92/188mm Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing",
+            "en": "Specification: Spec Range: Φ45/90mm- Φ92/188mm Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing"
         },
         "specification": {
             "zh": {
@@ -3891,7 +3891,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -3911,7 +3911,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -3933,7 +3933,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -3955,7 +3955,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -3977,18 +3977,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "138",
         "title": {
             "zh": "挤出机螺杆/机筒",
-            "en": "挤出机螺杆、机筒"
+            "en": "Extruder Screw and Barrel"
         },
         "categoryId": "3",
         "categoryName": {
             "zh": "挤出机螺杆/机筒",
-            "en": "挤出机螺杆/机筒"
+            "en": "Extruder Screw and Barrel"
         },
         "image": "/images/products/20130604142724371.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ20mm - Φ300mm；长径比 L/D=15-65 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标",
-            "en": "Specification: 规格范围：Φ20mm - Φ300mm；长径比 L/D=15-65 Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标"
+            "zh": "规格：Spec Range: Φ20mm - Φ300mm；长径比 L/D=15-65 Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification",
+            "en": "Specification: Spec Range: Φ20mm - Φ300mm; L/D Ratio L/D=15-65 Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification"
         },
         "specification": {
             "zh": {
@@ -4005,7 +4005,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -4025,7 +4025,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -4047,7 +4047,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -4069,7 +4069,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -4091,7 +4091,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Technical Index 5"
                 },
                 "material": {
-                    "zh": "电镀硬铬技术指标",
+                    "zh": "Hard Chrome Plating Specification",
                     "en": "Hard Chrome Plating"
                 },
                 "parameters": {
@@ -4100,7 +4100,7 @@ const rawProducts: ProductItemRaw[] = [
                         "镀层硬度": "HV≥960"
                     },
                     "en": {
-                        "镀层厚度": "Coating thickness 0.05-0.10mm",
+                        "Coating Thickness": "Coating Thickness 0.05-0.10mm",
                         "Coating Hardness": "HV≥960"
                     }
                 }
@@ -4111,18 +4111,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "139",
         "title": {
             "zh": "挤出机螺杆/机筒",
-            "en": "挤出机螺杆、机筒"
+            "en": "Extruder Screw and Barrel"
         },
         "categoryId": "3",
         "categoryName": {
             "zh": "挤出机螺杆/机筒",
-            "en": "挤出机螺杆/机筒"
+            "en": "Extruder Screw and Barrel"
         },
         "image": "/images/products/20130604142748169.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ20mm - Φ300mm；长径比 L/D=15-65 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标",
-            "en": "Specification: 规格范围：Φ20mm - Φ300mm；长径比 L/D=15-65 Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标"
+            "zh": "规格：Spec Range: Φ20mm - Φ300mm；长径比 L/D=15-65 Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification",
+            "en": "Specification: Spec Range: Φ20mm - Φ300mm; L/D Ratio L/D=15-65 Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification"
         },
         "specification": {
             "zh": {
@@ -4139,7 +4139,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -4159,7 +4159,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -4181,7 +4181,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -4203,7 +4203,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -4225,7 +4225,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Technical Index 5"
                 },
                 "material": {
-                    "zh": "电镀硬铬技术指标",
+                    "zh": "Hard Chrome Plating Specification",
                     "en": "Hard Chrome Plating"
                 },
                 "parameters": {
@@ -4234,7 +4234,7 @@ const rawProducts: ProductItemRaw[] = [
                         "镀层硬度": "HV≥960"
                     },
                     "en": {
-                        "镀层厚度": "Coating thickness 0.05-0.10mm",
+                        "Coating Thickness": "Coating Thickness 0.05-0.10mm",
                         "Coating Hardness": "HV≥960"
                     }
                 }
@@ -4245,18 +4245,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "140",
         "title": {
             "zh": "挤出机螺杆/机筒",
-            "en": "挤出机螺杆、机筒"
+            "en": "Extruder Screw and Barrel"
         },
         "categoryId": "3",
         "categoryName": {
             "zh": "挤出机螺杆/机筒",
-            "en": "挤出机螺杆/机筒"
+            "en": "Extruder Screw and Barrel"
         },
         "image": "/images/products/20130604142814564.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ20mm - Φ300mm；长径比 L/D=15-65 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标",
-            "en": "Specification: 规格范围：Φ20mm - Φ300mm；长径比 L/D=15-65 Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标"
+            "zh": "规格：Spec Range: Φ20mm - Φ300mm；长径比 L/D=15-65 Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification",
+            "en": "Specification: Spec Range: Φ20mm - Φ300mm; L/D Ratio L/D=15-65 Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification"
         },
         "specification": {
             "zh": {
@@ -4273,7 +4273,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -4293,7 +4293,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -4315,7 +4315,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -4337,7 +4337,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -4359,7 +4359,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Technical Index 5"
                 },
                 "material": {
-                    "zh": "电镀硬铬技术指标",
+                    "zh": "Hard Chrome Plating Specification",
                     "en": "Hard Chrome Plating"
                 },
                 "parameters": {
@@ -4368,7 +4368,7 @@ const rawProducts: ProductItemRaw[] = [
                         "镀层硬度": "HV≥960"
                     },
                     "en": {
-                        "镀层厚度": "Coating thickness 0.05-0.10mm",
+                        "Coating Thickness": "Coating Thickness 0.05-0.10mm",
                         "Coating Hardness": "HV≥960"
                     }
                 }
@@ -4379,18 +4379,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "141",
         "title": {
             "zh": "挤出机螺杆/机筒",
-            "en": "挤出机螺杆、机筒"
+            "en": "Extruder Screw and Barrel"
         },
         "categoryId": "3",
         "categoryName": {
             "zh": "挤出机螺杆/机筒",
-            "en": "挤出机螺杆/机筒"
+            "en": "Extruder Screw and Barrel"
         },
         "image": "/images/products/20130604142836844.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ20mm - Φ300mm；长径比 L/D=15-65 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标",
-            "en": "Specification: 规格范围：Φ20mm - Φ300mm；长径比 L/D=15-65 Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标"
+            "zh": "规格：Spec Range: Φ20mm - Φ300mm；长径比 L/D=15-65 Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification",
+            "en": "Specification: Spec Range: Φ20mm - Φ300mm; L/D Ratio L/D=15-65 Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification"
         },
         "specification": {
             "zh": {
@@ -4407,7 +4407,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -4427,7 +4427,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -4449,7 +4449,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -4471,7 +4471,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -4493,7 +4493,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Technical Index 5"
                 },
                 "material": {
-                    "zh": "电镀硬铬技术指标",
+                    "zh": "Hard Chrome Plating Specification",
                     "en": "Hard Chrome Plating"
                 },
                 "parameters": {
@@ -4502,7 +4502,7 @@ const rawProducts: ProductItemRaw[] = [
                         "镀层硬度": "HV≥960"
                     },
                     "en": {
-                        "镀层厚度": "Coating thickness 0.05-0.10mm",
+                        "Coating Thickness": "Coating Thickness 0.05-0.10mm",
                         "Coating Hardness": "HV≥960"
                     }
                 }
@@ -4513,18 +4513,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "142",
         "title": {
             "zh": "挤出机螺杆/机筒",
-            "en": "挤出机螺杆、机筒"
+            "en": "Extruder Screw and Barrel"
         },
         "categoryId": "3",
         "categoryName": {
             "zh": "挤出机螺杆/机筒",
-            "en": "挤出机螺杆/机筒"
+            "en": "Extruder Screw and Barrel"
         },
         "image": "/images/products/20130604142900818.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ20mm - Φ300mm；长径比 L/D=15-65 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标",
-            "en": "Specification: 规格范围：Φ20mm - Φ300mm；长径比 L/D=15-65 Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标"
+            "zh": "规格：Spec Range: Φ20mm - Φ300mm；长径比 L/D=15-65 Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification",
+            "en": "Specification: Spec Range: Φ20mm - Φ300mm; L/D Ratio L/D=15-65 Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification"
         },
         "specification": {
             "zh": {
@@ -4541,7 +4541,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -4561,7 +4561,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -4583,7 +4583,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -4605,7 +4605,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -4627,7 +4627,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Technical Index 5"
                 },
                 "material": {
-                    "zh": "电镀硬铬技术指标",
+                    "zh": "Hard Chrome Plating Specification",
                     "en": "Hard Chrome Plating"
                 },
                 "parameters": {
@@ -4636,7 +4636,7 @@ const rawProducts: ProductItemRaw[] = [
                         "镀层硬度": "HV≥960"
                     },
                     "en": {
-                        "镀层厚度": "Coating thickness 0.05-0.10mm",
+                        "Coating Thickness": "Coating Thickness 0.05-0.10mm",
                         "Coating Hardness": "HV≥960"
                     }
                 }
@@ -4647,18 +4647,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "143",
         "title": {
             "zh": "挤出机螺杆/机筒",
-            "en": "挤出机螺杆、机筒"
+            "en": "Extruder Screw and Barrel"
         },
         "categoryId": "3",
         "categoryName": {
             "zh": "挤出机螺杆/机筒",
-            "en": "挤出机螺杆/机筒"
+            "en": "Extruder Screw and Barrel"
         },
         "image": "/images/products/20130604142922486.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ20mm - Φ300mm；长径比 L/D=15-65 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标",
-            "en": "Specification: 规格范围：Φ20mm - Φ300mm；长径比 L/D=15-65 Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标"
+            "zh": "规格：Spec Range: Φ20mm - Φ300mm；长径比 L/D=15-65 Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification",
+            "en": "Specification: Spec Range: Φ20mm - Φ300mm; L/D Ratio L/D=15-65 Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification"
         },
         "specification": {
             "zh": {
@@ -4675,7 +4675,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -4695,7 +4695,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -4717,7 +4717,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -4739,7 +4739,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -4761,7 +4761,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Technical Index 5"
                 },
                 "material": {
-                    "zh": "电镀硬铬技术指标",
+                    "zh": "Hard Chrome Plating Specification",
                     "en": "Hard Chrome Plating"
                 },
                 "parameters": {
@@ -4770,7 +4770,7 @@ const rawProducts: ProductItemRaw[] = [
                         "镀层硬度": "HV≥960"
                     },
                     "en": {
-                        "镀层厚度": "Coating thickness 0.05-0.10mm",
+                        "Coating Thickness": "Coating Thickness 0.05-0.10mm",
                         "Coating Hardness": "HV≥960"
                     }
                 }
@@ -4781,18 +4781,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "146",
         "title": {
             "zh": "锥形双机筒/螺杆",
-            "en": "锥形双螺杆"
+            "en": "Conical Twin Screw Assembly"
         },
         "categoryId": "5",
         "categoryName": {
             "zh": "锥形双机筒/螺杆",
-            "en": "锥形双机筒/螺杆"
+            "en": "Conical Twin Barrel and Screw"
         },
         "image": "/images/products/20130604144408162.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ45/90mm- Φ92/188mm 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工",
-            "en": "Specification: 规格范围：Φ45/90mm- Φ92/188mm Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工"
+            "zh": "规格：Spec Range: Φ45/90mm- Φ92/188mm Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing",
+            "en": "Specification: Spec Range: Φ45/90mm- Φ92/188mm Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing"
         },
         "specification": {
             "zh": {
@@ -4809,7 +4809,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -4829,7 +4829,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -4851,7 +4851,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -4873,7 +4873,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -4895,18 +4895,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "148",
         "title": {
             "zh": "注塑机螺杆/机筒",
-            "en": "螺杆附件"
+            "en": "Screw Accessories and Fittings"
         },
         "categoryId": "2",
         "categoryName": {
             "zh": "注塑机螺杆/机筒",
-            "en": "注塑机螺杆/机筒"
+            "en": "Injection Molding Machine Screw and Barrel"
         },
         "image": "/images/products/20130604145110461.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ20mm - Φ220mm；锁模力：100KN - 35000KN；射胶量：30g - 30000g 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标",
-            "en": "Specification: 规格范围：Φ20mm - Φ220mm；锁模力：100KN - 35000KN；射胶量：30g - 30000g Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标"
+            "zh": "规格：Spec Range: Φ20mm - Φ220mm；Clamping Force: 100KN - 35000KN；Shot Capacity: 30g - 30000g Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification",
+            "en": "Specification: Spec Range: Φ20mm - Φ220mm；Clamping Force: 100KN - 35000KN；Shot Capacity: 30g - 30000g Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification"
         },
         "specification": {
             "zh": {
@@ -4927,7 +4927,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -4947,7 +4947,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -4969,7 +4969,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -4991,7 +4991,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -5013,7 +5013,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Technical Index 5"
                 },
                 "material": {
-                    "zh": "电镀硬铬技术指标",
+                    "zh": "Hard Chrome Plating Specification",
                     "en": "Hard Chrome Plating"
                 },
                 "parameters": {
@@ -5022,7 +5022,7 @@ const rawProducts: ProductItemRaw[] = [
                         "镀层硬度": "HV≥960"
                     },
                     "en": {
-                        "镀层厚度": "Coating thickness 0.05-0.10mm",
+                        "Coating Thickness": "Coating Thickness 0.05-0.10mm",
                         "Coating Hardness": "HV≥960"
                     }
                 }
@@ -5033,18 +5033,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "149",
         "title": {
             "zh": "注塑机螺杆/机筒",
-            "en": "注塑机螺杆、机筒"
+            "en": "Injection Molding Screw and Barrel"
         },
         "categoryId": "2",
         "categoryName": {
             "zh": "注塑机螺杆/机筒",
-            "en": "注塑机螺杆/机筒"
+            "en": "Injection Molding Machine Screw and Barrel"
         },
         "image": "/images/products/20130604145132411.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ20mm - Φ220mm；锁模力：100KN - 35000KN；射胶量：30g - 30000g 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标",
-            "en": "Specification: 规格范围：Φ20mm - Φ220mm；锁模力：100KN - 35000KN；射胶量：30g - 30000g Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标"
+            "zh": "规格：Spec Range: Φ20mm - Φ220mm；Clamping Force: 100KN - 35000KN；Shot Capacity: 30g - 30000g Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification",
+            "en": "Specification: Spec Range: Φ20mm - Φ220mm；Clamping Force: 100KN - 35000KN；Shot Capacity: 30g - 30000g Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification"
         },
         "specification": {
             "zh": {
@@ -5065,7 +5065,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -5085,7 +5085,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -5107,7 +5107,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -5129,7 +5129,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -5151,7 +5151,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Technical Index 5"
                 },
                 "material": {
-                    "zh": "电镀硬铬技术指标",
+                    "zh": "Hard Chrome Plating Specification",
                     "en": "Hard Chrome Plating"
                 },
                 "parameters": {
@@ -5160,7 +5160,7 @@ const rawProducts: ProductItemRaw[] = [
                         "镀层硬度": "HV≥960"
                     },
                     "en": {
-                        "镀层厚度": "Coating thickness 0.05-0.10mm",
+                        "Coating Thickness": "Coating Thickness 0.05-0.10mm",
                         "Coating Hardness": "HV≥960"
                     }
                 }
@@ -5171,18 +5171,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "150",
         "title": {
             "zh": "注塑机螺杆/机筒",
-            "en": "注塑机螺杆、机筒"
+            "en": "Injection Molding Screw and Barrel"
         },
         "categoryId": "2",
         "categoryName": {
             "zh": "注塑机螺杆/机筒",
-            "en": "注塑机螺杆/机筒"
+            "en": "Injection Molding Machine Screw and Barrel"
         },
         "image": "/images/products/20130604145157914.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ20mm - Φ220mm；锁模力：100KN - 35000KN；射胶量：30g - 30000g 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标",
-            "en": "Specification: 规格范围：Φ20mm - Φ220mm；锁模力：100KN - 35000KN；射胶量：30g - 30000g Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标"
+            "zh": "规格：Spec Range: Φ20mm - Φ220mm；Clamping Force: 100KN - 35000KN；Shot Capacity: 30g - 30000g Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification",
+            "en": "Specification: Spec Range: Φ20mm - Φ220mm；Clamping Force: 100KN - 35000KN；Shot Capacity: 30g - 30000g Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification"
         },
         "specification": {
             "zh": {
@@ -5203,7 +5203,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -5223,7 +5223,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -5245,7 +5245,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -5267,7 +5267,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -5289,7 +5289,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Technical Index 5"
                 },
                 "material": {
-                    "zh": "电镀硬铬技术指标",
+                    "zh": "Hard Chrome Plating Specification",
                     "en": "Hard Chrome Plating"
                 },
                 "parameters": {
@@ -5298,7 +5298,7 @@ const rawProducts: ProductItemRaw[] = [
                         "镀层硬度": "HV≥960"
                     },
                     "en": {
-                        "镀层厚度": "Coating thickness 0.05-0.10mm",
+                        "Coating Thickness": "Coating Thickness 0.05-0.10mm",
                         "Coating Hardness": "HV≥960"
                     }
                 }
@@ -5309,18 +5309,18 @@ const rawProducts: ProductItemRaw[] = [
         "id": "151",
         "title": {
             "zh": "注塑机螺杆/机筒",
-            "en": "注塑机螺杆、机筒"
+            "en": "Injection Molding Screw and Barrel"
         },
         "categoryId": "2",
         "categoryName": {
             "zh": "注塑机螺杆/机筒",
-            "en": "注塑机螺杆/机筒"
+            "en": "Injection Molding Machine Screw and Barrel"
         },
         "image": "/images/products/20130604145216554.jpg",
         "date": "",
         "description": {
-            "zh": "规格：规格范围：Φ20mm - Φ220mm；锁模力：100KN - 35000KN；射胶量：30g - 30000g 材料与工艺：工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标",
-            "en": "Specification: 规格范围：Φ20mm - Φ220mm；锁模力：100KN - 35000KN；射胶量：30g - 30000g Materials and Processes: 工艺 1：38CrMoALA 氮化处理；工艺 2：42CrMo 电镀工艺；工艺 3：SKD61 调质；工艺 4：9Cr18Mov 精加工；技术指标 5：电镀硬铬技术指标"
+            "zh": "规格：Spec Range: Φ20mm - Φ220mm；Clamping Force: 100KN - 35000KN；Shot Capacity: 30g - 30000g Materials and Treatments: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification",
+            "en": "Specification: Spec Range: Φ20mm - Φ220mm；Clamping Force: 100KN - 35000KN；Shot Capacity: 30g - 30000g Materials and Processes: Process 1: 38CrMoALA Nitriding Treatment；Process 2: 42CrMo Electroplating；Process 3: SKD61 Quenching and Tempering；Process 4: 9Cr18Mov Precision Finishing；Process 5: Hard Chrome Plating Specification"
         },
         "specification": {
             "zh": {
@@ -5341,7 +5341,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 1"
                 },
                 "material": {
-                    "zh": "38CrMoALA 氮化处理",
+                    "zh": "38CrMoALA Nitriding Treatment",
                     "en": "38CrMoALA Nitriding Treatment"
                 },
                 "parameters": {
@@ -5361,7 +5361,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 2"
                 },
                 "material": {
-                    "zh": "42CrMo 电镀工艺",
+                    "zh": "42CrMo Electroplating",
                     "en": "42CrMo Electroplating Process"
                 },
                 "parameters": {
@@ -5383,7 +5383,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 3"
                 },
                 "material": {
-                    "zh": "SKD61 调质",
+                    "zh": "SKD61 Quenching and Tempering",
                     "en": "SKD61 Quenching & Tempering"
                 },
                 "parameters": {
@@ -5405,7 +5405,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Process 4"
                 },
                 "material": {
-                    "zh": "9Cr18Mov 精加工",
+                    "zh": "9Cr18Mov Precision Finishing",
                     "en": "9Cr18Mov Precision Machining"
                 },
                 "parameters": {
@@ -5427,7 +5427,7 @@ const rawProducts: ProductItemRaw[] = [
                     "en": "Technical Index 5"
                 },
                 "material": {
-                    "zh": "电镀硬铬技术指标",
+                    "zh": "Hard Chrome Plating Specification",
                     "en": "Hard Chrome Plating"
                 },
                 "parameters": {
@@ -5436,7 +5436,7 @@ const rawProducts: ProductItemRaw[] = [
                         "镀层硬度": "HV≥960"
                     },
                     "en": {
-                        "镀层厚度": "Coating thickness 0.05-0.10mm",
+                        "Coating Thickness": "Coating Thickness 0.05-0.10mm",
                         "Coating Hardness": "HV≥960"
                     }
                 }

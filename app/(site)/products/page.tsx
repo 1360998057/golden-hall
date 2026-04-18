@@ -211,7 +211,7 @@ const ProductsPageContent = () => {
                 <Link href={`/products/${item.id}`}>
                   <div className="bg-white/80 backdrop-blur-sm rounded-3xl border border-slate-200/50 shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden h-full flex flex-col">
                     {/* 产品图片区域 */}
-                    <div className="relative aspect-[4/3] bg-gradient-to-br from-slate-100 to-slate-200 overflow-hidden">
+                    <div className="relative aspect-[4/3] bg-white overflow-hidden">
                       {item.image ? (
                         <div className="relative w-full h-full">
                           <Image
@@ -221,8 +221,7 @@ const ProductsPageContent = () => {
                             className="object-cover transition-transform duration-700 group-hover:scale-110"
                             sizes="(max-width: 1024px) 100vw, 33vw"
                           />
-                          {/* 图片叠加效果 */}
-                          <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+
                         </div>
                       ) : (
                         <div className="flex h-full w-full items-center justify-center text-slate-400">

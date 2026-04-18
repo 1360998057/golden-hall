@@ -82,13 +82,20 @@ const menuData: Menu[] = [
   },
   {
     id: 4,
+    title: "公司实力",
+    titleEn: "Strength",
+    newTab: false,
+    path: "/about#strength",
+  },
+  {
+    id: 5,
     title: "常见问题",
     titleEn: "FAQs",
     newTab: false,
     path: "/faqs",
   },
   {
-    id: 5,
+    id: 6,
     title: "联系我们",
     titleEn: "Contact",
     newTab: false,

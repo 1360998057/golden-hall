@@ -3,9 +3,27 @@
 import Image from "next/image";
 import { useI18nStore } from "@/store/i18nStore";
 import { motion } from "framer-motion";
+import { useEffect } from "react";
 
 const AboutPage = () => {
   const { language, t } = useI18nStore();
+
+  // 页面加载后滚动到锚点
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      const targetId = hash.substring(1);
+      setTimeout(() => {
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+          const headerOffset = 80;
+          const elementPosition = targetElement.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+          window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+        }
+      }, 300);
+    }
+  }, []);
 
   const getText = (text: { zh: string; en: string }) =>
     text[language] || text.zh || text.en;
@@ -148,7 +166,7 @@ const AboutPage = () => {
       </section>
 
       {/* Content Sections */}
-      <section className="pb-18">
+      <section id="strength" className="pb-18">
         <div className="mx-auto max-w-c-1390 space-y-16 px-4 md:px-8">
           {sections.map((section, index) => (
             <div
