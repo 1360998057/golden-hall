@@ -21,7 +21,7 @@ export async function POST(request: Request) {
 
     // 通过 Cloudflare Worker 环境变量获取 Resend API Key
     const { env } = getCloudflareContext();
-    const RESEND_API_KEY = (env as Record<string, string>).RESEND_API_KEY;
+    const RESEND_API_KEY: string | undefined = env.RESEND_API_KEY;
 
     if (!RESEND_API_KEY) {
       console.error("RESEND_API_KEY not configured");
