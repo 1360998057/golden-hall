@@ -6,8 +6,8 @@ import Proivder from "./Provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Solid | Next.js Template for Startup and SaaS",
-  description: "Built with Next.js and TypeScript",
+  title: "Weida Machinery | Professional Screw & Barrel Manufacturer",
+  description: "Zhoushan Weida Machinery manufactures custom extrusion and injection molding screws and barrels, with expertise in EPE, EPS, PE and twin-screw applications.",
   icons: {
     icon: "/images/logo/logo-wd.png",
   },

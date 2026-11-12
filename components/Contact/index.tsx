@@ -188,20 +188,19 @@ const Contact = () => {
                     <div className="space-y-2">
                       <div>
                         <a
-                          href="mailto:sales@weidamachine.com"
-                          className="text-white/80 cursor-pointer"
+                          href="mailto:weidalg@163.com"
+                          className="text-white/80 transition hover:text-white"
                         >
-                          <span className="text-primary font-medium">sales@weidamachine.com</span>
-                          <span className="text-white/60 ml-2">({t("contact.sales")})</span>
+                          <span className="text-primary font-medium">weidalg@163.com</span>
                         </a>
                       </div>
                       <div>
                         <a
-                          href="mailto:support@weidamachine.com"
-                          className="text-white/80 cursor-pointer"
+                          href="mailto:weidajx@gmail.com"
+                          className="text-white/80 transition hover:text-white"
                         >
-                          <span className="text-primary font-medium">support@weidamachine.com</span>
-                          <span className="text-white/60 ml-2">({t("contact.support")})</span>
+                          <span className="text-primary font-medium">weidajx@gmail.com</span>
+                          <span className="text-white/60 ml-2">(Gmail)</span>
                         </a>
                       </div>
                     </div>

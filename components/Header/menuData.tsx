@@ -1,4 +1,5 @@
 import { Menu } from "@/types/menu";
+import { productCategories } from "@/lib/productCategories";
 
 const menuData: Menu[] = [
   {
@@ -21,64 +22,13 @@ const menuData: Menu[] = [
     titleEn: "Products",
     newTab: false,
     path: "/products",
-    submenu: [
-      {
-        id: 31,
-        title: "全部产品",
-        titleEn: "All Products",
-        path: "/products?category=all",
-        newTab: false
-      },
-      {
-        id: 32,
-        title: "注塑机螺杆/机筒",
-        titleEn: "Injection Molding Machine Screw/Barrel",
-        path: "/products?category=2",
-        newTab: false
-      },
-      {
-        id: 33,
-        title: "挤出机螺杆/机筒",
-        titleEn: "Extruder Screw/Barrel",
-        path: "/products?category=3",
-        newTab: false
-      },
-      {
-        id: 34,
-        title: "平行双机筒/螺杆",
-        titleEn: "Parallel Twin Screw/Barrel",
-        path: "/products?category=4",
-        newTab: false
-      },
-      {
-        id: 35,
-        title: "锥形双机筒/螺杆",
-        titleEn: "Conical Twin Screw/Barrel",
-        path: "/products?category=5",
-        newTab: false
-      },
-      {
-        id: 36,
-        title: "橡胶机机筒/螺杆",
-        titleEn: "Rubber Machine Screw/Barrel",
-        path: "/products?category=8",
-        newTab: false
-      },
-      {
-        id: 37,
-        title: "造粒机螺杆/机筒",
-        titleEn: "Pelletizer Screw/Barrel",
-        path: "/products?category=9",
-        newTab: false
-      },
-      {
-        id: 38,
-        title: "不锈钢螺杆机筒",
-        titleEn: "Stainless Steel Screw & Barrel",
-        path: "/products?category=13",
-        newTab: false
-      }
-    ]
+    submenu: productCategories.map((category, index) => ({
+      id: 30 + index,
+      title: category.name.zh,
+      titleEn: category.name.en,
+      path: `/products?category=${category.id}`,
+      newTab: false,
+    })),
   },
   {
     id: 4,

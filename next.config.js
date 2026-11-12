@@ -4,8 +4,8 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
   reactStrictMode: true,
-  // OpenNext Cloudflare 需要 standalone 输出
-  output: 'standalone',
+  // Cloudflare 打包时生成 standalone，避免 Windows 本地构建符号链接权限问题
+  output: process.env.NEXT_OUTPUT === 'standalone' ? 'standalone' : undefined,
   images: {
     unoptimized: true, // Cloudflare Pages 静态导出需要
     remotePatterns: [
@@ -21,6 +21,9 @@ const nextConfig = {
       },
     ],
     formats: ['image/webp', 'image/avif'],
+  },
+  experimental: {
+    cpus: 2,
   },
   // 压缩配置
   compress: true,

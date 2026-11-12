@@ -325,7 +325,7 @@ const FAQsPage = () => {
                                         </svg>
                                       </div>
                                       <p className="text-slate-700 leading-relaxed text-sm">
-                                        {isZh ? category.faqs[faqIndex].answer : faq.answer}
+                                        {isZh ? faq.answerZh : faq.answer}
                                       </p>
                                     </div>
                                   </div>

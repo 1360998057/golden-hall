@@ -1,68 +1,57 @@
 "use client";
+
 import Image from "next/image";
+import Link from "next/link";
+import { products } from "@/lib/productsData";
 import { useI18nStore } from "@/store/i18nStore";
 
 const RecentProjects = () => {
-  const { t } = useI18nStore();
-
-  const projects = [
-    {
-      title: t("projects.category1"),
-      image: "/images/注塑机螺杆.png",
-    },
-    {
-      title: t("projects.category2"),
-      image: "/images/挤出机螺杆.png",
-    },
-    {
-      title: t("projects.category3"),
-      image: "/images/注塑机螺杆配件.png",
-    },
-  ];
+  const { t, language } = useI18nStore();
+  const isZh = language === "zh";
 
   return (
-    <div className="project_section py-16 lg:py-24 bg-slate-50 text-black">
-      <div className="container mx-auto px-4">
-        <div className="flex justify-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary">
-            {t("projects.title")}
-          </h2>
+    <section className="bg-slate-50 py-16 text-slate-900 lg:py-20">
+      <div className="mx-auto max-w-c-1390 px-4 md:px-8">
+        <div className="mb-10 flex flex-wrap items-end justify-between gap-5">
+          <div>
+            <p className="mb-2 text-sm font-semibold uppercase tracking-[0.25em] text-blue-600">Product Range</p>
+            <h2 className="text-3xl font-bold md:text-4xl">{t("projects.title")}</h2>
+          </div>
+          <Link href="/products" className="text-sm font-semibold text-blue-600 hover:text-blue-800">
+            {t("projects.seeMore")} →
+          </Link>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-          {projects.map((project, index) => (
-            <div
-              key={index}
-              className="bg-white/10 backdrop-blur-sm rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-all hover:-translate-y-2 duration-300 border border-white/20"
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {products.map((product) => (
+            <Link
+              key={product.id}
+              href={`/products/${product.id}`}
+              className="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:border-blue-300 hover:shadow-lg"
             >
-              <div className="aspect-[4/3] relative overflow-hidden bg-white">
+              <div className="relative aspect-[4/3] bg-white p-4">
                 <Image
-                  src={project.image}
-                  alt={project.title}
+                  src={product.image}
+                  alt={product.title[language]}
                   fill
-                  className="object-cover"
-                  sizes="(max-width: 768px) 100vw, 33vw"
+                  className="object-contain p-4 transition duration-500 group-hover:scale-105"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                 />
               </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-black text-center">
-                  {project.title}
+              <div className="border-t border-slate-100 p-5">
+                <h3 className="min-h-12 text-base font-bold leading-6 text-slate-900 group-hover:text-blue-700">
+                  {product.title[language]}
                 </h3>
+                <p className="mt-3 text-xs font-medium text-slate-500">
+                  {product.gallery.length} {isZh ? "张产品图" : product.gallery.length === 1 ? "photo" : "photos"}
+                  {product.models ? ` · ${product.models.length} ${isZh ? "组型号" : "models"}` : ""}
+                </p>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
-
-        <div className="flex justify-center">
-          <a
-            href="products"
-            className="inline-block bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-primaryho transition-colors"
-          >
-            {t("projects.seeMore")}
-          </a>
-        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

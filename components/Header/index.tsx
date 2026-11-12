@@ -11,6 +11,8 @@ import { useI18nStore } from "@/store/i18nStore";
 const Header = () => {
   const [navigationOpen, setNavigationOpen] = useState(false);
   const [stickyMenu, setStickyMenu] = useState(false);
+  const [activeHash, setActiveHash] = useState("");
+  const [mobileProductsOpen, setMobileProductsOpen] = useState(false);
 
   const pathUrl = usePathname();
 
@@ -20,6 +22,32 @@ const Header = () => {
     document.title = t('companyName');
   }, [language, t]);
 
+  useEffect(() => {
+    const updateActiveHash = () => setActiveHash(window.location.hash);
+    updateActiveHash();
+    window.addEventListener("hashchange", updateActiveHash);
+    window.addEventListener("popstate", updateActiveHash);
+    return () => {
+      window.removeEventListener("hashchange", updateActiveHash);
+      window.removeEventListener("popstate", updateActiveHash);
+    };
+  }, [pathUrl]);
+
+  const isMenuActive = (path?: string) => {
+    if (!path) return false;
+    const [pathname, hash] = path.split("#");
+    if (hash) {
+      return pathUrl === pathname && activeHash === `#${hash}`;
+    }
+    if (pathname === "/products") {
+      return pathUrl.startsWith("/products");
+    }
+    if (pathUrl !== pathname) return false;
+    if (pathname === "/about" && activeHash === "#strength") return false;
+    if (pathname === "/" && activeHash === "#contact") return false;
+    return true;
+  };
+
   const handleStickyMenu = () => {
     if (window.scrollY >= 80) {
       setStickyMenu(true);
@@ -28,32 +56,21 @@ const Header = () => {
     }
   };
 
-  // 平滑滚动到锚点
   const scrollToAnchor = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-    if (href.startsWith('/#')) {
-      const targetId = href.substring(2);
+    const [pathname, targetId] = href.split("#");
+    if (!targetId || pathUrl !== pathname) return;
 
-      // 如果在首页，平滑滚动
-      if (pathUrl === '/') {
-        e.preventDefault();
-        const targetElement = document.getElementById(targetId);
+    const targetElement = document.getElementById(targetId);
+    if (!targetElement) return;
 
-        if (targetElement) {
-          const headerOffset = 80; // Header高度
-          const elementPosition = targetElement.getBoundingClientRect().top;
-          const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-
-          window.scrollTo({
-            top: offsetPosition,
-            behavior: 'smooth'
-          });
-
-          // 更新URL但不触发跳转
-          window.history.pushState(null, '', href);
-        }
-      }
-      // 如果不在首页，不阻止默认行为，让链接正常跳转到首页
-    }
+    e.preventDefault();
+    const elementPosition = targetElement.getBoundingClientRect().top;
+    window.scrollTo({
+      top: elementPosition + window.scrollY - 96,
+      behavior: "smooth",
+    });
+    window.history.pushState(null, "", href);
+    setActiveHash(`#${targetId}`);
   };
 
   useEffect(() => {
@@ -92,12 +109,19 @@ const Header = () => {
               <div key={menuItem.id} className="group relative">
                 {menuItem.submenu ? (
                   <>
-                    <button className="flex items-center gap-1.5 px-4 py-2 text-sm font-medium text-slate-700 hover:text-blue-600 transition-colors rounded-lg hover:bg-slate-100">
+                    <Link
+                      href={menuItem.path || "/products"}
+                      className={`flex items-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium transition-colors ${
+                        isMenuActive(menuItem.path)
+                          ? "bg-blue-50 text-blue-600"
+                          : "text-slate-700 hover:bg-slate-100 hover:text-blue-600"
+                      }`}
+                    >
                       <span>{language === "zh" ? menuItem.title : menuItem.titleEn}</span>
                       <svg className="w-4 h-4 transition-transform duration-200 group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                       </svg>
-                    </button>
+                    </Link>
                     {/* Dropdown */}
                     <div className="absolute top-full left-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-[1000]">
                       <div className="bg-white rounded-xl shadow-xl shadow-slate-900/10 border border-slate-100 py-2 min-w-[200px] overflow-hidden">
@@ -117,12 +141,12 @@ const Header = () => {
                   <Link
                     href={menuItem.path || "/"}
                     onClick={(e) => {
-                      if (menuItem.path?.startsWith('/#')) {
+                      if (menuItem.path?.includes('#')) {
                         scrollToAnchor(e, menuItem.path);
                       }
                     }}
                     className={`px-4 py-2 text-sm font-medium rounded-lg transition-all ${
-                      pathUrl === menuItem.path
+                      isMenuActive(menuItem.path)
                         ? "text-blue-600 bg-blue-50"
                         : "text-slate-700 hover:text-blue-600 hover:bg-slate-100"
                     }`}
@@ -172,62 +196,82 @@ const Header = () => {
           </div>
         </div>
 
-        {/* Mobile Navigation - Horizontal Scroll */}
         <div
-          className={`lg:hidden overflow-hidden transition-all duration-300 ${
-            navigationOpen ? "max-h-[60vh] mt-4" : "max-h-0"
+          className={`transition-all duration-300 lg:hidden ${
+            navigationOpen ? "mt-4 max-h-[75vh] overflow-y-auto" : "max-h-0 overflow-hidden"
           }`}
         >
-          <nav className="bg-white/95 backdrop-blur-md rounded-2xl shadow-xl shadow-slate-900/10 border border-slate-100 overflow-hidden">
-            {/* Horizontal Scroll Menu */}
-            <div className="overflow-x-auto scrollbar-hide">
-              <ul className="flex items-center gap-1 px-4 py-3 min-w-max">
-                {menuData.map((menuItem) => (
-                  <li key={menuItem.id} className="group relative">
-                    {menuItem.submenu ? (
-                      <div className="relative">
-                        <button className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-slate-700 hover:text-blue-600 whitespace-nowrap rounded-lg hover:bg-slate-100 transition-colors">
+          <nav className="rounded-2xl border border-slate-100 bg-white/95 p-3 shadow-xl shadow-slate-900/10 backdrop-blur-md">
+            <ul className="space-y-1">
+              {menuData.map((menuItem) => (
+                <li key={menuItem.id}>
+                  {menuItem.submenu ? (
+                    <div>
+                      <div className="flex items-center gap-2">
+                        <Link
+                          href={menuItem.path || "/products"}
+                          className={`flex-1 rounded-lg px-3 py-2.5 text-sm font-medium ${
+                            isMenuActive(menuItem.path)
+                              ? "bg-blue-50 text-blue-600"
+                              : "text-slate-700 hover:bg-slate-100"
+                          }`}
+                          onClick={() => setNavigationOpen(false)}
+                        >
                           {language === "zh" ? menuItem.title : menuItem.titleEn}
-                          <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        </Link>
+                        <button
+                          type="button"
+                          onClick={() => setMobileProductsOpen(!mobileProductsOpen)}
+                          className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-slate-100 text-slate-600"
+                          aria-label={language === "zh" ? "展开产品分类" : "Toggle product categories"}
+                          aria-expanded={mobileProductsOpen}
+                        >
+                          <svg
+                            className={`h-4 w-4 transition-transform ${mobileProductsOpen ? "rotate-180" : ""}`}
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                          >
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                           </svg>
                         </button>
-                        {/* Mobile Submenu Dropdown */}
-                        <div className="absolute top-full left-0 mt-1 bg-white rounded-xl shadow-lg border border-slate-100 py-2 min-w-[180px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
+                      </div>
+                      {mobileProductsOpen && (
+                        <div className="ml-3 mt-1 space-y-1 border-l border-slate-200 pl-3">
                           {menuItem.submenu.map((item) => (
                             <Link
                               key={item.id}
-                              href={item.path || "#"}
-                              className="block px-4 py-2 text-sm text-slate-600 hover:text-blue-600 hover:bg-blue-50 whitespace-nowrap"
+                              href={item.path || "/products"}
+                              className="block rounded-lg px-3 py-2 text-sm leading-5 text-slate-600 hover:bg-blue-50 hover:text-blue-600"
                               onClick={() => setNavigationOpen(false)}
                             >
                               {language === "zh" ? item.title : item.titleEn}
                             </Link>
                           ))}
                         </div>
-                      </div>
-                    ) : (
-                      <Link
-                        href={menuItem.path || "/"}
-                        className={`px-3 py-2 text-sm font-medium whitespace-nowrap rounded-lg transition-colors ${
-                          pathUrl === menuItem.path
-                            ? "text-blue-600 bg-blue-50"
-                            : "text-slate-700 hover:text-blue-600 hover:bg-slate-100"
-                        }`}
-                        onClick={(e) => {
-                          if (menuItem.path?.startsWith('/#')) {
-                            scrollToAnchor(e, menuItem.path);
-                          }
-                          setNavigationOpen(false);
-                        }}
-                      >
-                        {language === "zh" ? menuItem.title : menuItem.titleEn}
-                      </Link>
-                    )}
-                  </li>
-                ))}
-              </ul>
-            </div>
+                      )}
+                    </div>
+                  ) : (
+                    <Link
+                      href={menuItem.path || "/"}
+                      className={`block rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${
+                        isMenuActive(menuItem.path)
+                          ? "bg-blue-50 text-blue-600"
+                          : "text-slate-700 hover:bg-slate-100 hover:text-blue-600"
+                      }`}
+                      onClick={(e) => {
+                        if (menuItem.path?.includes("#")) {
+                          scrollToAnchor(e, menuItem.path);
+                        }
+                        setNavigationOpen(false);
+                      }}
+                    >
+                      {language === "zh" ? menuItem.title : menuItem.titleEn}
+                    </Link>
+                  )}
+                </li>
+              ))}
+            </ul>
           </nav>
         </div>
       </div>

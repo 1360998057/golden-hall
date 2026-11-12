@@ -1,5 +1,4 @@
 import { products } from "@/lib/productsData";
-import { useI18nStore } from "@/store/i18nStore";
 import ProductDetailClient from "./ProductDetailClient";
 import Link from "next/link";
 
